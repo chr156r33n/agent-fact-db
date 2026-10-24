@@ -1,0 +1,32 @@
+import {DatabaseSync} from 'node:sqlite';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import worker from '../worker/index.js';
+const sql=new DatabaseSync(':memory:');sql.exec('PRAGMA foreign_keys=ON');sql.exec(readFileSync('drizzle/0000_fact_ledger.sql','utf8').replaceAll('--> statement-breakpoint',''));
+class Statement{constructor(s){this.s=s;this.a=[]}bind(...a){this.a=a;return this}async first(){return sql.prepare(this.s).get(...this.a)||null}async all(){return {results:sql.prepare(this.s).all(...this.a)}}async run(){const r=sql.prepare(this.s).run(...this.a);return {meta:{changes:Number(r.changes)}}}}
+const DB={prepare:s=>new Statement(s),async batch(ss){sql.exec('BEGIN');try{const result=[];for(const s of ss)result.push(await s.run());sql.exec('COMMIT');return result}catch(e){sql.exec('ROLLBACK');throw e}}};
+async function req(path,b,token,user=true,origin=true){const headers={'content-type':'application/json',...(user?{authorization:'Basic '+btoa('admin:local-test-password-more-than-20')}:{}),...(origin?{origin:'https://test.local'}:{}),...(token?{authorization:'Bearer '+token}:{})};const r=await worker.fetch(new Request('https://test.local'+path,{method:b?'POST':'GET',headers,body:b?JSON.stringify(b):undefined}),{DB,ADMIN_PASSWORD:"local-test-password-more-than-20"});const v=await r.text();return {status:r.status,data:r.headers.get('content-type')?.includes('json')?JSON.parse(v):v}}
+const post=async(p,b)=>(await req('/api/'+p,b)).data;
+assert.equal((await req('/api/state',null,null,false)).status,401);
+assert.equal((await req('/api/lists',{name:'Test'},null,true,false)).status,403);
+const spoof=await worker.fetch(new Request('https://test.local/api/state',{headers:{'oai-authenticated-user-id':'fake-owner'}}),{DB,ADMIN_PASSWORD:'local-test-password-more-than-20'});assert.equal(spoof.status,401);
+const mcpSpoof=await worker.fetch(new Request('https://test.local/mcp',{method:'POST',headers:{'content-type':'application/json','oai-authenticated-user-id':'fake-owner'},body:JSON.stringify({jsonrpc:'2.0',id:1,method:'tools/list'})}),{DB});assert.equal(mcpSpoof.status,401);
+const l=await post('lists',{name:'Property A'}),l2=await post('lists',{name:'Property B'});
+const f=await post('facts',{list_id:l.id,topic:'Policy',claim:'Old claim'});const f2=await post('facts',{list_id:l2.id,topic:'Other',claim:'Other'});
+assert.equal((await req('/api/review',{id:f.id,status:'contested',revision:0,notes:''})).status,400);
+assert.equal((await req('/api/review',{id:f.id,status:'corrected',revision:0,correction:'Correct claim',notes:'Policy update'})).status,200);
+assert.equal((await req('/api/review',{id:f.id,status:'accepted',revision:0})).status,409);
+const key=await post('keys',{name:'Reader',scopes:['facts:read'],list_ids:[l.id],expires_at:'2030-01-01'});assert.ok(key.key.startsWith('fl_'));
+const rpc=async(name,args={},token=key.key)=>req('/agent/mcp',{jsonrpc:'2.0',id:1,method:'tools/call',params:{name,arguments:args}},token,false,false);
+let res=await rpc('get_facts',{list_id:l.id});assert.equal(JSON.parse(res.data.result.content[0].text)[0].approved_claim,'Correct claim');
+assert.equal((await rpc('get_facts',{list_id:l2.id})).data.result.isError,true);
+assert.equal((await rpc('record_source_finding',{fact_id:f.id,url:'https://example.org',quote:'Old claim',party:'third',verdict:'contradicts'})).data.result.isError,true);
+await post('review',{id:f.id,status:'contested',revision:1,notes:'New evidence'});assert.equal(JSON.parse((await rpc('get_facts',{list_id:l.id})).data.result.content[0].text).length,0);
+const rotated=await post('keys',{name:'Auditor',scopes:['facts:read','evidence:write'],list_ids:[l.id],expires_at:'2030-01-01',rotate_id:key.id});assert.equal((await rpc('list_fact_lists')).status,401);
+const write=await rpc('record_source_finding',{fact_id:f.id,url:'https://example.org/policy',quote:'Outdated claim',party:'third',verdict:'contradicts'},rotated.key);assert.equal(write.data.result.isError,undefined);
+assert.equal((await rpc('record_source_finding',{fact_id:f2.id,url:'https://example.org',quote:'Claim',party:'third',verdict:'matches'},rotated.key)).data.result.isError,true);
+const state=await req('/api/state');assert.equal(state.data.evidence.length,1);assert.equal(state.data.reviews.length,2);assert.ok(!JSON.stringify(state.data.keys).includes(rotated.key));assert.ok(!('hash' in state.data.keys[0]));
+await post('revoke',{id:rotated.id});assert.equal((await rpc('list_fact_lists',{},rotated.key)).status,401);
+const expired=await post('keys',{name:'Expired',scopes:['facts:read'],list_ids:[],expires_at:'2000-01-01'});assert.ok(!expired.key);
+const page=await req('/');assert.equal(page.status,200);const script=page.data.match(/<script>([\s\S]*)<\/script>/)[1];new Function(script);
+console.log('Passed: review states, correction history, stale updates, CSRF, read/write permissions, list isolation, regeneration, revocation, expiry, no secret leakage and browser script syntax.');
