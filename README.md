@@ -40,6 +40,20 @@ npx wrangler secret put ADMIN_USERNAME
 
 Secret values are entered at Wrangler's prompt, never as shell arguments. This deployment creates a new, empty database; it does not migrate records from the ChatGPT-hosted prototype.
 
+## Property/page inventory and bulk review
+
+The administrator UI now includes **Inventory & bulk review** at `/inventory`. This is an operational view across all property collections, rather than a requirement to open each page. Existing `lists` are treated as property collections to preserve current MCP keys and data. Pages can be added with a title, controlled page type and canonical URL. Facts without `page_id` remain property-level; existing facts are **not** automatically assigned.
+
+- Filter by property, page type, page, review status or matching text. Results are retrieved from D1 in batches of 50, with server-side counts and pagination.
+- Select facts across multiple result pages and **confirm**, **deny** or **amend** them. Amendments require individual replacement text; denying requires a reason. Each decision creates an individual review-history entry.
+- Use **Review all matching** after selecting an explicit status filter to process the entire filtered set in bounded batches. Preview the filter and number of matching facts carefully before submitting. At this prototype stage bulk writes run from the active browser tab and must stay open until completion.
+- Assign existing selected facts to an inventory page, without changing approval state. The assignment must stay within the same property.
+- Only the authenticated administrator can use these endpoints. MCP credentials retain their existing scoped access. The original fact review and source finding screens remain available at `/`.
+
+Migration `0002_page_inventory.sql` is additive. The existing `npm run deploy` command applies it to D1 before deploying the Worker. **Do not use `npx wrangler deploy` as the Cloudflare Builds deployment command**, as it skips migrations. Back up your remote D1 database before deployment.
+
+**Current limits:** one page association per fact (property-level facts may remain unassigned); single administrator; up to 5,000 page entries in the metadata dropdown; page result fetches capped at 100; bulk-selected server requests capped at 50 facts per transaction. Later enhancements can add multi-page fact relationships, independent client-level permissions, asynchronous bulk jobs, large-inventory page lookup, and richer audit/export views.
+
 ## Fact review
 
 Create lists by property, brand or business. Add one claim per fact with an optional source URL.
