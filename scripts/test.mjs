@@ -2,7 +2,7 @@ import {DatabaseSync} from 'node:sqlite';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import worker from '../worker/index.js';
-const sql=new DatabaseSync(':memory:');sql.exec('PRAGMA foreign_keys=ON');sql.exec(readFileSync('drizzle/0000_fact_ledger.sql','utf8').replaceAll('--> statement-breakpoint',''));sql.exec(readFileSync('drizzle/0001_agent_fact_proposals.sql','utf8').replaceAll('--> statement-breakpoint',''));
+const sql=new DatabaseSync(':memory:');sql.exec('PRAGMA foreign_keys=ON');sql.exec(readFileSync('drizzle/0000_fact_ledger.sql','utf8').replaceAll('--> statement-breakpoint',''));sql.exec(readFileSync('drizzle/0001_agent_fact_proposals.sql','utf8').replaceAll('--> statement-breakpoint',''));sql.exec(readFileSync('drizzle/0002_page_inventory.sql','utf8').replaceAll('--> statement-breakpoint',''));
 class Statement{constructor(s){this.s=s;this.a=[]}bind(...a){this.a=a;return this}async first(){return sql.prepare(this.s).get(...this.a)||null}async all(){return {results:sql.prepare(this.s).all(...this.a)}}async run(){const r=sql.prepare(this.s).run(...this.a);return {meta:{changes:Number(r.changes)}}}}
 const DB={prepare:s=>new Statement(s),async batch(ss){sql.exec('BEGIN');try{const result=[];for(const s of ss)result.push(await s.run());sql.exec('COMMIT');return result}catch(e){sql.exec('ROLLBACK');throw e}}};
 async function req(path,b,token,user=true,origin=true){const headers={'content-type':'application/json',...(user?{authorization:'Basic '+btoa('admin:local-test-password-more-than-20')}:{}),...(origin?{origin:'https://test.local'}:{}),...(token?{authorization:'Bearer '+token}:{})};const r=await worker.fetch(new Request('https://test.local'+path,{method:b?'POST':'GET',headers,body:b?JSON.stringify(b):undefined}),{DB,ADMIN_PASSWORD:"local-test-password-more-than-20"});const v=await r.text();return {status:r.status,data:r.headers.get('content-type')?.includes('json')?JSON.parse(v):v}}
@@ -62,5 +62,38 @@ assert.equal(state.data.assessments.length,1);
 assert.equal(state.data.origins.length,1);assert.equal(state.data.evidence.length,1);assert.equal(state.data.reviews.length,2);assert.ok(!JSON.stringify(state.data.keys).includes(rotated.key));assert.ok(!('hash' in state.data.keys[0]));
 await post('revoke',{id:rotated.id});assert.equal((await rpc('list_fact_lists',{},rotated.key)).status,401);
 const expired=await post('keys',{name:'Expired',scopes:['facts:read'],list_ids:[],expires_at:'2000-01-01'});assert.ok(!expired.key);
+
+// Hierarchy preserves the legacy unassigned facts and supports paginated reviews.
+const inventoryGet=async(p)=>(await req('/api/inventory/'+p,null)).data;
+const invMeta=await inventoryGet('meta');
+assert.ok(invMeta.lists.some(x=>x.id===l.id));
+assert.ok(invMeta.types.includes('Accommodation'));
+const createPage=await req('/api/inventory/pages',{list_id:l.id,url:'https://example.org/rooms/ocean',title:'Ocean room',page_type:'Accommodation'});
+assert.equal(createPage.status,200);
+const pageId=createPage.data.id;
+const assignPage=await req('/api/inventory/assign',{page_id:pageId,fact_ids:[proposed.id]});
+assert.equal(assignPage.status,200);
+assert.equal(assignPage.data.assigned,1);
+assert.equal((await req('/api/inventory/assign',{page_id:pageId,fact_ids:[f2.id]})).status,400);
+const invBefore=await inventoryGet('facts?list_id='+l.id+'&page_type=Accommodation&status=pending');
+assert.equal(invBefore.total,1);
+assert.equal(invBefore.facts[0].id,proposed.id);
+const reviewed=await req('/api/inventory/bulk',{scope:'selected',action:'confirm',items:[{id:proposed.id,revision:0}],notes:'Reviewed in bulk'});
+assert.equal(reviewed.status,200);
+assert.equal(reviewed.data.processed,1);
+assert.equal((await req('/api/inventory/bulk',{scope:'selected',action:'confirm',items:[{id:proposed.id,revision:0}]})).status,409);
+let invAfter=await inventoryGet('facts?list_id='+l.id+'&page_type=Accommodation&status=accepted');
+assert.equal(invAfter.total,1);
+const denied=await req('/api/inventory/bulk',{scope:'filter',action:'deny',filter:{list_id:l.id,page_type:'Accommodation',status:'accepted'},notes:'No longer accurate',after_id:''});
+assert.equal(denied.status,200);
+assert.equal(denied.data.processed,1);
+assert.equal((await inventoryGet('facts?list_id='+l.id+'&page_type=Accommodation&status=contested')).total,1);
+const amend=await req('/api/inventory/bulk',{scope:'selected',action:'amend',items:[{id:proposed.id,revision:2,correction:'Room is 650 sq ft'}]});
+assert.equal(amend.status,200);
+assert.equal((await inventoryGet('facts?list_id='+l.id+'&page_type=Accommodation&status=corrected')).facts[0].approved_claim,'Room is 650 sq ft');
+const inventoryPage=await req('/inventory');
+assert.equal(inventoryPage.status,200);
+assert.ok(inventoryPage.data.includes('Property and page inventory'));
+
 const page=await req('/');assert.equal(page.status,200);const script=page.data.match(/<script>([\s\S]*)<\/script>/)[1];new Function(script);
 console.log('Passed: review states, correction history, stale updates, CSRF, read/write permissions, list isolation, regeneration, revocation, expiry, no secret leakage and browser script syntax.');
