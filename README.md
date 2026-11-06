@@ -48,7 +48,7 @@ Create lists by property, brand or business. Add one claim per fact with an opti
 - **Contest:** requires a reason and excludes the fact from the approved reference.
 - **Correct:** saves replacement text and optional notes; the original claim remains visible.
 
-Every review appends a history entry. A stale concurrent review fails with HTTP 409 rather than overwriting a newer decision. Agent findings never approve or modify facts. One administrator role is supported in this prototype; multi-user roles are not implemented.
+Every review appends a history entry. A stale concurrent review fails with HTTP 409 rather than overwriting a newer decision. Agent findings and advisory assessments never approve or modify the authoritative status of facts. One administrator role is supported in this prototype; multi-user roles are not implemented.
 
 ## MCP connection
 
@@ -65,6 +65,14 @@ Tools:
 - `list_fact_lists`: list collections within the key's scope.
 - `get_facts`: takes `list_id`; accepted/corrected facts by default. Optional `include_unapproved` returns all states, explicitly labelled.
 - `record_source_finding`: takes `fact_id`, `url`, `quote`, `party` (`first`, `second`, `third`), `verdict` (`matches`, `contradicts`, `unclear`), optional `notes`.
+- `list_source_findings`: lists existing findings within a scoped fact list, with finding IDs.
+- `propose_fact`: submits `list_id`, `topic`, `claim`, optional `source_url`, `notes` as a **pending** fact.
+- `assess_fact`: records an agent `confirm` or `contest` assessment against `fact_id` with mandatory `notes`. This does **not** alter the authoritative approval state.
+- `promote_source_finding`: takes an existing `finding_id`, `topic`, `claim`, optional `notes` or target `list_id`; creates one pending fact preserving the original finding URL and a provenance link. Repeating a promotion returns the existing fact.
+
+**Permissions:** use `facts:read` for lists/facts; `evidence:read` to list findings; `evidence:write` to record findings; `facts:propose` to propose or promote; `facts:assess` to confirm/challenge a fact. Assign minimum scopes and explicit list IDs to each key. Existing keys retain their old scopes; regenerate to add capabilities.
+
+**Human approval remains mandatory.** Agents cannot accept/correct/contest the library's authoritative state. The administrator reviews pending facts in the Fact Ledger UI. Agents' confirmations/contests are stored separately as advisory assessments. Pending/contested facts remain excluded from default `get_facts` results. The Source findings screen now has a **Promote to fact** action. A source finding still references a fact in the current schema, so truly standalone discoveries should first be submitted through `propose_fact`; the promotion action is for creating a distinct claim based on a finding about an existing fact.
 
 Example initialize request:
 
@@ -87,6 +95,6 @@ npm test
 npm run build
 ```
 
-Tests cover reviews, correction history, concurrency, CSRF, key permissions, list isolation, expiry, regeneration, revocation, header spoofing and secret redaction. Build performs a Wrangler dry run. CI uses Node 24.
+Tests cover reviews, correction history, concurrency, CSRF, key permissions, list isolation, expiry, regeneration, revocation, header spoofing and secret redaction, plus fact proposals, agent assessments and source-finding promotion. Build performs a Wrangler dry run. CI uses Node 24.
 
 UI limits: 2,000 facts and 1,000 recent reviews/findings. MCP: 500 facts per list. Pagination, automatic search scheduling, review-date reminders and evidence resolution are not yet implemented. Use Cloudflare rate limiting/Access policies as needed for your environment; do not place an interactive Access gate in front of MCP unless the agent is also configured for that gate.

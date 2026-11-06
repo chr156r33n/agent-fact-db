@@ -2,7 +2,7 @@ import {DatabaseSync} from 'node:sqlite';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import worker from '../worker/index.js';
-const sql=new DatabaseSync(':memory:');sql.exec('PRAGMA foreign_keys=ON');sql.exec(readFileSync('drizzle/0000_fact_ledger.sql','utf8').replaceAll('--> statement-breakpoint',''));
+const sql=new DatabaseSync(':memory:');sql.exec('PRAGMA foreign_keys=ON');sql.exec(readFileSync('drizzle/0000_fact_ledger.sql','utf8').replaceAll('--> statement-breakpoint',''));sql.exec(readFileSync('drizzle/0001_agent_fact_proposals.sql','utf8').replaceAll('--> statement-breakpoint',''));
 class Statement{constructor(s){this.s=s;this.a=[]}bind(...a){this.a=a;return this}async first(){return sql.prepare(this.s).get(...this.a)||null}async all(){return {results:sql.prepare(this.s).all(...this.a)}}async run(){const r=sql.prepare(this.s).run(...this.a);return {meta:{changes:Number(r.changes)}}}}
 const DB={prepare:s=>new Statement(s),async batch(ss){sql.exec('BEGIN');try{const result=[];for(const s of ss)result.push(await s.run());sql.exec('COMMIT');return result}catch(e){sql.exec('ROLLBACK');throw e}}};
 async function req(path,b,token,user=true,origin=true){const headers={'content-type':'application/json',...(user?{authorization:'Basic '+btoa('admin:local-test-password-more-than-20')}:{}),...(origin?{origin:'https://test.local'}:{}),...(token?{authorization:'Bearer '+token}:{})};const r=await worker.fetch(new Request('https://test.local'+path,{method:b?'POST':'GET',headers,body:b?JSON.stringify(b):undefined}),{DB,ADMIN_PASSWORD:"local-test-password-more-than-20"});const v=await r.text();return {status:r.status,data:r.headers.get('content-type')?.includes('json')?JSON.parse(v):v}}
@@ -25,7 +25,41 @@ await post('review',{id:f.id,status:'contested',revision:1,notes:'New evidence'}
 const rotated=await post('keys',{name:'Auditor',scopes:['facts:read','evidence:write'],list_ids:[l.id],expires_at:'2030-01-01',rotate_id:key.id});assert.equal((await rpc('list_fact_lists')).status,401);
 const write=await rpc('record_source_finding',{fact_id:f.id,url:'https://example.org/policy',quote:'Outdated claim',party:'third',verdict:'contradicts'},rotated.key);assert.equal(write.data.result.isError,undefined);
 assert.equal((await rpc('record_source_finding',{fact_id:f2.id,url:'https://example.org',quote:'Claim',party:'third',verdict:'matches'},rotated.key)).data.result.isError,true);
-const state=await req('/api/state');assert.equal(state.data.evidence.length,1);assert.equal(state.data.reviews.length,2);assert.ok(!JSON.stringify(state.data.keys).includes(rotated.key));assert.ok(!('hash' in state.data.keys[0]));
+// Scoped agents can propose and assess, but never approve facts.
+const proposer=await post('keys',{name:'Proposer',scopes:['facts:read','evidence:read','facts:propose','facts:assess'],list_ids:[l.id],expires_at:'2030-01-01'});
+const proposed=JSON.parse((await rpc('propose_fact',{list_id:l.id,topic:'Transport',claim:'Airport shuttle available',source_url:'https://example.org/shuttle'},proposer.key)).data.result.content[0].text);
+assert.equal(proposed.status,'pending');
+assert.equal((await rpc('propose_fact',{list_id:l2.id,topic:'Leak',claim:'Unauthorized'},proposer.key)).data.result.isError,true);
+assert.equal((await rpc('get_facts',{list_id:l.id},proposer.key)).data.result.content[0].text.includes('Airport shuttle'),false);
+const assessment=JSON.parse((await rpc('assess_fact',{fact_id:f.id,assessment:'contest',notes:'Conflicting booking terms'},proposer.key)).data.result.content[0].text);
+assert.equal(assessment.assessment,'contest');
+assert.equal((await rpc('assess_fact',{fact_id:f2.id,assessment:'confirm',notes:'Wrong list'},proposer.key)).data.result.isError,true);
+assert.equal((await rpc('assess_fact',{fact_id:f.id,assessment:'confirm',notes:''},proposer.key)).data.result.isError,true);
+const findings=JSON.parse((await rpc('list_source_findings',{list_id:l.id},proposer.key)).data.result.content[0].text);
+assert.equal(findings.length,1);
+assert.equal((await rpc('list_source_findings',{list_id:l2.id},proposer.key)).data.result.isError,true);
+const promoted=JSON.parse((await rpc('promote_source_finding',{finding_id:findings[0].id,topic:'Policy update',claim:'Updated policy based on the source finding'},proposer.key)).data.result.content[0].text);
+assert.equal(promoted.status,'pending');
+assert.equal(promoted.source_url,'https://example.org/policy');
+const promotedAgain=JSON.parse((await rpc('promote_source_finding',{finding_id:findings[0].id,topic:'Policy update',claim:'Updated policy based on the source finding'},proposer.key)).data.result.content[0].text);
+assert.equal(promotedAgain.already_promoted,true);
+assert.equal(promotedAgain.fact_id,promoted.id);
+assert.equal((await rpc('promote_source_finding',{finding_id:findings[0].id, list_id:l2.id,topic:'Leak',claim:'Wrong target'},proposer.key)).data.result.isError,true);
+assert.equal((await rpc('promote_source_finding',{finding_id:'missing',topic:'Bad',claim:'Bad'},proposer.key)).data.result.isError,true);
+assert.equal((await rpc('propose_fact',{list_id:l.id,topic:'Invalid',claim:'Bad',source_url:'javascript:alert(1)'},proposer.key)).data.result.isError,true);
+const scopedTools=(await req('/agent/mcp',{jsonrpc:'2.0',id:1,method:'tools/list'},proposer.key,false,false)).data.result.tools.map(t=>t.name);
+assert.ok(scopedTools.includes('propose_fact'));
+assert.ok(scopedTools.includes('assess_fact'));
+assert.ok(scopedTools.includes('promote_source_finding'));
+assert.ok(!scopedTools.includes('record_source_finding'));
+const reader=await post('keys',{name:'Read only',scopes:['facts:read'],list_ids:[l.id],expires_at:'2030-01-01'});
+const readOnlyTools=(await req('/agent/mcp',{jsonrpc:'2.0',id:1,method:'tools/list'},reader.key,false,false)).data.result.tools.map(t=>t.name);
+assert.ok(!readOnlyTools.includes('propose_fact'));
+assert.equal((await rpc('propose_fact',{list_id:l.id,topic:'Not allowed',claim:'No'},reader.key)).data.result.isError,true);
+
+const state=await req('/api/state');
+assert.equal(state.data.assessments.length,1);
+assert.equal(state.data.origins.length,1);assert.equal(state.data.evidence.length,1);assert.equal(state.data.reviews.length,2);assert.ok(!JSON.stringify(state.data.keys).includes(rotated.key));assert.ok(!('hash' in state.data.keys[0]));
 await post('revoke',{id:rotated.id});assert.equal((await rpc('list_fact_lists',{},rotated.key)).status,401);
 const expired=await post('keys',{name:'Expired',scopes:['facts:read'],list_ids:[],expires_at:'2000-01-01'});assert.ok(!expired.key);
 const page=await req('/');assert.equal(page.status,200);const script=page.data.match(/<script>([\s\S]*)<\/script>/)[1];new Function(script);
