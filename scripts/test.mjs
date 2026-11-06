@@ -47,8 +47,16 @@ assert.equal(promotedAgain.fact_id,promoted.id);
 assert.equal((await rpc('promote_source_finding',{finding_id:findings[0].id, list_id:l2.id,topic:'Leak',claim:'Wrong target'},proposer.key)).data.result.isError,true);
 assert.equal((await rpc('promote_source_finding',{finding_id:'missing',topic:'Bad',claim:'Bad'},proposer.key)).data.result.isError,true);
 assert.equal((await rpc('propose_fact',{list_id:l.id,topic:'Invalid',claim:'Bad',source_url:'javascript:alert(1)'},proposer.key)).data.result.isError,true);
-const readOnlyList=JSON.parse((await req('/agent/mcp',{jsonrpc:'2.0',id:1,method:'tools/list'},key.key,false,false)).data.result.tools.map(t=>t.name).join('","').length?'"'+(await req('/agent/mcp',{jsonrpc:'2.0',id:1,method:'tools/list'},proposer.key,false,false)).data.result.tools.map(t=>t.name).join('","')+'"':'[]');
-assert.ok(readOnlyList.includes('propose_fact'));
+const scopedTools=(await req('/agent/mcp',{jsonrpc:'2.0',id:1,method:'tools/list'},proposer.key,false,false)).data.result.tools.map(t=>t.name);
+assert.ok(scopedTools.includes('propose_fact'));
+assert.ok(scopedTools.includes('assess_fact'));
+assert.ok(scopedTools.includes('promote_source_finding'));
+assert.ok(!scopedTools.includes('record_source_finding'));
+const reader=await post('keys',{name:'Read only',scopes:['facts:read'],list_ids:[l.id],expires_at:'2030-01-01'});
+const readOnlyTools=(await req('/agent/mcp',{jsonrpc:'2.0',id:1,method:'tools/list'},reader.key,false,false)).data.result.tools.map(t=>t.name);
+assert.ok(!readOnlyTools.includes('propose_fact'));
+assert.equal((await rpc('propose_fact',{list_id:l.id,topic:'Not allowed',claim:'No'},reader.key)).data.result.isError,true);
+
 const state=await req('/api/state');
 assert.equal(state.data.assessments.length,1);
 assert.equal(state.data.origins.length,1);assert.equal(state.data.evidence.length,1);assert.equal(state.data.reviews.length,2);assert.ok(!JSON.stringify(state.data.keys).includes(rotated.key));assert.ok(!('hash' in state.data.keys[0]));
