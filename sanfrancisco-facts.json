@@ -1,0 +1,187 @@
+{
+  "property": "Four Seasons Hotel San Francisco",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/sanfrancisco/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/sanfrancisco/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel San Francisco.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 757 Market Street, San Francisco, CA 94103, U.S.A.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Telephone",
+      "claim": "The hotel's main telephone number is +1 415 633 3000.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Building configuration",
+      "claim": "The hotel occupies 12 floors within a 42-storey tower.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Dining - MKT",
+      "claim": "MKT Restaurant serves elevated California cuisine at the hotel.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Fitness - Equinox",
+      "claim": "Hotel guests have access to the Equinox Sports Club, including a saline lap pool.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Room inventory",
+      "claim": "The hotel offers 277 guest rooms or suites, including 46 luxury suites.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Check-in time",
+      "claim": "The hotel's standard check-in time is 3:00 PM.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Check-out time",
+      "claim": "The hotel's standard check-out time is 12:00 PM.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Deluxe Room size",
+      "claim": "The Deluxe Room measures 460 sq ft (43 m²).",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Executive Suite size",
+      "claim": "The Executive Suite measures 690 sq ft (64 m²).",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Presidential Suite size",
+      "claim": "The Presidential Suite measures 2,300 sq ft (214 m²).",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Interior design",
+      "claim": "Guest rooms and suites were designed by Meyer Davis.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Pet policy",
+      "claim": "Pets are welcome in all guest rooms and suites at no additional charge, with up to two pets per room and no weight limit.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Smoking policy",
+      "claim": "Four Seasons Hotel San Francisco is a smoke-free hotel.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The hotel opened in October 2001.",
+      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Stéphane Gras.",
+      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Total rooms",
+      "claim": "The hotel has a total of 277 rooms, comprising 231 guest rooms and 46 suites.",
+      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Residential units",
+      "claim": "The building includes 136 residential units.",
+      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "The hotel is in the Yerba Buena Arts District, steps from Union Square, the Moscone Convention Center, the Museum of Modern Art and the financial district.",
+      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Dining - MKT Restaurant – Bar",
+      "claim": "MKT Restaurant – Bar is the hotel's restaurant and lounge.",
+      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Executive Chef",
+      "claim": "The Executive Chef is Shaun Acosta.",
+      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Swimming pools",
+      "claim": "The hotel has one swimming pool.",
+      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Equinox Sports Club size",
+      "claim": "The Equinox Sports Club offers 127,000 square feet (11,800 square metres) of sports, fitness and wellness resources, with direct private access for hotel guests.",
+      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "The hotel has 15,000 sq ft (1,394 sq m) of meeting space.",
+      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom measures 6,960 sq ft (647 sq m).",
+      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect was Gary Handel and Associates.",
+      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+    }
+  ]
+}

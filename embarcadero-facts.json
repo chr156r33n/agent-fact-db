@@ -1,0 +1,175 @@
+{
+  "property": "Four Seasons Hotel San Francisco at Embarcadero",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/embarcadero/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/embarcadero/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/embarcadero/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel San Francisco at Embarcadero.",
+      "source_url": "https://www.fourseasons.com/embarcadero/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 222 Sansome Street, San Francisco, California 94104.",
+      "source_url": "https://www.fourseasons.com/embarcadero/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Telephone",
+      "claim": "The hotel's main telephone number is +1 415 276 9888.",
+      "source_url": "https://www.fourseasons.com/embarcadero/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Building configuration",
+      "claim": "Guest rooms occupy the top 11 floors of a 48-storey landmark building.",
+      "source_url": "https://www.fourseasons.com/embarcadero/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Location neighbourhoods",
+      "claim": "The hotel is steps from Union Square, the Ferry Building, Fisherman's Wharf and Chinatown.",
+      "source_url": "https://www.fourseasons.com/embarcadero/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Room inventory",
+      "claim": "The hotel has 155 guest rooms and suites.",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Check-in time",
+      "claim": "The hotel's standard check-in time is 3:00 PM.",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Check-out time",
+      "claim": "The hotel's standard check-out time is 12:00 PM.",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Deluxe Skyline-View Room size",
+      "claim": "The Deluxe Skyline-View Room measures 425 sq ft (39 m²).",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Bridge-View One-Bedroom Suite size",
+      "claim": "The Bridge-View One-Bedroom Suite measures 800 sq ft (74 m²).",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Golden Gate Terrace Presidential Suite size",
+      "claim": "The Golden Gate Terrace Presidential Suite measures 1,200 sq ft (111 m²).",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Architecture",
+      "claim": "The hotel occupies the top 11 floors of 345 California Center, designed by Skidmore, Owings and Merrill.",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Sky bridges",
+      "claim": "Glass skybridges connect the twin crown sections of the building and offer double-sided Bay Area views.",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Pet policy",
+      "claim": "The hotel welcomes pets weighing 25 pounds or less for a fee.",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The hotel opened under the Four Seasons brand in October 2020.",
+      "source_url": "https://press.fourseasons.com/embarcadero/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Total rooms",
+      "claim": "The hotel has a total of 155 rooms, comprising 127 guest rooms and 28 suites.",
+      "source_url": "https://press.fourseasons.com/embarcadero/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "The hotel is on Sansome and California Street in the Financial District (FiDi).",
+      "source_url": "https://press.fourseasons.com/embarcadero/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Dining - Orafo",
+      "claim": "Orafo is the hotel's California-Italian restaurant, located on the ground floor lobby level.",
+      "source_url": "https://press.fourseasons.com/embarcadero/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Orafo seating",
+      "claim": "Orafo seats 118 guests.",
+      "source_url": "https://press.fourseasons.com/embarcadero/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Interior designer",
+      "claim": "The interior designer is Marzipan.",
+      "source_url": "https://press.fourseasons.com/embarcadero/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect was Skidmore, Owings & Merrill.",
+      "source_url": "https://press.fourseasons.com/embarcadero/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building history",
+      "claim": "Following renovations, the hotel newly opened under the Four Seasons brand in 2020. First-party sources disagree on the original building completion year (1986 on accommodations; 1987 on the press fact sheet).",
+      "source_url": "https://press.fourseasons.com/embarcadero/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Fitness centre",
+      "claim": "The fitness centre is located on the 3rd floor and features cardio and strength training equipment by Precor and Hoist Fitness.",
+      "source_url": "https://press.fourseasons.com/embarcadero/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Airport transfer time",
+      "claim": "San Francisco International Airport (SFO) is about a 20-minute drive from the hotel.",
+      "source_url": "https://press.fourseasons.com/embarcadero/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Lobby sculpture",
+      "claim": "The lobby features the commissioned sculpture Ohlone by Guy Dill.",
+      "source_url": "https://press.fourseasons.com/embarcadero/hotel-facts/"
+    }
+  ]
+}

@@ -21,7 +21,8 @@ function predicate(f){
  const w=[],p=[];
  if(f.list_id){w.push('f.list_id=?');p.push(f.list_id)}
  if(f.page_type){w.push('p.page_type=?');p.push(f.page_type)}
- if(f.page_id){w.push('f.page_id=?');p.push(f.page_id)}
+ if(f.page_id==='__unassigned__'){w.push('f.page_id IS NULL')}
+ else if(f.page_id){w.push('f.page_id=?');p.push(f.page_id)}
  if(f.status){w.push('f.status=?');p.push(f.status)}
  if(f.q){w.push('(f.topic LIKE ? OR f.claim LIKE ? OR f.approved_claim LIKE ? OR p.url LIKE ?)');for(let i=0;i<4;i++)p.push('%'+f.q.replaceAll('%','\\%').replaceAll('_','\\_')+'%')}
  return {where:w.length?'WHERE '+w.join(' AND '):'',args:p};
@@ -33,7 +34,9 @@ export async function inventoryApi(db,request,path){
    const lists=await all(db,'SELECT id,name FROM lists ORDER BY name');
    const pages=await all(db,'SELECT id,list_id,page_type,title,url FROM pages ORDER BY title LIMIT 5000');
    const totals=await all(db,'SELECT list_id, COUNT(*) AS total, SUM(CASE WHEN status=\'pending\' THEN 1 ELSE 0 END) AS pending, SUM(CASE WHEN status=\'contested\' THEN 1 ELSE 0 END) AS contested FROM facts GROUP BY list_id');
-   return json({lists,pages,totals,types:TYPES});
+   const page_counts=await all(db,'SELECT page_id, COUNT(*) AS total, SUM(CASE WHEN status=\'pending\' THEN 1 ELSE 0 END) AS pending FROM facts WHERE page_id IS NOT NULL GROUP BY page_id');
+   const unassigned=await all(db,'SELECT list_id, COUNT(*) AS total, SUM(CASE WHEN status=\'pending\' THEN 1 ELSE 0 END) AS pending FROM facts WHERE page_id IS NULL GROUP BY list_id');
+   return json({lists,pages,totals,page_counts,unassigned,types:TYPES});
  }
  if(method==='GET'&&path==='/api/inventory/facts'){
    const f=filters(u),{where,args}=predicate(f);

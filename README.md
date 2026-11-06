@@ -40,9 +40,24 @@ npx wrangler secret put ADMIN_USERNAME
 
 Secret values are entered at Wrangler's prompt, never as shell arguments. This deployment creates a new, empty database; it does not migrate records from the ChatGPT-hosted prototype.
 
+### Keeping ADMIN_USERNAME and ADMIN_PASSWORD across deploys
+
+Cloudflare Worker **runtime secrets persist across normal deploys**. `npm run deploy` updates code and D1 migrations; it does not clear existing secrets. Keep the Worker name as `agent-fact-db` and reuse the same `D1_DATABASE_ID` so credentials and data stay attached to the same Worker/database.
+
+Before and after a production deploy:
+
+1. Confirm the Worker name and D1 database ID are unchanged.
+2. In Cloudflare → Workers → Settings → Variables and Secrets, confirm `ADMIN_PASSWORD` (and `ADMIN_USERNAME` if set) are still present. Values stay hidden; presence is enough.
+3. Smoke-test Basic auth sign-in to `/` and `/inventory`.
+4. Rotate credentials only with `npx wrangler secret put ADMIN_PASSWORD` (and optional `ADMIN_USERNAME`) at Wrangler's interactive prompt — never as shell arguments, build variables, or CI logs.
+
+Do not rename or recreate the Worker, delete secrets, or put administrator credentials in source or GitHub as part of routine deploys.
+
 ## Property/page inventory and bulk review
 
 The administrator UI now includes **Inventory & bulk review** at `/inventory`. This is an operational view across all property collections, rather than a requirement to open each page. Existing `lists` are treated as property collections to preserve current MCP keys and data. Pages can be added with a title, controlled page type and canonical URL. Facts without `page_id` remain property-level; existing facts are **not** automatically assigned.
+
+The Fact library at `/` and Inventory both support page-aware navigation: select a property, then browse **All pages**, **Unassigned**, or an individual inventory page (with counts). Inventory groups pages by type and includes page search.
 
 - Filter by property, page type, page, review status or matching text. Results are retrieved from D1 in batches of 50, with server-side counts and pagination.
 - Select facts across multiple result pages and **confirm**, **deny** or **amend** them. Amendments require individual replacement text; denying requires a reason. Each decision creates an individual review-history entry.
