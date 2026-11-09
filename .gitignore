@@ -9,3 +9,4 @@ dist/
 .preview/
 *.sqlite
 *.tar.gz
+.cursor/mcp.json
