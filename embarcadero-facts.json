@@ -14,6 +14,30 @@
       "page_type": "Accommodation"
     },
     {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/embarcadero/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/embarcadero/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/embarcadero/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/embarcadero/getting-here/",
+      "page_type": "General"
+    },
+    {
       "key": "hotel-facts",
       "title": "Hotel Fact Sheet",
       "url": "https://press.fourseasons.com/embarcadero/hotel-facts/",
@@ -52,6 +76,12 @@
       "source_url": "https://www.fourseasons.com/embarcadero/"
     },
     {
+      "page_key": "homepage",
+      "topic": "General Manager",
+      "claim": "The General Manager is Janet Wruck.",
+      "source_url": "https://www.fourseasons.com/embarcadero/"
+    },
+    {
       "page_key": "accommodation",
       "topic": "Room inventory",
       "claim": "The hotel has 155 guest rooms and suites.",
@@ -71,8 +101,26 @@
     },
     {
       "page_key": "accommodation",
+      "topic": "Superior Skyline-View Room size",
+      "claim": "The Superior Skyline-View Room measures 350 sq ft (33 m²).",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
       "topic": "Deluxe Skyline-View Room size",
       "claim": "The Deluxe Skyline-View Room measures 425 sq ft (39 m²).",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Premier Bridge-View Room size",
+      "claim": "The Premier Bridge-View Room measures 450 sq ft (42 m²).",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Golden Gate-View Studio Suite size",
+      "claim": "The Golden Gate-View Studio Suite measures 575 sq ft (53 m²).",
       "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
     },
     {
@@ -83,8 +131,20 @@
     },
     {
       "page_key": "accommodation",
+      "topic": "Landmark Suite size",
+      "claim": "The Landmark Suite measures 1,000 sq ft (93 m²).",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
       "topic": "Golden Gate Terrace Presidential Suite size",
       "claim": "The Golden Gate Terrace Presidential Suite measures 1,200 sq ft (111 m²).",
+      "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Skyline Terrace Signature Suite size",
+      "claim": "The Skyline Terrace Signature Suite measures 1,200 sq ft (111 m²).",
       "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
     },
     {
@@ -104,6 +164,150 @@
       "topic": "Pet policy",
       "claim": "The hotel welcomes pets weighing 25 pounds or less for a fee.",
       "source_url": "https://www.fourseasons.com/embarcadero/accommodations/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness centre hours",
+      "claim": "The Fitness Centre is open 24 hours and is exclusively for Four Seasons guests ages 16 and over.",
+      "source_url": "https://www.fourseasons.com/embarcadero/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness centre floor",
+      "claim": "The Fitness Centre is on the third floor.",
+      "source_url": "https://www.fourseasons.com/embarcadero/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Peloton bike",
+      "claim": "The Fitness Centre features one Peloton bike, available 24 hours a day.",
+      "source_url": "https://www.fourseasons.com/embarcadero/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Sky Flow Yoga Friday",
+      "claim": "Complimentary Sky Flow Yoga is offered Fridays at 12:00 noon on the open-air 40th floor terrace, weather permitting.",
+      "source_url": "https://www.fourseasons.com/embarcadero/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Sky Flow Yoga Saturday",
+      "claim": "Complimentary Sky Flow Yoga is offered Saturdays at 12:30 pm on the open-air 40th floor terrace, weather permitting.",
+      "source_url": "https://www.fourseasons.com/embarcadero/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Sky Flow Yoga Sunday",
+      "claim": "Complimentary Sky Flow Yoga is offered Sundays at 10:30 am on the open-air 40th floor terrace, weather permitting.",
+      "source_url": "https://www.fourseasons.com/embarcadero/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "24-hour guest services",
+      "claim": "The hotel offers 24-hour Guest Services.",
+      "source_url": "https://www.fourseasons.com/embarcadero/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "24-hour business centre",
+      "claim": "The hotel has a 24-hour Business Centre.",
+      "source_url": "https://www.fourseasons.com/embarcadero/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Complimentary premium Wi-Fi",
+      "claim": "Complimentary premium Wi-Fi is available.",
+      "source_url": "https://www.fourseasons.com/embarcadero/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Valet parking",
+      "claim": "Valet parking is available at the hotel.",
+      "source_url": "https://www.fourseasons.com/embarcadero/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Orafo",
+      "claim": "Orafo is the hotel's Italian-inspired restaurant, featuring housemade pastas and California ingredients.",
+      "source_url": "https://www.fourseasons.com/embarcadero/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Orafo group dining capacity",
+      "claim": "Orafo's semi-private space accommodates groups of up to 40, or the full restaurant up to 80 people.",
+      "source_url": "https://www.fourseasons.com/embarcadero/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "In-room dining",
+      "claim": "In-room dining is available with breakfast and all-day menus.",
+      "source_url": "https://www.fourseasons.com/embarcadero/dining/"
+    },
+    {
+      "page_key": "contact",
+      "topic": "Reservations telephone",
+      "claim": "The reservations telephone number is +1 415 276 9888.",
+      "source_url": "https://www.fourseasons.com/embarcadero/contact-us/"
+    },
+    {
+      "page_key": "location",
+      "topic": "Building address context",
+      "claim": "The hotel sits atop 345 California Center at Sansome and California Streets.",
+      "source_url": "https://www.fourseasons.com/embarcadero/getting-here/"
+    },
+    {
+      "page_key": "location",
+      "topic": "SFO transfer time",
+      "claim": "San Francisco International Airport (SFO) is about a 20-minute drive and 14.6 miles / 23.5 km from the hotel.",
+      "source_url": "https://www.fourseasons.com/embarcadero/getting-here/"
+    },
+    {
+      "page_key": "location",
+      "topic": "OAK transfer time",
+      "claim": "Oakland International Airport (OAK) is about a 60-minute drive and 18.9 miles / 30.4 km from the hotel.",
+      "source_url": "https://www.fourseasons.com/embarcadero/getting-here/"
+    },
+    {
+      "page_key": "location",
+      "topic": "SJC transfer time",
+      "claim": "Mineta San Jose International Airport (SJC) is about a 1.5-hour drive and 50.3 miles / 81 km from the hotel.",
+      "source_url": "https://www.fourseasons.com/embarcadero/getting-here/"
+    },
+    {
+      "page_key": "location",
+      "topic": "Distance to Ferry Building",
+      "claim": "The hotel is about a 10-minute walk from the Ferry Building.",
+      "source_url": "https://www.fourseasons.com/embarcadero/getting-here/"
+    },
+    {
+      "page_key": "location",
+      "topic": "Distance to Union Square",
+      "claim": "The hotel is about a 12 to 15-minute walk from Union Square.",
+      "source_url": "https://www.fourseasons.com/embarcadero/getting-here/"
+    },
+    {
+      "page_key": "location",
+      "topic": "Distance to Fisherman's Wharf",
+      "claim": "The hotel is about 1.5 miles from Fisherman's Wharf and Pier 39.",
+      "source_url": "https://www.fourseasons.com/embarcadero/getting-here/"
+    },
+    {
+      "page_key": "location",
+      "topic": "Distance to Chinatown",
+      "claim": "The hotel is about an eight-minute walk to the Dragon Gate at Grant Avenue and Bush Street.",
+      "source_url": "https://www.fourseasons.com/embarcadero/getting-here/"
+    },
+    {
+      "page_key": "location",
+      "topic": "Distance to Oracle Park",
+      "claim": "The hotel is about 1.6 miles from Oracle Park.",
+      "source_url": "https://www.fourseasons.com/embarcadero/getting-here/"
+    },
+    {
+      "page_key": "location",
+      "topic": "Distance to Chase Center",
+      "claim": "Chase Center is about 2.7 miles from the hotel.",
+      "source_url": "https://www.fourseasons.com/embarcadero/getting-here/"
     },
     {
       "page_key": "hotel-facts",
@@ -149,8 +353,8 @@
     },
     {
       "page_key": "hotel-facts",
-      "topic": "Building history",
-      "claim": "Following renovations, the hotel newly opened under the Four Seasons brand in 2020. First-party sources disagree on the original building completion year (1986 on accommodations; 1987 on the press fact sheet).",
+      "topic": "Four Seasons brand opening",
+      "claim": "Following renovations, the hotel newly opened under the Four Seasons brand in 2020.",
       "source_url": "https://press.fourseasons.com/embarcadero/hotel-facts/"
     },
     {

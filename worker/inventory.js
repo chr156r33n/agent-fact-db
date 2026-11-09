@@ -14,7 +14,7 @@ const types=()=>TYPES;
 function filters(u){
  const v={list_id:u.searchParams.get('list_id')||'',page_type:u.searchParams.get('page_type')||'',page_id:u.searchParams.get('page_id')||'',status:u.searchParams.get('status')||'',q:(u.searchParams.get('q')||'').trim().slice(0,200)};
  if(v.page_type&&!TYPES.includes(v.page_type))bad('Unknown page type');
- if(v.status&&!['pending','accepted','corrected','contested'].includes(v.status))bad('Unknown status');
+ if(v.status&&!['pending','accepted','corrected','contested','duplicate'].includes(v.status))bad('Unknown status');
  return v;
 }
 function predicate(f){

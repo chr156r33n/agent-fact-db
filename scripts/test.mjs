@@ -2,7 +2,7 @@ import {DatabaseSync} from 'node:sqlite';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import worker from '../worker/index.js';
-const sql=new DatabaseSync(':memory:');sql.exec('PRAGMA foreign_keys=ON');sql.exec(readFileSync('drizzle/0000_fact_ledger.sql','utf8').replaceAll('--> statement-breakpoint',''));sql.exec(readFileSync('drizzle/0001_agent_fact_proposals.sql','utf8').replaceAll('--> statement-breakpoint',''));sql.exec(readFileSync('drizzle/0002_page_inventory.sql','utf8').replaceAll('--> statement-breakpoint',''));
+const sql=new DatabaseSync(':memory:');sql.exec('PRAGMA foreign_keys=ON');sql.exec(readFileSync('drizzle/0000_fact_ledger.sql','utf8').replaceAll('--> statement-breakpoint',''));sql.exec(readFileSync('drizzle/0001_agent_fact_proposals.sql','utf8').replaceAll('--> statement-breakpoint',''));sql.exec(readFileSync('drizzle/0002_page_inventory.sql','utf8').replaceAll('--> statement-breakpoint',''));sql.exec(readFileSync('drizzle/0003_dismiss_and_duplicate.sql','utf8').replaceAll('--> statement-breakpoint',''));
 class Statement{constructor(s){this.s=s;this.a=[]}bind(...a){this.a=a;return this}async first(){return sql.prepare(this.s).get(...this.a)||null}async all(){return {results:sql.prepare(this.s).all(...this.a)}}async run(){const r=sql.prepare(this.s).run(...this.a);return {meta:{changes:Number(r.changes)}}}}
 const DB={prepare:s=>new Statement(s),async batch(ss){sql.exec('BEGIN');try{const result=[];for(const s of ss)result.push(await s.run());sql.exec('COMMIT');return result}catch(e){sql.exec('ROLLBACK');throw e}}};
 async function req(path,b,token,user=true,origin=true){const headers={'content-type':'application/json',...(user?{authorization:'Basic '+btoa('admin:local-test-password-more-than-20')}:{}),...(origin?{origin:'https://test.local'}:{}),...(token?{authorization:'Bearer '+token}:{})};const r=await worker.fetch(new Request('https://test.local'+path,{method:b?'POST':'GET',headers,body:b?JSON.stringify(b):undefined}),{DB,ADMIN_PASSWORD:"local-test-password-more-than-20"});const v=await r.text();return {status:r.status,data:r.headers.get('content-type')?.includes('json')?JSON.parse(v):v}}
@@ -50,16 +50,43 @@ assert.equal((await rpc('propose_fact',{list_id:l.id,topic:'Invalid',claim:'Bad'
 const scopedTools=(await req('/agent/mcp',{jsonrpc:'2.0',id:1,method:'tools/list'},proposer.key,false,false)).data.result.tools.map(t=>t.name);
 assert.ok(scopedTools.includes('propose_fact'));
 assert.ok(scopedTools.includes('assess_fact'));
+assert.ok(scopedTools.includes('mark_fact_duplicate'));
 assert.ok(scopedTools.includes('promote_source_finding'));
 assert.ok(!scopedTools.includes('record_source_finding'));
+assert.ok(!scopedTools.includes('dismiss_source_finding'));
 const reader=await post('keys',{name:'Read only',scopes:['facts:read'],list_ids:[l.id],expires_at:'2030-01-01'});
 const readOnlyTools=(await req('/agent/mcp',{jsonrpc:'2.0',id:1,method:'tools/list'},reader.key,false,false)).data.result.tools.map(t=>t.name);
 assert.ok(!readOnlyTools.includes('propose_fact'));
 assert.equal((await rpc('propose_fact',{list_id:l.id,topic:'Not allowed',claim:'No'},reader.key)).data.result.isError,true);
 
+// Dismiss findings and mark duplicate facts via MCP / admin review.
+const auditor=await post('keys',{name:'Auditor full',scopes:['facts:read','evidence:read','evidence:write','facts:assess'],list_ids:[l.id],expires_at:'2030-01-01'});
+const findingId=findings[0].id;
+const dismissed=JSON.parse((await rpc('dismiss_source_finding',{finding_id:findingId,notes:'Low-value match'},auditor.key)).data.result.content[0].text);
+assert.equal(dismissed.dismissed,true);
+assert.equal(JSON.parse((await rpc('list_source_findings',{list_id:l.id},proposer.key)).data.result.content[0].text).length,0);
+assert.equal(JSON.parse((await rpc('list_source_findings',{list_id:l.id,include_dismissed:true},proposer.key)).data.result.content[0].text).length,1);
+assert.equal((await rpc('promote_source_finding',{finding_id:findingId,topic:'Blocked',claim:'Should fail'},proposer.key)).data.result.isError,true);
+const restored=JSON.parse((await rpc('dismiss_source_finding',{finding_id:findingId,restore:true},auditor.key)).data.result.content[0].text);
+assert.equal(restored.dismissed,false);
+assert.equal(JSON.parse((await rpc('list_source_findings',{list_id:l.id},proposer.key)).data.result.content[0].text).length,1);
+const dupSource=await post('facts',{list_id:l.id,topic:'Policy copy',claim:'Old claim again'});
+const marked=JSON.parse((await rpc('mark_fact_duplicate',{fact_id:dupSource.id,revision:0,notes:'Same policy claim',canonical_fact_id:f.id},auditor.key)).data.result.content[0].text);
+assert.equal(marked.status,'duplicate');
+assert.equal(marked.duplicate_of,f.id);
+assert.equal((await rpc('mark_fact_duplicate',{fact_id:dupSource.id,revision:0,notes:'Stale'},auditor.key)).data.result.isError,true);
+assert.equal((await rpc('get_facts',{list_id:l.id},auditor.key)).data.result.content[0].text.includes('Old claim again'),false);
+assert.ok(JSON.parse((await rpc('get_facts',{list_id:l.id,include_unapproved:true},auditor.key)).data.result.content[0].text).some(x=>x.status==='duplicate'));
+assert.equal((await req('/api/review',{id:dupSource.id,status:'accepted',revision:1})).status,200);
+const afterAccept=(await req('/api/state')).data.facts.find(x=>x.id===dupSource.id);
+assert.equal(afterAccept.status,'accepted');
+assert.equal(afterAccept.duplicate_of,null);
+assert.equal((await req('/api/dismiss',{finding_id:findingId,notes:'UI dismiss'})).status,200);
+assert.ok((await req('/api/state')).data.evidence.find(e=>e.id===findingId).dismissed_at);
+
 const state=await req('/api/state');
 assert.equal(state.data.assessments.length,1);
-assert.equal(state.data.origins.length,1);assert.equal(state.data.evidence.length,1);assert.equal(state.data.reviews.length,2);assert.ok(!JSON.stringify(state.data.keys).includes(rotated.key));assert.ok(!('hash' in state.data.keys[0]));
+assert.equal(state.data.origins.length,1);assert.equal(state.data.evidence.length,1);assert.equal(state.data.reviews.length,4);assert.ok(!JSON.stringify(state.data.keys).includes(rotated.key));assert.ok(!('hash' in state.data.keys[0]));
 assert.ok(Array.isArray(state.data.pages));
 await post('revoke',{id:rotated.id});assert.equal((await rpc('list_fact_lists',{},rotated.key)).status,401);
 const expired=await post('keys',{name:'Expired',scopes:['facts:read'],list_ids:[],expires_at:'2000-01-01'});assert.ok(!expired.key);
@@ -111,4 +138,4 @@ const invScript=inventoryPage.data.match(/<script>([\s\S]*)<\/script>/)[1];new F
 const page=await req('/');assert.equal(page.status,200);assert.ok(page.data.includes('PAGES'));const script=page.data.match(/<script>([\s\S]*)<\/script>/)[1];new Function(script);
 const statePages=await req('/api/state');
 assert.ok(statePages.data.pages.some(p=>p.id===pageId&&p.title==='Ocean room'));
-console.log('Passed: review states, correction history, stale updates, CSRF, read/write permissions, list isolation, regeneration, revocation, expiry, no secret leakage, page navigation and browser script syntax.');
+console.log('Passed: review states, correction history, stale updates, CSRF, read/write permissions, list isolation, regeneration, revocation, expiry, no secret leakage, dismiss findings, mark duplicates, page navigation and browser script syntax.');

@@ -14,6 +14,36 @@
       "page_type": "Accommodation"
     },
     {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/sanfrancisco/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/sanfrancisco/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/sanfrancisco/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/sanfrancisco/getting-here/",
+      "page_type": "General"
+    },
+    {
       "key": "hotel-facts",
       "title": "Hotel Fact Sheet",
       "url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
@@ -83,8 +113,32 @@
     },
     {
       "page_key": "accommodation",
+      "topic": "Premier Room size",
+      "claim": "The Premier Room measures 480 sq ft (45 m²).",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
       "topic": "Executive Suite size",
       "claim": "The Executive Suite measures 690 sq ft (64 m²).",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "One-Bedroom Suite size",
+      "claim": "The One-Bedroom Suite measures 920 sq ft (85 m²).",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Deluxe Suite size",
+      "claim": "The Deluxe Suite measures 1,000 sq ft (93 m²).",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "accommodation",
+      "topic": "Premier Suite size",
+      "claim": "The Premier Suite measures 1,380 sq ft (128 m²).",
       "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
     },
     {
@@ -110,6 +164,186 @@
       "topic": "Smoking policy",
       "claim": "Four Seasons Hotel San Francisco is a smoke-free hotel.",
       "source_url": "https://www.fourseasons.com/sanfrancisco/accommodations/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Equinox guest age policy",
+      "claim": "The Equinox Sports Club welcomes guests aged 15 and older only; guests 15 to 17 must be accompanied by an adult.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Veranda Terrace",
+      "claim": "The hotel has an expansive Veranda Terrace overlooking SFMOMA and The Contemporary Jewish Museum.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Art collection",
+      "claim": "The hotel's art collection includes more than 90 works by more than 40 California artists.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Kids & Teens Lounge hours",
+      "claim": "The Kids & Teens lounge is available daily during the summer from 7:00 am to 8:00 pm, and parental supervision is required.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Concierge Les Clefs d'Or",
+      "claim": "A majority of the Concierge team hold the Les Clefs d'Or distinction.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "24-hour in-room dining",
+      "claim": "The hotel offers 24-hour in-room dining.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "24-hour concierge",
+      "claim": "The hotel offers 24-hour concierge service.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Equinox hours Monday-Thursday",
+      "claim": "Equinox hours Monday to Thursday are 5:00 am to 10:00 pm.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Equinox hours Friday",
+      "claim": "Equinox hours on Friday are 5:00 am to 8:00 pm.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Equinox hours weekend",
+      "claim": "Equinox hours on Saturday and Sunday are 7:00 am to 6:00 pm.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Equinox facilities",
+      "claim": "Equinox Sports Club includes a junior Olympic lap pool, basketball court and unlimited fitness classes.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Proximity to Moscone Center",
+      "claim": "The hotel is located steps from Moscone Center.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - MKT Restaurant & Bar",
+      "claim": "MKT Restaurant & Bar is a modern American restaurant at the hotel featuring California cuisine.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Private dining rooms",
+      "claim": "MKT Restaurant & Bar has four private dining rooms.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Executive Chef",
+      "claim": "The Executive Chef is Shaun Acosta.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Brunch at MKT",
+      "claim": "MKT Restaurant & Bar offers a brunch experience with seasonal Californian flavours.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/dining/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa location",
+      "claim": "Spa services are offered through The Spa at Equinox Sports Club on the fourth floor of the hotel.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/spa/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa telephone",
+      "claim": "The spa contact telephone number is +1 415 633 3990.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/spa/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment hours weekdays",
+      "claim": "Spa treatments are available Monday to Friday from 11:00 am to 8:00 pm.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/spa/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment hours weekend",
+      "claim": "Spa treatments are available Saturday to Sunday from 9:00 am to 5:00 pm.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/spa/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "In-room massage",
+      "claim": "Guests can book a personalized in-room massage.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/spa/"
+    },
+    {
+      "page_key": "contact",
+      "topic": "Reservations telephone",
+      "claim": "The reservations telephone number is +1 415 633 3636.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/contact-us/"
+    },
+    {
+      "page_key": "contact",
+      "topic": "Front desk telephone",
+      "claim": "The front desk telephone number is +1 415 633 3000.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/contact-us/"
+    },
+    {
+      "page_key": "contact",
+      "topic": "Guest fax",
+      "claim": "The guest fax number is +1 415 633 3001.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/contact-us/"
+    },
+    {
+      "page_key": "contact",
+      "topic": "MKT reservations telephone",
+      "claim": "MKT Restaurant-Bar reservations can be reached at +1 415 633 3838.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/contact-us/"
+    },
+    {
+      "page_key": "contact",
+      "topic": "Equinox Sports Club & Spa telephone",
+      "claim": "Equinox Sports Club & Spa can be reached at +1 415 633 3990.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/contact-us/"
+    },
+    {
+      "page_key": "location",
+      "topic": "Valet parking entrance",
+      "claim": "The valet parking entrance is accessed from Third Street, not Market Street; GPS destination 217 Stevenson Street is recommended.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/getting-here/"
+    },
+    {
+      "page_key": "location",
+      "topic": "SFO transfer time",
+      "claim": "San Francisco International Airport (SFO) is about 30 minutes by car and 23 km / 14 miles from the hotel.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/getting-here/"
+    },
+    {
+      "page_key": "location",
+      "topic": "OAK transfer time",
+      "claim": "Oakland International Airport (OAK) is about 40 minutes by car and 32 km / 20 miles from the hotel.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/getting-here/"
+    },
+    {
+      "page_key": "location",
+      "topic": "SJC transfer time",
+      "claim": "Mineta San Jose International Airport (SJC) is about 50 minutes by car and 74 km / 46 miles from the hotel.",
+      "source_url": "https://www.fourseasons.com/sanfrancisco/getting-here/"
     },
     {
       "page_key": "hotel-facts",
@@ -145,12 +379,6 @@
       "page_key": "hotel-facts",
       "topic": "Dining - MKT Restaurant – Bar",
       "claim": "MKT Restaurant – Bar is the hotel's restaurant and lounge.",
-      "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
-    },
-    {
-      "page_key": "hotel-facts",
-      "topic": "Executive Chef",
-      "claim": "The Executive Chef is Shaun Acosta.",
       "source_url": "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
     },
     {

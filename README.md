@@ -76,8 +76,9 @@ Create lists by property, brand or business. Add one claim per fact with an opti
 - **Accept:** approves the original claim.
 - **Contest:** requires a reason and excludes the fact from the approved reference.
 - **Correct:** saves replacement text and optional notes; the original claim remains visible.
+- **Duplicate:** marks a redundant claim (optional link to a canonical fact in the same list) and excludes it from the approved reference. Accepting later clears the duplicate link.
 
-Every review appends a history entry. A stale concurrent review fails with HTTP 409 rather than overwriting a newer decision. Agent findings and advisory assessments never approve or modify the authoritative status of facts. One administrator role is supported in this prototype; multi-user roles are not implemented.
+Every review appends a history entry. A stale concurrent review fails with HTTP 409 rather than overwriting a newer decision. Source findings can be **dismissed** (kept for audit, hidden from the default list, blocked from promotion) or restored. Agent advisory assessments never approve facts; `mark_fact_duplicate` is the exception that updates authoritative status for duplicate cleanup. One administrator role is supported in this prototype; multi-user roles are not implemented.
 
 ## MCP connection
 
@@ -94,14 +95,16 @@ Tools:
 - `list_fact_lists`: list collections within the key's scope.
 - `get_facts`: takes `list_id`; accepted/corrected facts by default. Optional `include_unapproved` returns all states, explicitly labelled.
 - `record_source_finding`: takes `fact_id`, `url`, `quote`, `party` (`first`, `second`, `third`), `verdict` (`matches`, `contradicts`, `unclear`), optional `notes`.
-- `list_source_findings`: lists existing findings within a scoped fact list, with finding IDs.
+- `list_source_findings`: lists existing findings within a scoped fact list, with finding IDs. Dismissed findings are omitted unless `include_dismissed` is true.
+- `dismiss_source_finding`: takes `finding_id`, optional `notes`, or `restore: true` to undismiss. Dismissed findings stay for audit but leave default lists and cannot be promoted.
 - `propose_fact`: submits `list_id`, `topic`, `claim`, optional `source_url`, `notes` as a **pending** fact.
 - `assess_fact`: records an agent `confirm` or `contest` assessment against `fact_id` with mandatory `notes`. This does **not** alter the authoritative approval state.
-- `promote_source_finding`: takes an existing `finding_id`, `topic`, `claim`, optional `notes` or target `list_id`; creates one pending fact preserving the original finding URL and a provenance link. Repeating a promotion returns the existing fact.
+- `mark_fact_duplicate`: takes `fact_id`, current `revision`, mandatory `notes`, optional `canonical_fact_id`. Sets status to `duplicate` and excludes the fact from the approved reference. Requires `facts:assess`.
+- `promote_source_finding`: takes an existing `finding_id`, `topic`, `claim`, optional `notes` or target `list_id`; creates one pending fact preserving the original finding URL and a provenance link. Repeating a promotion returns the existing fact. Dismissed findings must be restored first.
 
-**Permissions:** use `facts:read` for lists/facts; `evidence:read` to list findings; `evidence:write` to record findings; `facts:propose` to propose or promote; `facts:assess` to confirm/challenge a fact. Assign minimum scopes and explicit list IDs to each key. Existing keys retain their old scopes; regenerate to add capabilities.
+**Permissions:** use `facts:read` for lists/facts; `evidence:read` to list findings; `evidence:write` to record or dismiss findings; `facts:propose` to propose or promote; `facts:assess` to confirm/challenge a fact or mark duplicates. Assign minimum scopes and explicit list IDs to each key. Existing keys retain their old scopes; regenerate to add capabilities.
 
-**Human approval remains mandatory.** Agents cannot accept/correct/contest the library's authoritative state. The administrator reviews pending facts in the Fact Ledger UI. Agents' confirmations/contests are stored separately as advisory assessments. Pending/contested facts remain excluded from default `get_facts` results. The Source findings screen now has a **Promote to fact** action. A source finding still references a fact in the current schema, so truly standalone discoveries should first be submitted through `propose_fact`; the promotion action is for creating a distinct claim based on a finding about an existing fact.
+**Human approval remains mandatory for accept/correct/contest.** Agents' confirmations/contests are stored separately as advisory assessments. `mark_fact_duplicate` does update authoritative status so agents can clear redundant claims. Pending, contested and duplicate facts remain excluded from default `get_facts` results. The Source findings screen supports **Promote**, **Dismiss** and **Restore**. A source finding still references a fact in the current schema, so truly standalone discoveries should first be submitted through `propose_fact`; the promotion action is for creating a distinct claim based on a finding about an existing fact.
 
 Example initialize request:
 
