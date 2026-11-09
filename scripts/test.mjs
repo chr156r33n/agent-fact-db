@@ -49,6 +49,7 @@ assert.equal((await rpc('promote_source_finding',{finding_id:'missing',topic:'Ba
 assert.equal((await rpc('propose_fact',{list_id:l.id,topic:'Invalid',claim:'Bad',source_url:'javascript:alert(1)'},proposer.key)).data.result.isError,true);
 const scopedTools=(await req('/agent/mcp',{jsonrpc:'2.0',id:1,method:'tools/list'},proposer.key,false,false)).data.result.tools.map(t=>t.name);
 assert.ok(scopedTools.includes('propose_fact'));
+assert.ok(scopedTools.includes('assign_facts_to_page'));
 assert.ok(scopedTools.includes('assess_fact'));
 assert.ok(scopedTools.includes('mark_fact_duplicate'));
 assert.ok(scopedTools.includes('promote_source_finding'));
@@ -56,7 +57,9 @@ assert.ok(!scopedTools.includes('record_source_finding'));
 assert.ok(!scopedTools.includes('dismiss_source_finding'));
 const reader=await post('keys',{name:'Read only',scopes:['facts:read'],list_ids:[l.id],expires_at:'2030-01-01'});
 const readOnlyTools=(await req('/agent/mcp',{jsonrpc:'2.0',id:1,method:'tools/list'},reader.key,false,false)).data.result.tools.map(t=>t.name);
+assert.ok(readOnlyTools.includes('list_pages'));
 assert.ok(!readOnlyTools.includes('propose_fact'));
+assert.ok(!readOnlyTools.includes('assign_facts_to_page'));
 assert.equal((await rpc('propose_fact',{list_id:l.id,topic:'Not allowed',claim:'No'},reader.key)).data.result.isError,true);
 
 // Dismiss findings and mark duplicate facts via MCP / admin review.
@@ -105,6 +108,16 @@ const withPage=await post('facts',{list_id:l.id,topic:'Size',claim:'Ocean room i
 assert.equal(withPage.page_id,pageId);
 assert.equal((await req('/api/facts',{list_id:l.id,topic:'Bad page',claim:'No',page_id:crypto.randomUUID()})).status,404);
 assert.equal((await req('/api/facts',{list_id:l2.id,topic:'Wrong list',claim:'No',page_id:pageId})).status,400);
+const pagesViaMcp=JSON.parse((await rpc('list_pages',{list_id:l.id},proposer.key)).data.result.content[0].text);
+assert.ok(pagesViaMcp.pages.some(p=>p.id===pageId));
+assert.ok(Number(pagesViaMcp.unassigned)>=1);
+const mcpAssign=JSON.parse((await rpc('assign_facts_to_page',{page_id:pageId,fact_ids:[proposed.id]},proposer.key)).data.result.content[0].text);
+assert.equal(mcpAssign.assigned,1);
+assert.equal((await rpc('assign_facts_to_page',{page_id:pageId,fact_ids:[f2.id]},proposer.key)).data.result.isError,true);
+const mcpUnassign=JSON.parse((await rpc('assign_facts_to_page',{unassign:true,fact_ids:[proposed.id]},proposer.key)).data.result.content[0].text);
+assert.equal(mcpUnassign.unassigned,1);
+const proposedWithPage=JSON.parse((await rpc('propose_fact',{list_id:l.id,topic:'View',claim:'Ocean view rooms face the water',page_id:pageId},proposer.key)).data.result.content[0].text);
+assert.equal(proposedWithPage.page_id,pageId);
 const assignPage=await req('/api/inventory/assign',{page_id:pageId,fact_ids:[proposed.id]});
 assert.equal(assignPage.status,200);
 assert.equal(assignPage.data.assigned,1);

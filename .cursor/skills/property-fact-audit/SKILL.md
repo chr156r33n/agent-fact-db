@@ -29,15 +29,16 @@ Copy and tick:
 ```
 Audit progress:
 - [ ] 1. Resolve Fact DB list_id(s)
-- [ ] 2. Load accepted facts (and include_unapproved for pending gaps)
-- [ ] 3. Map Yext entities (hotel + dining + spa/closed)
-- [ ] 4. Pull GBP for hotel and each dining/spa listing
-- [ ] 5. Fetch first-party dining / spa / contact pages
-- [ ] 6. Compare NAP, hours, categories, website paths
-- [ ] 7. record_source_finding (quote + party + verdict)
-- [ ] 8. propose_fact for gaps; assess_fact confirm/contest
-- [ ] 9. Flag duplicates; dismiss noisy findings
-- [ ] 10. Summarise matches, contradictions, pending human actions
+- [ ] 2. list_pages; assign unassigned facts when source_url maps cleanly
+- [ ] 3. Load accepted facts (and include_unapproved for pending gaps)
+- [ ] 4. Map Yext entities (hotel + dining + spa/closed)
+- [ ] 5. Pull GBP for hotel and each dining/spa listing
+- [ ] 6. Fetch first-party dining / spa / contact pages
+- [ ] 7. Compare NAP, hours, categories, website paths
+- [ ] 8. record_source_finding (quote + party + verdict)
+- [ ] 9. propose_fact for gaps; assess_fact confirm/contest
+- [ ] 10. Flag duplicates; dismiss noisy findings
+- [ ] 11. Summarise matches, contradictions, pending human actions
 ```
 
 ## Workflow
