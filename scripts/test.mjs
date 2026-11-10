@@ -147,6 +147,11 @@ assert.equal(inventoryPage.status,200);
 assert.ok(inventoryPage.data.includes('Property and page inventory'));
 assert.ok(inventoryPage.data.includes('Page navigation')||inventoryPage.data.includes('aria-label="Page navigation"'));
 const invScript=inventoryPage.data.match(/<script>([\s\S]*)<\/script>/)[1];new Function(invScript);
+const mapPage=await req('/map');
+assert.equal(mapPage.status,200);
+assert.ok(mapPage.data.includes('Property graph'));
+assert.ok(mapPage.data.includes('Portfolio map'));
+const mapScript=mapPage.data.match(/<script>([\s\S]*)<\/script>/)[1];new Function(mapScript);
 
 const page=await req('/');assert.equal(page.status,200);assert.ok(page.data.includes('PAGES'));const script=page.data.match(/<script>([\s\S]*)<\/script>/)[1];new Function(script);
 const statePages=await req('/api/state');
