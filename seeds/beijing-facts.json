@@ -1,0 +1,139 @@
+{
+  "property": "Four Seasons Hotel Beijing",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/beijing/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/beijing/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/beijing/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/beijing/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/beijing/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/beijing/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/beijing/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/beijing/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Beijing.",
+      "source_url": "https://www.fourseasons.com/beijing/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 48 LiangMaQiao Road, 100125 Beijing, Chaoyang District, China.",
+      "source_url": "https://www.fourseasons.com/beijing/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in November 2012.",
+      "source_url": "https://press.fourseasons.com/beijing/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Lili Wong.",
+      "source_url": "https://press.fourseasons.com/beijing/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 247 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/beijing/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 66 suites.",
+      "source_url": "https://press.fourseasons.com/beijing/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: In the Liangmahe area of Chaoyang district, home to international companies, embassies and news agencies Minutes from the 798 Art District, Third Diplomatic Precinct and Sanlitun entertainment area; 30 minute drive from the Forbidden City and 45 minute drive to the Great Wall",
+      "source_url": "https://press.fourseasons.com/beijing/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect is BIAD (Beijing Institute of Architectural Design).",
+      "source_url": "https://press.fourseasons.com/beijing/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa size",
+      "claim": "The spa is 1700 sq m / 18,300 sq ft.",
+      "source_url": "https://press.fourseasons.com/beijing/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 2,805 sq m / 30,193 sq ft.",
+      "source_url": "https://press.fourseasons.com/beijing/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 988 sq m / 10,635 sq ft.",
+      "source_url": "https://press.fourseasons.com/beijing/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 2425 sq m / 26,102 sq ft.",
+      "source_url": "https://www.fourseasons.com/beijing/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Cai Yi Xuan",
+      "claim": "The property offers dining at Cai Yi Xuan.",
+      "source_url": "https://www.fourseasons.com/beijing/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Mio",
+      "claim": "The property offers dining at Mio.",
+      "source_url": "https://www.fourseasons.com/beijing/dining/"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "property": "Four Seasons Private Island Maldives at Voavah, Baa Atoll",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/maldivesvoavah/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/maldivesvoavah/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/maldivesvoavah/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/maldivesvoavah/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/maldivesvoavah/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/maldivesvoavah/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/maldivesvoavah/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Private Island Maldives at Voavah, Baa Atoll.",
+      "source_url": "https://www.fourseasons.com/maldivesvoavah/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 40-minute VIP seaplane ride from Malé International Airport.",
+      "source_url": "https://www.fourseasons.com/maldivesvoavah/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in 2016.",
+      "source_url": "https://press.fourseasons.com/maldivesvoavah/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Armando Kraenzlin.",
+      "source_url": "https://press.fourseasons.com/maldivesvoavah/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: 40-minute VIP seaplane ride from Malé International Airport",
+      "source_url": "https://press.fourseasons.com/maldivesvoavah/hotel-facts/"
+    }
+  ]
+}

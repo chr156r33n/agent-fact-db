@@ -1,0 +1,97 @@
+{
+  "property": "Four Seasons Hotel Madrid",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/madrid/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/madrid/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/madrid/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/madrid/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/madrid/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/madrid/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/madrid/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/madrid/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Madrid.",
+      "source_url": "https://www.fourseasons.com/madrid/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 24 hour gym.",
+      "source_url": "https://www.fourseasons.com/madrid/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in September 2020.",
+      "source_url": "https://press.fourseasons.com/madrid/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Patrick Pollak.",
+      "source_url": "https://press.fourseasons.com/madrid/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 39 suites.",
+      "source_url": "https://press.fourseasons.com/madrid/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Right in the heart of the Spanish capital – between Puerta del Sol and Barrio de las Letras – Four Seasons offers the best",
+      "source_url": "https://press.fourseasons.com/madrid/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Dani",
+      "claim": "The property offers dining at Dani.",
+      "source_url": "https://www.fourseasons.com/madrid/dining/"
+    }
+  ]
+}

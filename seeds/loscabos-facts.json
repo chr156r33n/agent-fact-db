@@ -1,0 +1,139 @@
+{
+  "property": "Four Seasons Resort Los Cabos at Costa Palmas",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/loscabos/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/loscabos/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/loscabos/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/loscabos/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/loscabos/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/loscabos/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/loscabos/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/loscabos/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Los Cabos at Costa Palmas.",
+      "source_url": "https://www.fourseasons.com/loscabos/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 2020 Conde Nast Traveller Hot List: Best New Hotel Openings.",
+      "source_url": "https://www.fourseasons.com/loscabos/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in October 2019.",
+      "source_url": "https://press.fourseasons.com/loscabos/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Sandra Oliva.",
+      "source_url": "https://press.fourseasons.com/loscabos/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 114 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/loscabos/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 27 suites.",
+      "source_url": "https://press.fourseasons.com/loscabos/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Located on a 2 mile (3.2-kilometre) stretch of beach on the Baja Peninsula’s undiscovered East Cape Approximately 41 miles (65 kilometres) from Los Cabos International Airport (SJD) Oasis",
+      "source_url": "https://press.fourseasons.com/loscabos/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 67,425 sq ft / 6,264 sq m.",
+      "source_url": "https://press.fourseasons.com/loscabos/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - estiatorio Milos",
+      "claim": "The property offers dining at estiatorio Milos.",
+      "source_url": "https://www.fourseasons.com/loscabos/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Casa de Brasa",
+      "claim": "The property offers dining at Casa de Brasa.",
+      "source_url": "https://www.fourseasons.com/loscabos/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - El Puesto",
+      "claim": "The property offers dining at El Puesto.",
+      "source_url": "https://www.fourseasons.com/loscabos/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Limón",
+      "claim": "The property offers dining at Limón.",
+      "source_url": "https://www.fourseasons.com/loscabos/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Mozza Baja",
+      "claim": "The property offers dining at Mozza Baja.",
+      "source_url": "https://www.fourseasons.com/loscabos/dining/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Swimming pools",
+      "claim": "The property has 7 swimming pools.",
+      "source_url": "https://www.fourseasons.com/loscabos/services-and-amenities/"
+    }
+  ]
+}

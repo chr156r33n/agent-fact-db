@@ -1,0 +1,115 @@
+{
+  "property": "Four Seasons Hotel Westlake Village, California",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/westlakevillage/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/westlakevillage/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/westlakevillage/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/westlakevillage/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/westlakevillage/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/westlakevillage/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/westlakevillage/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/westlakevillage/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Westlake Village, California.",
+      "source_url": "https://www.fourseasons.com/westlakevillage/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 20 minutes to Malibu on the Pacific Ocean.",
+      "source_url": "https://www.fourseasons.com/westlakevillage/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in November 2006.",
+      "source_url": "https://press.fourseasons.com/westlakevillage/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is David Wilke.",
+      "source_url": "https://press.fourseasons.com/westlakevillage/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 230 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/westlakevillage/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 39 suites.",
+      "source_url": "https://press.fourseasons.com/westlakevillage/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Just 45 minutes from Los Angeles International Airport 20 minutes to Malibu on the Pacific Ocean",
+      "source_url": "https://press.fourseasons.com/westlakevillage/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 45,000 sq ft / 4,180 sq m.",
+      "source_url": "https://press.fourseasons.com/westlakevillage/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 11,600 sq ft / 1,078 sq m.",
+      "source_url": "https://press.fourseasons.com/westlakevillage/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 16,000 sq ft / 1,486 sq m.",
+      "source_url": "https://www.fourseasons.com/westlakevillage/services-and-amenities/"
+    }
+  ]
+}

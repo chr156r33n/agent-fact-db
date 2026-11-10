@@ -1,0 +1,103 @@
+{
+  "property": "Four Seasons Hotel Austin",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/austin/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/austin/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/austin/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/austin/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/austin/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/austin/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/austin/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/austin/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Austin.",
+      "source_url": "https://www.fourseasons.com/austin/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 98 San Jacinto Boulevard, Austin, Texas, 78701- 4039, USA.",
+      "source_url": "https://www.fourseasons.com/austin/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in December 1986.",
+      "source_url": "https://press.fourseasons.com/austin/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Beverly Magee.",
+      "source_url": "https://press.fourseasons.com/austin/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 41 suites.",
+      "source_url": "https://press.fourseasons.com/austin/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 14,775 sq. ft. / 1,373 sq. m..",
+      "source_url": "https://press.fourseasons.com/austin/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 7,029 sq. f.t / 653 sq. m..",
+      "source_url": "https://press.fourseasons.com/austin/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Ciclo",
+      "claim": "The property offers dining at Ciclo.",
+      "source_url": "https://www.fourseasons.com/austin/dining/"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "property": "Four Seasons Hôtel Montréal",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/montreal/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/montreal/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/montreal/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/montreal/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/montreal/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/montreal/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/montreal/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/montreal/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hôtel Montréal.",
+      "source_url": "https://www.fourseasons.com/montreal/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 1440 Rue de la Montagne, Montréal, Québec, H3G 1Z5, Canada.",
+      "source_url": "https://www.fourseasons.com/montreal/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in May 2019.",
+      "source_url": "https://press.fourseasons.com/montreal/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Borja Manchado.",
+      "source_url": "https://press.fourseasons.com/montreal/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 150 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/montreal/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 19 suites.",
+      "source_url": "https://press.fourseasons.com/montreal/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: 17.",
+      "source_url": "https://press.fourseasons.com/montreal/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: In the heart of Montreal’s Golden Square Mile, with the entire downtown core within walking distance or a short subway or taxi ride away 20-minute drive from Pierre Elliott Trudeau International Airport (YUL)",
+      "source_url": "https://press.fourseasons.com/montreal/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 8, treatment rooms.",
+      "source_url": "https://press.fourseasons.com/montreal/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - MARCUS",
+      "claim": "The property offers dining at MARCUS.",
+      "source_url": "https://www.fourseasons.com/montreal/dining/"
+    }
+  ]
+}

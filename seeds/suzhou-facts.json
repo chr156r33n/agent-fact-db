@@ -1,0 +1,97 @@
+{
+  "property": "Four Seasons Hotel Suzhou",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/suzhou/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/suzhou/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/suzhou/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/suzhou/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/suzhou/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/suzhou/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/suzhou/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/suzhou/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Suzhou.",
+      "source_url": "https://www.fourseasons.com/suzhou/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 20 - Minute Drive from Suzhou Industrial Park Railway.",
+      "source_url": "https://www.fourseasons.com/suzhou/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in December 2023.",
+      "source_url": "https://press.fourseasons.com/suzhou/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Michael Branham.",
+      "source_url": "https://press.fourseasons.com/suzhou/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: 5 floors (West Wing); 5 floors (East Wing).",
+      "source_url": "https://press.fourseasons.com/suzhou/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Just a short walk to Ligong Causeway, a unique embankment built during the Qing Dynasty that extends across the waters of Jinji Lake. Near Jinji Lake CBD area, easily access to Suzhou Center and The Gate of the Orient. 20 - Minute Drive from Suzhou Industrial Park Railway 45 - Mi",
+      "source_url": "https://press.fourseasons.com/suzhou/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 6 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/suzhou/hotel-facts/"
+    }
+  ]
+}

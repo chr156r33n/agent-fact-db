@@ -1,0 +1,115 @@
+{
+  "property": "Four Seasons Hotel Hampshire, England",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/hampshire/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/hampshire/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/hampshire/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/hampshire/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/hampshire/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/hampshire/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/hampshire/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/hampshire/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Hampshire, England.",
+      "source_url": "https://www.fourseasons.com/hampshire/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 18th-century Georgian manor house with period-style additional wings and conservatory pool.",
+      "source_url": "https://www.fourseasons.com/hampshire/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in February 2005.",
+      "source_url": "https://press.fourseasons.com/hampshire/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Andrew Harrison.",
+      "source_url": "https://press.fourseasons.com/hampshire/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 112 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/hampshire/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 22 suites.",
+      "source_url": "https://press.fourseasons.com/hampshire/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 620 sq m / 6,674 sq ft.",
+      "source_url": "https://press.fourseasons.com/hampshire/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 258 sq m / 2,777 sq ft.",
+      "source_url": "https://press.fourseasons.com/hampshire/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Wild Carrot",
+      "claim": "The property offers dining at Wild Carrot.",
+      "source_url": "https://www.fourseasons.com/hampshire/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Café Santé",
+      "claim": "The property offers dining at Café Santé.",
+      "source_url": "https://www.fourseasons.com/hampshire/dining/"
+    }
+  ]
+}

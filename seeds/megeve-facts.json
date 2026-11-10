@@ -1,0 +1,109 @@
+{
+  "property": "Four Seasons Resort Megève",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/megeve/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/megeve/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/megeve/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/megeve/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/megeve/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/megeve/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/megeve/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/megeve/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Megève.",
+      "source_url": "https://www.fourseasons.com/megeve/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 373 Chemin des Follieres, Megève, 74120, France.",
+      "source_url": "https://www.fourseasons.com/megeve/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in December 2017.",
+      "source_url": "https://press.fourseasons.com/megeve/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Joachim Jacob.",
+      "source_url": "https://press.fourseasons.com/megeve/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 41 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/megeve/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 14 suites.",
+      "source_url": "https://press.fourseasons.com/megeve/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: On the slopes of Mont d’Arbois near the village of Megève, just 75 minutes by car from Geneva Seasonal Opening: Four Seasons Hotel Megeve is open each winter between mid-December to mid-April, and each summer from mid-June to mid-September; for details, click here",
+      "source_url": "https://press.fourseasons.com/megeve/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 6, treatment rooms.",
+      "source_url": "https://press.fourseasons.com/megeve/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Brasserie Benjamin",
+      "claim": "The property offers dining at Brasserie Benjamin.",
+      "source_url": "https://www.fourseasons.com/megeve/dining/"
+    }
+  ]
+}

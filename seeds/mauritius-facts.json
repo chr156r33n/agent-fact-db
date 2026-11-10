@@ -1,0 +1,109 @@
+{
+  "property": "Four Seasons Resort Mauritius at Anahita",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/mauritius/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/mauritius/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/mauritius/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/mauritius/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/mauritius/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/mauritius/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/mauritius/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/mauritius/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Mauritius at Anahita.",
+      "source_url": "https://www.fourseasons.com/mauritius/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in October 2008.",
+      "source_url": "https://press.fourseasons.com/mauritius/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Gregory Viaud.",
+      "source_url": "https://press.fourseasons.com/mauritius/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 12 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/mauritius/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 209 sq m / 2,250 sq ft.",
+      "source_url": "https://press.fourseasons.com/mauritius/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 144 sq m / 1,550 sq ft.",
+      "source_url": "https://press.fourseasons.com/mauritius/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Ti Pwason",
+      "claim": "The property offers dining at Ti Pwason.",
+      "source_url": "https://www.fourseasons.com/mauritius/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Angara",
+      "claim": "The property offers dining at Angara.",
+      "source_url": "https://www.fourseasons.com/mauritius/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - La Plaz Beach Grill",
+      "claim": "The property offers dining at La Plaz Beach Grill.",
+      "source_url": "https://www.fourseasons.com/mauritius/dining/"
+    }
+  ]
+}

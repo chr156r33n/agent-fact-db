@@ -1,0 +1,133 @@
+{
+  "property": "Four Seasons Hotel Kuala Lumpur",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/kualalumpur/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/kualalumpur/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/kualalumpur/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/kualalumpur/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/kualalumpur/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/kualalumpur/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/kualalumpur/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/kualalumpur/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Kuala Lumpur.",
+      "source_url": "https://www.fourseasons.com/kualalumpur/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 145 Jalan Ampang, Kuala Lumpur, 50450, Malaysia.",
+      "source_url": "https://www.fourseasons.com/kualalumpur/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in July 2018.",
+      "source_url": "https://press.fourseasons.com/kualalumpur/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Simon Barnett.",
+      "source_url": "https://press.fourseasons.com/kualalumpur/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 177 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/kualalumpur/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 32 suites.",
+      "source_url": "https://press.fourseasons.com/kualalumpur/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: 65 (main tower); B1-4 (retail podium), 5-7 (hotel facilities), 8-18 (.",
+      "source_url": "https://press.fourseasons.com/kualalumpur/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: In the middle of the Golden Triangle neighbourhood, Kuala Lumpur’s exciting business, shopping and entertainment hub Overlooking Kuala Lumpur City Centre (KLCC) Park and offering lush views and direct access to the park’s 20 hectares (50 acres) of open space, including tropical g",
+      "source_url": "https://press.fourseasons.com/kualalumpur/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 8, treatment rooms.",
+      "source_url": "https://press.fourseasons.com/kualalumpur/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Yun House",
+      "claim": "The property offers dining at Yun House.",
+      "source_url": "https://www.fourseasons.com/kualalumpur/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Curate",
+      "claim": "The property offers dining at Curate.",
+      "source_url": "https://www.fourseasons.com/kualalumpur/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - The Lounge at Four Seasons",
+      "claim": "The property offers dining at The Lounge at Four Seasons.",
+      "source_url": "https://www.fourseasons.com/kualalumpur/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Pool Bar and Grill",
+      "claim": "The property offers dining at Pool Bar and Grill.",
+      "source_url": "https://www.fourseasons.com/kualalumpur/dining/"
+    }
+  ]
+}

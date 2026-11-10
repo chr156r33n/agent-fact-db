@@ -1,0 +1,127 @@
+{
+  "property": "Four Seasons Hotel Shenzhen",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/shenzhen/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/shenzhen/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/shenzhen/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/shenzhen/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/shenzhen/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/shenzhen/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/shenzhen/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/shenzhen/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Shenzhen.",
+      "source_url": "https://www.fourseasons.com/shenzhen/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 138 Fuhua Third Road, Futian District, Shenzhen, 518048, China.",
+      "source_url": "https://www.fourseasons.com/shenzhen/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in September 2013.",
+      "source_url": "https://press.fourseasons.com/shenzhen/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Chadi Chemaly.",
+      "source_url": "https://press.fourseasons.com/shenzhen/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 234 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/shenzhen/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 32 suites.",
+      "source_url": "https://press.fourseasons.com/shenzhen/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: Hotel is located in the 26-story tower of a multi-use complex.",
+      "source_url": "https://press.fourseasons.com/shenzhen/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: In the heart of the commercial district of Futian, across the Shenzhen Conference & Exhibition Center and a short walk from the Civic Center, which houses the city's Municipal Hall and Museum as well as near the famed Shenzhen Concert Hall and Library The Hotel is surrounded by t",
+      "source_url": "https://press.fourseasons.com/shenzhen/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 1,288 sq m / 13,863 sq ft.",
+      "source_url": "https://press.fourseasons.com/shenzhen/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - FOO",
+      "claim": "The property offers dining at FOO.",
+      "source_url": "https://www.fourseasons.com/shenzhen/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Zhuo Yue Xuan",
+      "claim": "The property offers dining at Zhuo Yue Xuan.",
+      "source_url": "https://www.fourseasons.com/shenzhen/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Matsuyi",
+      "claim": "The property offers dining at Matsuyi.",
+      "source_url": "https://www.fourseasons.com/shenzhen/dining/"
+    }
+  ]
+}

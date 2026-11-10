@@ -1,0 +1,115 @@
+{
+  "property": "Four Seasons Hotel Tokyo at Otemachi",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/otemachi/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/otemachi/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/otemachi/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/otemachi/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/otemachi/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/otemachi/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/otemachi/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/otemachi/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Tokyo at Otemachi.",
+      "source_url": "https://www.fourseasons.com/otemachi/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 1-2 Otemachi, Chiyoda-ku, Tokyo, 100-0004, Japan.",
+      "source_url": "https://www.fourseasons.com/otemachi/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in September 2020.",
+      "source_url": "https://press.fourseasons.com/otemachi/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Uday Rao.",
+      "source_url": "https://press.fourseasons.com/otemachi/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 170 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/otemachi/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 20 suites.",
+      "source_url": "https://press.fourseasons.com/otemachi/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Located adjacent to the Imperial Palace and in the landmark Otemachi One Complex in Tokyo’s most important financial district, home to the headquarters of various corporations and multinationals Occupies the top six floors of the landmark 39-storey Otemachi One Tower, offering pa",
+      "source_url": "https://press.fourseasons.com/otemachi/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 5, treatment rooms.",
+      "source_url": "https://press.fourseasons.com/otemachi/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - est",
+      "claim": "The property offers dining at est.",
+      "source_url": "https://www.fourseasons.com/otemachi/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - PIGNETO",
+      "claim": "The property offers dining at PIGNETO.",
+      "source_url": "https://www.fourseasons.com/otemachi/dining/"
+    }
+  ]
+}

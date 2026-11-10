@@ -1,0 +1,169 @@
+{
+  "property": "Four Seasons Hotel Hong Kong",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/hongkong/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/hongkong/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/hongkong/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/hongkong/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/hongkong/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/hongkong/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/hongkong/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/hongkong/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Hong Kong.",
+      "source_url": "https://www.fourseasons.com/hongkong/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 8 Finance Street, Central, Hong Kong, China.",
+      "source_url": "https://www.fourseasons.com/hongkong/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in September 2005.",
+      "source_url": "https://press.fourseasons.com/hongkong/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Charles Fisher.",
+      "source_url": "https://press.fourseasons.com/hongkong/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 345 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/hongkong/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 54 suites.",
+      "source_url": "https://press.fourseasons.com/hongkong/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: 45.",
+      "source_url": "https://press.fourseasons.com/hongkong/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Part of the International Finance Centre (IFC) complex in the heart of the city's Central district Connected to the ifc Shopping Mall and Central district shops are a short walking distance from the Hotel Easily accessible from Hong Kong International Airport and the Star Ferry D",
+      "source_url": "https://press.fourseasons.com/hongkong/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 17 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/hongkong/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 1,878 sq m / 21,210 sq ft.",
+      "source_url": "https://press.fourseasons.com/hongkong/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 708 sq m / 7,620 sq ft.",
+      "source_url": "https://press.fourseasons.com/hongkong/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 500 sq m / 5,382 sq ft.",
+      "source_url": "https://www.fourseasons.com/hongkong/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Caprice***",
+      "claim": "The property offers dining at Caprice***.",
+      "source_url": "https://www.fourseasons.com/hongkong/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Lung King Heen**",
+      "claim": "The property offers dining at Lung King Heen**.",
+      "source_url": "https://www.fourseasons.com/hongkong/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Noi by Paulo Airaudo**",
+      "claim": "The property offers dining at Noi by Paulo Airaudo**.",
+      "source_url": "https://www.fourseasons.com/hongkong/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - The Lounge",
+      "claim": "The property offers dining at The Lounge.",
+      "source_url": "https://www.fourseasons.com/hongkong/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Sushi Saito",
+      "claim": "The property offers dining at Sushi Saito.",
+      "source_url": "https://www.fourseasons.com/hongkong/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Teppanyaki ‧ Tempura Shun",
+      "claim": "The property offers dining at Teppanyaki ‧ Tempura Shun.",
+      "source_url": "https://www.fourseasons.com/hongkong/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Pool Terrace",
+      "claim": "The property offers dining at Pool Terrace.",
+      "source_url": "https://www.fourseasons.com/hongkong/dining/"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "property": "Four Seasons Hotel Minneapolis",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/minneapolis/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/minneapolis/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/minneapolis/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/minneapolis/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/minneapolis/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/minneapolis/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/minneapolis/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/minneapolis/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Minneapolis.",
+      "source_url": "https://www.fourseasons.com/minneapolis/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 245 Hennepin Avenue, Minneapolis, Minnesota, 55401, USA.",
+      "source_url": "https://www.fourseasons.com/minneapolis/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in June 2022.",
+      "source_url": "https://press.fourseasons.com/minneapolis/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Florian Riedel.",
+      "source_url": "https://press.fourseasons.com/minneapolis/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 39 suites.",
+      "source_url": "https://press.fourseasons.com/minneapolis/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 6, treatment rooms.",
+      "source_url": "https://press.fourseasons.com/minneapolis/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is More than 20,000 sq. ft. (1,858 sq. m.) of indoor and outdoor spaces.",
+      "source_url": "https://press.fourseasons.com/minneapolis/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Mara",
+      "claim": "The property offers dining at Mara.",
+      "source_url": "https://www.fourseasons.com/minneapolis/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Socca Café",
+      "claim": "The property offers dining at Socca Café.",
+      "source_url": "https://www.fourseasons.com/minneapolis/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Riva Terrace",
+      "claim": "The property offers dining at Riva Terrace.",
+      "source_url": "https://www.fourseasons.com/minneapolis/dining/"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "property": "Four Seasons Resort Bora Bora",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/borabora/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/borabora/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/borabora/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/borabora/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/borabora/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/borabora/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/borabora/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/borabora/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Bora Bora.",
+      "source_url": "https://www.fourseasons.com/borabora/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in September 2008.",
+      "source_url": "https://press.fourseasons.com/borabora/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Adrien Harel.",
+      "source_url": "https://press.fourseasons.com/borabora/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 294 sq m / 3,162 sq ft.",
+      "source_url": "https://press.fourseasons.com/borabora/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 114 sq m / 1,226 sq ft.",
+      "source_url": "https://press.fourseasons.com/borabora/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Tere Nui",
+      "claim": "The property offers dining at Tere Nui.",
+      "source_url": "https://www.fourseasons.com/borabora/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Arii Moana",
+      "claim": "The property offers dining at Arii Moana.",
+      "source_url": "https://www.fourseasons.com/borabora/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Fare Hoa Beach Bar and",
+      "claim": "The property offers dining at Fare Hoa Beach Bar and.",
+      "source_url": "https://www.fourseasons.com/borabora/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Vaimiti",
+      "claim": "The property offers dining at Vaimiti.",
+      "source_url": "https://www.fourseasons.com/borabora/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Bella Vita at Tere Nui",
+      "claim": "The property offers dining at Bella Vita at Tere Nui.",
+      "source_url": "https://www.fourseasons.com/borabora/dining/"
+    }
+  ]
+}

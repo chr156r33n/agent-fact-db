@@ -1,0 +1,97 @@
+{
+  "property": "Four Seasons Hotel Osaka",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/osaka/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/osaka/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/osaka/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/osaka/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/osaka/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/osaka/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/osaka/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/osaka/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Osaka.",
+      "source_url": "https://www.fourseasons.com/osaka/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 2-4-32, Dojima, Kita-ku, Osaka, 530-0003, Japan.",
+      "source_url": "https://www.fourseasons.com/osaka/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in August 2024.",
+      "source_url": "https://press.fourseasons.com/osaka/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Gianni Costa.",
+      "source_url": "https://press.fourseasons.com/osaka/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Located in the storied Dojima district, home to historical sites, local businesses and regional commercial headquarters Walking distance from Umeda, a shopping, entertainment and business centre, as well as a major transport hub for intercity and regional rail services and Osaka ",
+      "source_url": "https://press.fourseasons.com/osaka/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 5, treatment rooms.",
+      "source_url": "https://press.fourseasons.com/osaka/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Sushi L'Abysse Osaka Yannick Alléno",
+      "claim": "The property offers dining at Sushi L'Abysse Osaka Yannick Alléno.",
+      "source_url": "https://www.fourseasons.com/osaka/dining/"
+    }
+  ]
+}

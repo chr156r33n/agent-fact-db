@@ -1,0 +1,103 @@
+{
+  "property": "Four Seasons Hotel Kyoto",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/kyoto/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/kyoto/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/kyoto/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/kyoto/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/kyoto/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/kyoto/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/kyoto/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/kyoto/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Kyoto.",
+      "source_url": "https://www.fourseasons.com/kyoto/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 445-3, Myohoin Maekawa-cho, Higashiyama-ku, Kyoto 605-0932, Japan.",
+      "source_url": "https://www.fourseasons.com/kyoto/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in October 2016.",
+      "source_url": "https://press.fourseasons.com/kyoto/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Fanny Guibouret.",
+      "source_url": "https://press.fourseasons.com/kyoto/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Located in Higashiyama Temple District 15-minute walk to Kiyomizu-dera Temple, a UNESCO world heritage site 10 minutes by car to Kyoto Station, a hub for Shinkansen bullet trains 10 minutes by car to City Centre (Kawaramachi area) 90 minutes by car from Kansai International Airpo",
+      "source_url": "https://press.fourseasons.com/kyoto/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 7, treatment rooms.",
+      "source_url": "https://press.fourseasons.com/kyoto/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - EMBA KYOTO GRILL",
+      "claim": "The property offers dining at EMBA KYOTO GRILL.",
+      "source_url": "https://www.fourseasons.com/kyoto/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Sushi Ginza Onodera at Four Seasons Hotel Kyoto",
+      "claim": "The property offers dining at Sushi Ginza Onodera at Four Seasons Hotel Kyoto.",
+      "source_url": "https://www.fourseasons.com/kyoto/dining/"
+    }
+  ]
+}

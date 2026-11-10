@@ -1,0 +1,109 @@
+{
+  "property": "Four Seasons Hotel Tianjin",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/tianjin/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/tianjin/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/tianjin/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/tianjin/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/tianjin/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/tianjin/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/tianjin/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/tianjin/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Tianjin.",
+      "source_url": "https://www.fourseasons.com/tianjin/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 138 Chifeng Road, 300041 Heping District, Tianjin, China.",
+      "source_url": "https://www.fourseasons.com/tianjin/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in January 2017.",
+      "source_url": "https://press.fourseasons.com/tianjin/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 215 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/tianjin/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 44 suites.",
+      "source_url": "https://press.fourseasons.com/tianjin/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: At the junction of the city’s main west-east thoroughfare of Nanjing Road and Binjiang Avenue’s shops in the Central Business District, steps from historic neighbourhoods that date back to the 1800s 30 minutes from Beijing via high-speed train",
+      "source_url": "https://press.fourseasons.com/tianjin/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 11 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/tianjin/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 767 sq. m. / 8,277 sq. ft..",
+      "source_url": "https://press.fourseasons.com/tianjin/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 1,577 sq. m. / 16,902 sq. ft..",
+      "source_url": "https://www.fourseasons.com/tianjin/services-and-amenities/"
+    }
+  ]
+}

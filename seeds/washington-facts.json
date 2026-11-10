@@ -1,0 +1,133 @@
+{
+  "property": "Four Seasons Hotel Washington, DC",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/washington/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/washington/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/washington/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/washington/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/washington/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/washington/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/washington/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/washington/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Washington, DC.",
+      "source_url": "https://www.fourseasons.com/washington/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 2800 Pennsylvania Avenue N.W., Washington, DC, 20007, USA.",
+      "source_url": "https://www.fourseasons.com/washington/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in September 1979.",
+      "source_url": "https://press.fourseasons.com/washington/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Marc Bromley.",
+      "source_url": "https://press.fourseasons.com/washington/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 149 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/washington/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 63 suites.",
+      "source_url": "https://press.fourseasons.com/washington/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Located in historic Georgetown on Pennsylvania Avenue overlooking the Chesapeake and Ohio Canal (the water transportation system built by George Washington) Steps from shopping, Washington Harbor and the Kennedy Center Just 12 blocks from the White House and within easy reach of ",
+      "source_url": "https://press.fourseasons.com/washington/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa size",
+      "claim": "The spa is 3,500 sq ft / 325 sq m.",
+      "source_url": "https://press.fourseasons.com/washington/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 18,923 sq ft / 1,750 sq m.",
+      "source_url": "https://press.fourseasons.com/washington/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 4,602 sq ft / 428 sq m.",
+      "source_url": "https://press.fourseasons.com/washington/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 12,500 sq ft / 1,161 sq m.",
+      "source_url": "https://www.fourseasons.com/washington/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Seasons",
+      "claim": "The property offers dining at Seasons.",
+      "source_url": "https://www.fourseasons.com/washington/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - BOURBON STEAK",
+      "claim": "The property offers dining at BOURBON STEAK.",
+      "source_url": "https://www.fourseasons.com/washington/dining/"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "property": "Four Seasons Hotel Bengaluru at Embassy ONE",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/bengaluru/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/bengaluru/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/bengaluru/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/bengaluru/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/bengaluru/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/bengaluru/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/bengaluru/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/bengaluru/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Bengaluru at Embassy ONE.",
+      "source_url": "https://www.fourseasons.com/bengaluru/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in May 2019.",
+      "source_url": "https://press.fourseasons.com/bengaluru/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Biswajit Chakraborty.",
+      "source_url": "https://press.fourseasons.com/bengaluru/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 191 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/bengaluru/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 39 suites.",
+      "source_url": "https://press.fourseasons.com/bengaluru/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: At the centre of the landmark Embassy ONE development, combines legendary Four Seasons hospitality with bespoke private residences, office space, retail,",
+      "source_url": "https://press.fourseasons.com/bengaluru/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 11 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/bengaluru/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 1,541 sq m / 16,574 sq ft.",
+      "source_url": "https://press.fourseasons.com/bengaluru/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 546 sq m / 5,875 sq ft.",
+      "source_url": "https://press.fourseasons.com/bengaluru/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Far & East",
+      "claim": "The property offers dining at Far & East.",
+      "source_url": "https://www.fourseasons.com/bengaluru/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Copitas",
+      "claim": "The property offers dining at Copitas.",
+      "source_url": "https://www.fourseasons.com/bengaluru/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - CUR8",
+      "claim": "The property offers dining at CUR8.",
+      "source_url": "https://www.fourseasons.com/bengaluru/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - The Lobby Lounge & Terrace",
+      "claim": "The property offers dining at The Lobby Lounge & Terrace.",
+      "source_url": "https://www.fourseasons.com/bengaluru/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Pool Bar",
+      "claim": "The property offers dining at Pool Bar.",
+      "source_url": "https://www.fourseasons.com/bengaluru/dining/"
+    }
+  ]
+}

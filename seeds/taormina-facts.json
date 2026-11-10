@@ -1,0 +1,109 @@
+{
+  "property": "San Domenico Palace, Taormina, A Four Seasons Hotel",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/taormina/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/taormina/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/taormina/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/taormina/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/taormina/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/taormina/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/taormina/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/taormina/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is San Domenico Palace, Taormina, A Four Seasons Hotel.",
+      "source_url": "https://www.fourseasons.com/taormina/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 60 minutes from Catania-Fontanarossa Airport (CTA).",
+      "source_url": "https://www.fourseasons.com/taormina/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in July 2021.",
+      "source_url": "https://press.fourseasons.com/taormina/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Imelda Shllaku.",
+      "source_url": "https://press.fourseasons.com/taormina/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 43 suites.",
+      "source_url": "https://press.fourseasons.com/taormina/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: On Sicily’s east coast in the charming seaside town of Taormina Just off the main street – an easy walk to shops and restaurants Ideal for exploring eastern Sicily, including the historic cities of Modica, Noto and Siracusa, and the tiny island of Ortigia 60 minutes from Catania-",
+      "source_url": "https://press.fourseasons.com/taormina/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Principe Cerami",
+      "claim": "The property offers dining at Principe Cerami.",
+      "source_url": "https://www.fourseasons.com/taormina/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Anciovi",
+      "claim": "The property offers dining at Anciovi.",
+      "source_url": "https://www.fourseasons.com/taormina/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Rosso",
+      "claim": "The property offers dining at Rosso.",
+      "source_url": "https://www.fourseasons.com/taormina/dining/"
+    }
+  ]
+}

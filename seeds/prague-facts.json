@@ -1,0 +1,109 @@
+{
+  "property": "Four Seasons Hotel Prague",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/prague/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/prague/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/prague/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/prague/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/prague/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/prague/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/prague/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/prague/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Prague.",
+      "source_url": "https://www.fourseasons.com/prague/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in February 2001.",
+      "source_url": "https://press.fourseasons.com/prague/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Monica Eisen.",
+      "source_url": "https://press.fourseasons.com/prague/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 138 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/prague/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 19 suites.",
+      "source_url": "https://press.fourseasons.com/prague/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 5, treatment rooms.",
+      "source_url": "https://press.fourseasons.com/prague/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 706 sq m / 7,599 sq ft.",
+      "source_url": "https://press.fourseasons.com/prague/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 177 sq m / 1,905 sq ft.",
+      "source_url": "https://press.fourseasons.com/prague/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - MIRU (Japanese seasonal rooftop",
+      "claim": "The property offers dining at MIRU (Japanese seasonal rooftop.",
+      "source_url": "https://www.fourseasons.com/prague/dining/"
+    }
+  ]
+}

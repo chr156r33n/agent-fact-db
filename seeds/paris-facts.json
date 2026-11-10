@@ -1,0 +1,127 @@
+{
+  "property": "Four Seasons Hotel George V, Paris",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/paris/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/paris/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/paris/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/paris/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/paris/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/paris/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/paris/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/paris/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel George V, Paris.",
+      "source_url": "https://www.fourseasons.com/paris/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 31, avenue George V, 75008 Paris, France.",
+      "source_url": "https://www.fourseasons.com/paris/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in December 1999.",
+      "source_url": "https://press.fourseasons.com/paris/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Thibaut Drege.",
+      "source_url": "https://press.fourseasons.com/paris/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 183 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/paris/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 60 suites.",
+      "source_url": "https://press.fourseasons.com/paris/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: In the heart of the city's Golden Triangle designer shopping district (bordered by the Champs-Elysées, Avenue Marceau and Avenue Montaigne) Steps to Champs-Elysées, Arc de Triomphe, Place de la Concorde, Eiffel Tower Le",
+      "source_url": "https://press.fourseasons.com/paris/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 1,269 sq m / 13,596 sq ft.",
+      "source_url": "https://press.fourseasons.com/paris/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 465 sq m / 5,005 sq ft.",
+      "source_url": "https://press.fourseasons.com/paris/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Le Cinq",
+      "claim": "The property offers dining at Le Cinq.",
+      "source_url": "https://www.fourseasons.com/paris/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - L'Orangerie",
+      "claim": "The property offers dining at L'Orangerie.",
+      "source_url": "https://www.fourseasons.com/paris/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Le George",
+      "claim": "The property offers dining at Le George.",
+      "source_url": "https://www.fourseasons.com/paris/dining/"
+    }
+  ]
+}

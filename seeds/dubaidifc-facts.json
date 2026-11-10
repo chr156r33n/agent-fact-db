@@ -1,0 +1,103 @@
+{
+  "property": "Four Seasons Hotel Dubai International Financial Centre",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/dubaidifc/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/dubaidifc/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/dubaidifc/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/dubaidifc/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/dubaidifc/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/dubaidifc/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/dubaidifc/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/dubaidifc/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Dubai International Financial Centre.",
+      "source_url": "https://www.fourseasons.com/dubaidifc/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in March 2016.",
+      "source_url": "https://press.fourseasons.com/dubaidifc/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Federico Giovine (Hotel Manager).",
+      "source_url": "https://press.fourseasons.com/dubaidifc/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 78 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/dubaidifc/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 28 suites.",
+      "source_url": "https://press.fourseasons.com/dubaidifc/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: In the heart of pedestrian-friendly Dubai International Financial Centre with two entrances welcoming guests by car or on foot Easy access to key business destinations and leisure attractions, and just 15 minutes by car from sister hotel Four Seasons Resort Dubai at Jumeirah Beac",
+      "source_url": "https://press.fourseasons.com/dubaidifc/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Mina Brasserie",
+      "claim": "The property offers dining at Mina Brasserie.",
+      "source_url": "https://www.fourseasons.com/dubaidifc/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - KIGO",
+      "claim": "The property offers dining at KIGO.",
+      "source_url": "https://www.fourseasons.com/dubaidifc/dining/"
+    }
+  ]
+}

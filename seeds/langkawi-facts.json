@@ -1,0 +1,109 @@
+{
+  "property": "Four Seasons Resort Langkawi, Malaysia",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/langkawi/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/langkawi/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/langkawi/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/langkawi/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/langkawi/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/langkawi/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/langkawi/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/langkawi/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Langkawi, Malaysia.",
+      "source_url": "https://www.fourseasons.com/langkawi/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in May 2005.",
+      "source_url": "https://press.fourseasons.com/langkawi/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Tobias Emmer.",
+      "source_url": "https://press.fourseasons.com/langkawi/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect is Lek Bunnag/Bunnag Architects; Bill Bensley/Bensley Design Studios.",
+      "source_url": "https://press.fourseasons.com/langkawi/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 200 sq m / 2,150 sq ft.",
+      "source_url": "https://press.fourseasons.com/langkawi/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 175 sq m / 1,884 sq ft.",
+      "source_url": "https://www.fourseasons.com/langkawi/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Ikan-Ikan",
+      "claim": "The property offers dining at Ikan-Ikan.",
+      "source_url": "https://www.fourseasons.com/langkawi/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Serai",
+      "claim": "The property offers dining at Serai.",
+      "source_url": "https://www.fourseasons.com/langkawi/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Kelapa Grill",
+      "claim": "The property offers dining at Kelapa Grill.",
+      "source_url": "https://www.fourseasons.com/langkawi/dining/"
+    }
+  ]
+}

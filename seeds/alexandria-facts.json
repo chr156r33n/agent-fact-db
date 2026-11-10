@@ -1,0 +1,145 @@
+{
+  "property": "Four Seasons Hotel Alexandria at San Stefano, Egypt",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/alexandria/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/alexandria/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/alexandria/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/alexandria/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/alexandria/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/alexandria/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/alexandria/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/alexandria/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Alexandria at San Stefano, Egypt.",
+      "source_url": "https://www.fourseasons.com/alexandria/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 399 El Geish Road, Alexandria, Egypt.",
+      "source_url": "https://www.fourseasons.com/alexandria/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in July 2007.",
+      "source_url": "https://press.fourseasons.com/alexandria/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Nihat Yucel.",
+      "source_url": "https://press.fourseasons.com/alexandria/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 87 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/alexandria/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 31 suites.",
+      "source_url": "https://press.fourseasons.com/alexandria/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: 60 kilometres (37 miles) or 60 minutes from Borg El Arab Airport Easy access to the shopping arcade inside the complex, and to the beach",
+      "source_url": "https://press.fourseasons.com/alexandria/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 13 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/alexandria/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 1,738 sq m / 18,708 sq ft.",
+      "source_url": "https://press.fourseasons.com/alexandria/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 1,057 sq m / 11,378 sq ft.",
+      "source_url": "https://press.fourseasons.com/alexandria/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Stefano's",
+      "claim": "The property offers dining at Stefano's.",
+      "source_url": "https://www.fourseasons.com/alexandria/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Kala",
+      "claim": "The property offers dining at Kala.",
+      "source_url": "https://www.fourseasons.com/alexandria/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Fresca Bistro and Lounge",
+      "claim": "The property offers dining at Fresca Bistro and Lounge.",
+      "source_url": "https://www.fourseasons.com/alexandria/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Byblos",
+      "claim": "The property offers dining at Byblos.",
+      "source_url": "https://www.fourseasons.com/alexandria/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Beach",
+      "claim": "The property offers dining at Beach.",
+      "source_url": "https://www.fourseasons.com/alexandria/dining/"
+    }
+  ]
+}

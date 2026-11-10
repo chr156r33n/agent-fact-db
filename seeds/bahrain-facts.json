@@ -1,0 +1,127 @@
+{
+  "property": "Four Seasons Hotel Bahrain Bay",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/bahrain/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/bahrain/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/bahrain/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/bahrain/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/bahrain/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/bahrain/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/bahrain/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/bahrain/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Bahrain Bay.",
+      "source_url": "https://www.fourseasons.com/bahrain/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in March 2015.",
+      "source_url": "https://press.fourseasons.com/bahrain/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Jason Rodgers.",
+      "source_url": "https://press.fourseasons.com/bahrain/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 216 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/bahrain/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 57 suites.",
+      "source_url": "https://press.fourseasons.com/bahrain/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Towering above a lushly landscaped private island, easily accessible via causeway to the Manama's business, commercial and shopping as well as historic and cultural sites and numerous recreational opportunities Just 15 minutes from Bahrain International Airport",
+      "source_url": "https://press.fourseasons.com/bahrain/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa size",
+      "claim": "The spa is 3,485 sq. m. (37,512 sq. ft.).",
+      "source_url": "https://press.fourseasons.com/bahrain/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 17 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/bahrain/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 35,222 sq. ft. / 3,272 sq. m..",
+      "source_url": "https://press.fourseasons.com/bahrain/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - CUT by Wolfgang Puck",
+      "claim": "The property offers dining at CUT by Wolfgang Puck.",
+      "source_url": "https://www.fourseasons.com/bahrain/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Bahrain Bay Kitchen",
+      "claim": "The property offers dining at Bahrain Bay Kitchen.",
+      "source_url": "https://www.fourseasons.com/bahrain/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Azure",
+      "claim": "The property offers dining at Azure.",
+      "source_url": "https://www.fourseasons.com/bahrain/dining/"
+    }
+  ]
+}

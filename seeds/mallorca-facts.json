@@ -1,0 +1,109 @@
+{
+  "property": "Four Seasons Resort Mallorca at Formentor",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/mallorca/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/mallorca/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/mallorca/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/mallorca/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/mallorca/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/mallorca/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/mallorca/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/mallorca/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Mallorca at Formentor.",
+      "source_url": "https://www.fourseasons.com/mallorca/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 60-minute drive from Palma de Mallorca Airport, offering direct flights from 160 airports; 60-minute flight from Madrid, 45-minute flight from Barcelona.",
+      "source_url": "https://www.fourseasons.com/mallorca/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in August 2024.",
+      "source_url": "https://press.fourseasons.com/mallorca/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Estreya Gosalbez.",
+      "source_url": "https://press.fourseasons.com/mallorca/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 31 suites.",
+      "source_url": "https://press.fourseasons.com/mallorca/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: On the island of Mallorca, off Spain’s eastern coast Hidden within a 486-hectare (1,200-acre) nature reserve at the island’s northernmost point Minutes from the legendary lighthouse at the tip of the Cap de Formentor peninsula 60-minute drive from Palma de Mallorca Airport, offer",
+      "source_url": "https://press.fourseasons.com/mallorca/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Mel",
+      "claim": "The property offers dining at Mel.",
+      "source_url": "https://www.fourseasons.com/mallorca/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Quiosc",
+      "claim": "The property offers dining at Quiosc.",
+      "source_url": "https://www.fourseasons.com/mallorca/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Llum i Sal",
+      "claim": "The property offers dining at Llum i Sal.",
+      "source_url": "https://www.fourseasons.com/mallorca/dining/"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "property": "Four Seasons Hotel Los Angeles at Beverly Hills",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/losangeles/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/losangeles/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/losangeles/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/losangeles/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/losangeles/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/losangeles/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/losangeles/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/losangeles/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Los Angeles at Beverly Hills.",
+      "source_url": "https://www.fourseasons.com/losangeles/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 300 South Doheny Drive, Los Angeles, California, 90048, USA.",
+      "source_url": "https://www.fourseasons.com/losangeles/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in April 1987.",
+      "source_url": "https://press.fourseasons.com/losangeles/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Sebastian Hinsch.",
+      "source_url": "https://press.fourseasons.com/losangeles/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 185 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/losangeles/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 100 suites.",
+      "source_url": "https://press.fourseasons.com/losangeles/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: 16.",
+      "source_url": "https://press.fourseasons.com/losangeles/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa size",
+      "claim": "The spa is 3,695 sq ft / 343 sq m.",
+      "source_url": "https://press.fourseasons.com/losangeles/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 9,650 sq ft / 896 sq m.",
+      "source_url": "https://press.fourseasons.com/losangeles/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 4,200 sq ft / 390 sq m.",
+      "source_url": "https://press.fourseasons.com/losangeles/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 1,104 sq ft / 102.6 sq m.",
+      "source_url": "https://www.fourseasons.com/losangeles/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Culina, Modern Italian",
+      "claim": "The property offers dining at Culina, Modern Italian.",
+      "source_url": "https://www.fourseasons.com/losangeles/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Cabana",
+      "claim": "The property offers dining at Cabana.",
+      "source_url": "https://www.fourseasons.com/losangeles/dining/"
+    }
+  ]
+}

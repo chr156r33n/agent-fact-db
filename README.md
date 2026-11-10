@@ -122,9 +122,25 @@ The agent reads approved facts, searches using its own DataForSEO connection, in
 
 The app does not run searches or independently fetch/verify submitted quotations. Treat classifications and comparisons as agent-submitted evidence for human review. Reference URLs are not fetched server-side.
 
+## Portfolio hydration (English FS properties)
+
+Discover English hotel/resort press kits, build SF-shaped seed JSON, import pending facts with inventory pages, then run Yext/GBP listing audits:
+
+- Ops guide: [docs/fs-portfolio-hydration.md](docs/fs-portfolio-hydration.md)
+- Registry: [data/fs-properties.json](data/fs-properties.json)
+- Seeds: `seeds/{slug}-facts.json`
+- Listing reports: `audits/listings/{slug}/REPORT.md`
+
+```sh
+node scripts/discover-fs-properties.mjs
+node scripts/build-property-seed.mjs --pilot   # or --all-open
+FACT_DB_URL=… ADMIN_PASSWORD=… node scripts/import-fs-seeds.mjs --pilot
+node scripts/run-listing-audit-batch.mjs --pilot
+```
+
 ## AI search conflict provenance
 
-Separate from Yext/GBP listing audits: web-grounded models are asked what the live web says vs accepted SoT, with **all** contradicting URLs collected (domain + path). Smoke evidence favours `gpt-5.6-luna` atomic checks with **five repeats** per fact (`ever_contradicts` + unioned sources). Rough cost ~**$0.07/fact** under OpenAI Luna + `web_search` (search fees dominate).
+Separate from Yext/GBP listing audits: web-grounded models are asked what the live web says vs accepted SoT, with **all** contradicting URLs collected (domain + path). Smoke evidence favours `gpt-5.6-luna` atomic checks with **five repeats** per fact (`ever_contradicts` + unioned sources). Rough cost ~**$0.07/fact** under OpenAI Luna + `web_search` (search fees dominate). Deferred for the portfolio hydration wave.
 
 Docs and runners: [docs/ai-search-conflict-provenance.md](docs/ai-search-conflict-provenance.md), [audits/ai-search/](audits/ai-search/). Local inference can replace the LLM bill but still needs a grounding/search path for live URLs.
 

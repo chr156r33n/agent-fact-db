@@ -1,0 +1,103 @@
+{
+  "property": "Four Seasons Hotel and Private Residences Nashville",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/nashville/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/nashville/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/nashville/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/nashville/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/nashville/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/nashville/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/nashville/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/nashville/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel and Private Residences Nashville.",
+      "source_url": "https://www.fourseasons.com/nashville/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 100 Demonbreun Street, Nashville, Tennessee, 37201, USA.",
+      "source_url": "https://www.fourseasons.com/nashville/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in November 2022.",
+      "source_url": "https://press.fourseasons.com/nashville/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Sunil Narang.",
+      "source_url": "https://press.fourseasons.com/nashville/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Total rooms",
+      "claim": "The property has 235 guest rooms.",
+      "source_url": "https://press.fourseasons.com/nashville/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 42 suites.",
+      "source_url": "https://press.fourseasons.com/nashville/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Bacco",
+      "claim": "The property offers dining at Bacco.",
+      "source_url": "https://www.fourseasons.com/nashville/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Rivière Rooftop",
+      "claim": "The property offers dining at Rivière Rooftop.",
+      "source_url": "https://www.fourseasons.com/nashville/dining/"
+    }
+  ]
+}

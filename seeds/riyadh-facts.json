@@ -1,0 +1,133 @@
+{
+  "property": "Four Seasons Hotel Riyadh at Kingdom Centre",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/riyadh/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/riyadh/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/riyadh/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/riyadh/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/riyadh/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/riyadh/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/riyadh/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/riyadh/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Riyadh at Kingdom Centre.",
+      "source_url": "https://www.fourseasons.com/riyadh/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in February 2003.",
+      "source_url": "https://press.fourseasons.com/riyadh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Shadi Suleman.",
+      "source_url": "https://press.fourseasons.com/riyadh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 237 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/riyadh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 39 suites.",
+      "source_url": "https://press.fourseasons.com/riyadh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: Hotel comprises 11 floors of a 99-floor building.",
+      "source_url": "https://press.fourseasons.com/riyadh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Located in the iconic Kingdom Centre, at the crossroads of King Fahad Expressway, Olaya Road and Orouba Road Close to the key sites for business, as well as to arts, culture and shopping, including modern boutiques and open-air markets",
+      "source_url": "https://press.fourseasons.com/riyadh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect is Ellerbe Becket Inc.; Omrania & Associates.",
+      "source_url": "https://press.fourseasons.com/riyadh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 7,247 sq m / 78,007 sq ft.",
+      "source_url": "https://press.fourseasons.com/riyadh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 4,113 sq m / 44,272 sq ft.",
+      "source_url": "https://press.fourseasons.com/riyadh/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 3,429 sq m / 36,911 sq ft.",
+      "source_url": "https://www.fourseasons.com/riyadh/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Café Boulud",
+      "claim": "The property offers dining at Café Boulud.",
+      "source_url": "https://www.fourseasons.com/riyadh/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Julien by Daniel Boulud",
+      "claim": "The property offers dining at Julien by Daniel Boulud.",
+      "source_url": "https://www.fourseasons.com/riyadh/dining/"
+    }
+  ]
+}

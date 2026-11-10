@@ -1,0 +1,121 @@
+{
+  "property": "Four Seasons Hotel The Westcliff Johannesburg",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/johannesburg/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/johannesburg/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/johannesburg/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/johannesburg/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/johannesburg/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/johannesburg/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/johannesburg/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/johannesburg/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel The Westcliff Johannesburg.",
+      "source_url": "https://www.fourseasons.com/johannesburg/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 67 Jan Smuts Avenue P.O. Box 2700, Johannesburg, Saxonwold 2132, South Africa.",
+      "source_url": "https://www.fourseasons.com/johannesburg/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in December 2014.",
+      "source_url": "https://press.fourseasons.com/johannesburg/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 67 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/johannesburg/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: At the heart of the prestigious Parks neighbourhood, yet minutes to business and commerical hubs as well as shopping and",
+      "source_url": "https://press.fourseasons.com/johannesburg/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect is RSL Architects (renovation).",
+      "source_url": "https://press.fourseasons.com/johannesburg/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 11 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/johannesburg/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 15,683 sq. ft. / 1,457 sq. m..",
+      "source_url": "https://press.fourseasons.com/johannesburg/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 1,830 sq. ft. / 170 sq. m..",
+      "source_url": "https://press.fourseasons.com/johannesburg/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Flames",
+      "claim": "The property offers dining at Flames.",
+      "source_url": "https://www.fourseasons.com/johannesburg/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Après-",
+      "claim": "The property offers dining at Après-.",
+      "source_url": "https://www.fourseasons.com/johannesburg/dining/"
+    }
+  ]
+}

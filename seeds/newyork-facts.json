@@ -1,0 +1,109 @@
+{
+  "property": "Four Seasons Hotel New York",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/newyork/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/newyork/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/newyork/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/newyork/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/newyork/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/newyork/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/newyork/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/newyork/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel New York.",
+      "source_url": "https://www.fourseasons.com/newyork/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 57 East 57th Street, New York, New York, 10022, USA.",
+      "source_url": "https://www.fourseasons.com/newyork/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in June 1993.",
+      "source_url": "https://press.fourseasons.com/newyork/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Michal Dedera.",
+      "source_url": "https://press.fourseasons.com/newyork/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Located at the city’s most prestigious address, between Park Avenue and Madison Avenue, World-class shopping along Madison and Fifth Avenues, Central Park, Broadway Theater and some of the world's best museums are all located within a very close proximity and easily accessible by",
+      "source_url": "https://press.fourseasons.com/newyork/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect is Designed by famed architect I.M Pei with collaboration of Frank Williams.",
+      "source_url": "https://press.fourseasons.com/newyork/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 15,183 sq ft / 1,410 sq m.",
+      "source_url": "https://press.fourseasons.com/newyork/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 3,116 sq ft / 289sq m.",
+      "source_url": "https://press.fourseasons.com/newyork/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - The Garden",
+      "claim": "The property offers dining at The Garden.",
+      "source_url": "https://www.fourseasons.com/newyork/dining/"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "property": "Four Seasons Resort and Residences at The Pearl-Qatar",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/thepearlqatar/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/thepearlqatar/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/thepearlqatar/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/thepearlqatar/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/thepearlqatar/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/thepearlqatar/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/thepearlqatar/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/thepearlqatar/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort and Residences at The Pearl-Qatar.",
+      "source_url": "https://www.fourseasons.com/thepearlqatar/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 30 minutes from Hamad International Airport.",
+      "source_url": "https://www.fourseasons.com/thepearlqatar/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in November 2023.",
+      "source_url": "https://press.fourseasons.com/thepearlqatar/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Mehdi Zaanoun.",
+      "source_url": "https://press.fourseasons.com/thepearlqatar/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 161 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/thepearlqatar/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 373 sq. m. / 4014 sq. ft..",
+      "source_url": "https://press.fourseasons.com/thepearlqatar/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Spuntino",
+      "claim": "The property offers dining at Spuntino.",
+      "source_url": "https://www.fourseasons.com/thepearlqatar/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Chicago Rare",
+      "claim": "The property offers dining at Chicago Rare.",
+      "source_url": "https://www.fourseasons.com/thepearlqatar/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Nicolas Rouzaud, Maison de Haute Pâtisserie",
+      "claim": "The property offers dining at Nicolas Rouzaud, Maison de Haute Pâtisserie.",
+      "source_url": "https://www.fourseasons.com/thepearlqatar/dining/"
+    }
+  ]
+}

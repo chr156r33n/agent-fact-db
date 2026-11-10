@@ -1,0 +1,127 @@
+{
+  "property": "Four Seasons Resort and Residences Vail",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/vail/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/vail/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/vail/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/vail/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/vail/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/vail/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/vail/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/vail/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort and Residences Vail.",
+      "source_url": "https://www.fourseasons.com/vail/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in December 2010.",
+      "source_url": "https://press.fourseasons.com/vail/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Jenny Simonson.",
+      "source_url": "https://press.fourseasons.com/vail/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 90 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/vail/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 20 suites.",
+      "source_url": "https://press.fourseasons.com/vail/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: 10.",
+      "source_url": "https://press.fourseasons.com/vail/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa size",
+      "claim": "The spa is 1,337 sq m / 14,395 sq ft.",
+      "source_url": "https://press.fourseasons.com/vail/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 13 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/vail/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 791 sq m / 8,510 sq ft.",
+      "source_url": "https://press.fourseasons.com/vail/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 328 sq m / 3,530 sq ft.",
+      "source_url": "https://press.fourseasons.com/vail/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Tavernetta Vail",
+      "claim": "The property offers dining at Tavernetta Vail.",
+      "source_url": "https://www.fourseasons.com/vail/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Pool Bar",
+      "claim": "The property offers dining at Pool Bar.",
+      "source_url": "https://www.fourseasons.com/vail/dining/"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "property": "Four Seasons Resort Maldives at Kuda Huraa",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/maldiveskh/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/maldiveskh/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/maldiveskh/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/maldiveskh/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/maldiveskh/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/maldiveskh/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/maldiveskh/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/maldiveskh/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Maldives at Kuda Huraa.",
+      "source_url": "https://www.fourseasons.com/maldiveskh/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in May 1998.",
+      "source_url": "https://press.fourseasons.com/maldiveskh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect is Grounds Kent Architects (guest rooms and public areas); One Degree North Landscape Architects (landscaping).",
+      "source_url": "https://press.fourseasons.com/maldiveskh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 84 sq m / 1,033 sq ft.",
+      "source_url": "https://press.fourseasons.com/maldiveskh/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 150 sq m / 1,615 sq ft.",
+      "source_url": "https://www.fourseasons.com/maldiveskh/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Baraabaru",
+      "claim": "The property offers dining at Baraabaru.",
+      "source_url": "https://www.fourseasons.com/maldiveskh/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Reef Club",
+      "claim": "The property offers dining at Reef Club.",
+      "source_url": "https://www.fourseasons.com/maldiveskh/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Café Huraa",
+      "claim": "The property offers dining at Café Huraa.",
+      "source_url": "https://www.fourseasons.com/maldiveskh/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Kandu Grill",
+      "claim": "The property offers dining at Kandu Grill.",
+      "source_url": "https://www.fourseasons.com/maldiveskh/dining/"
+    }
+  ]
+}

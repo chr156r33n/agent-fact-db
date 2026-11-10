@@ -1,0 +1,109 @@
+{
+  "property": "The Ocean Club, A Four Seasons Resort, Bahamas",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/oceanclub/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/oceanclub/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/oceanclub/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/oceanclub/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/oceanclub/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/oceanclub/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/oceanclub/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is The Ocean Club, A Four Seasons Resort, Bahamas.",
+      "source_url": "https://www.fourseasons.com/oceanclub/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 3 Har-Tru tennis courts with lessons available.",
+      "source_url": "https://www.fourseasons.com/oceanclub/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in November 2017.",
+      "source_url": "https://press.fourseasons.com/oceanclub/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is John Conway.",
+      "source_url": "https://press.fourseasons.com/oceanclub/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 90 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/oceanclub/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 12 suites.",
+      "source_url": "https://press.fourseasons.com/oceanclub/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Located on the north shore of Paradise Island, connected by the Paradise Island bridge to the Bahamian capital of Nassau and 40 minutes from Lynden Pindling International Airport (NAS) History Originally opened in 1962 as a hideaway for celebrities and international elite, The Oc",
+      "source_url": "https://press.fourseasons.com/oceanclub/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - DUNE by Jean-Georges",
+      "claim": "The property offers dining at DUNE by Jean-Georges.",
+      "source_url": "https://www.fourseasons.com/oceanclub/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - OCEAN",
+      "claim": "The property offers dining at OCEAN.",
+      "source_url": "https://www.fourseasons.com/oceanclub/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Trattoria Versailles",
+      "claim": "The property offers dining at Trattoria Versailles.",
+      "source_url": "https://www.fourseasons.com/oceanclub/dining/"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "property": "Grand-Hôtel du Cap-Ferrat, A Four Seasons Hotel",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/capferrat/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/capferrat/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/capferrat/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/capferrat/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/capferrat/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/capferrat/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/capferrat/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/capferrat/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Grand-Hôtel du Cap-Ferrat, A Four Seasons Hotel.",
+      "source_url": "https://www.fourseasons.com/capferrat/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 71 Boulevard du Général de Gaulle, Saint-Jean Cap-Ferrat, 06230, France.",
+      "source_url": "https://www.fourseasons.com/capferrat/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in January 1908.",
+      "source_url": "https://press.fourseasons.com/capferrat/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is François-Régis Simon.",
+      "source_url": "https://press.fourseasons.com/capferrat/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 24 suites.",
+      "source_url": "https://press.fourseasons.com/capferrat/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: On the Côte d’Azur at the tip of Saint-Jean-Cap-Ferrat on the Mediterranean Sea 30 minutes from Nice, 25 minutes from Monaco and 50 minutes from Cannes Le",
+      "source_url": "https://press.fourseasons.com/capferrat/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 5 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/capferrat/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Le Cap (1 Michelin Star)",
+      "claim": "The property offers dining at Le Cap (1 Michelin Star).",
+      "source_url": "https://www.fourseasons.com/capferrat/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - La Véranda",
+      "claim": "The property offers dining at La Véranda.",
+      "source_url": "https://www.fourseasons.com/capferrat/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Club Dauphin",
+      "claim": "The property offers dining at Club Dauphin.",
+      "source_url": "https://www.fourseasons.com/capferrat/dining/"
+    }
+  ]
+}

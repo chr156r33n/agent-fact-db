@@ -1,0 +1,121 @@
+{
+  "property": "Four Seasons Resort Chiang Mai",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/chiangmai/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/chiangmai/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/chiangmai/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/chiangmai/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/chiangmai/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/chiangmai/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/chiangmai/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/chiangmai/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Chiang Mai.",
+      "source_url": "https://www.fourseasons.com/chiangmai/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 30-minute drive from Chiang Mai International Airport at the North of Chiang Mai city.",
+      "source_url": "https://www.fourseasons.com/chiangmai/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in April 1995.",
+      "source_url": "https://press.fourseasons.com/chiangmai/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Ivan Giles.",
+      "source_url": "https://press.fourseasons.com/chiangmai/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Located in the lush Mae Rim Valley overlooking Doi Suthep Mountain range 30-minute drive from Chiang Mai International Airport at the North of Chiang Mai city Set in 13 hectares (32 acres) of extensively landscaped gardens and rice terraces which feature two small lakes, lily pon",
+      "source_url": "https://press.fourseasons.com/chiangmai/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect is Chiang Mai Architects Collaborative (resort facilities, pavilions); Bunnag Architects (residence rooms, spa); Bensley Design Group Studios (cooking school).",
+      "source_url": "https://press.fourseasons.com/chiangmai/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 455 sq m / 4,889 sq ft.",
+      "source_url": "https://press.fourseasons.com/chiangmai/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 393 sq m / 4,230 sq ft.",
+      "source_url": "https://press.fourseasons.com/chiangmai/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - KHAO by Four Seasons",
+      "claim": "The property offers dining at KHAO by Four Seasons.",
+      "source_url": "https://www.fourseasons.com/chiangmai/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - NORTH by Four Seasons",
+      "claim": "The property offers dining at NORTH by Four Seasons.",
+      "source_url": "https://www.fourseasons.com/chiangmai/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Rim Tai Kitchen",
+      "claim": "The property offers dining at Rim Tai Kitchen.",
+      "source_url": "https://www.fourseasons.com/chiangmai/dining/"
+    }
+  ]
+}

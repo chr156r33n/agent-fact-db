@@ -1,0 +1,97 @@
+{
+  "property": "Four Seasons Resort O‘ahu at Ko Olina",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/oahu/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/oahu/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/oahu/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/oahu/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/oahu/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/oahu/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/oahu/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/oahu/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort O‘ahu at Ko Olina.",
+      "source_url": "https://www.fourseasons.com/oahu/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 92-1001 Olani Street, Kapolei - Oahu, Hawaii, 96707, USA.",
+      "source_url": "https://www.fourseasons.com/oahu/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in 2016.",
+      "source_url": "https://press.fourseasons.com/oahu/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 315 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/oahu/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 55 suites.",
+      "source_url": "https://press.fourseasons.com/oahu/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: On Oahu’s sunset west coast, 30 minutes to Honolulu International Airport and 35 minutes from downtown Honolulu Adjacent to the Lanikuhonua (“where heaven meets earth”) Cultural Estate and nature preserve in the resort community of Ko Olina, meaning “place of joy”",
+      "source_url": "https://press.fourseasons.com/oahu/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Mina's Fish House",
+      "claim": "The property offers dining at Mina's Fish House.",
+      "source_url": "https://www.fourseasons.com/oahu/dining/"
+    }
+  ]
+}

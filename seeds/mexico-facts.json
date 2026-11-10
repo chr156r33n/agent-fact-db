@@ -1,0 +1,121 @@
+{
+  "property": "Four Seasons Hotel Mexico City",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/mexico/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/mexico/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/mexico/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/mexico/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/mexico/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/mexico/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/mexico/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/mexico/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Mexico City.",
+      "source_url": "https://www.fourseasons.com/mexico/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in March 1994.",
+      "source_url": "https://press.fourseasons.com/mexico/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Tulio Hochkoeppler.",
+      "source_url": "https://press.fourseasons.com/mexico/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 200 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/mexico/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 40 suites.",
+      "source_url": "https://press.fourseasons.com/mexico/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: On historic Paseo de la Reforma avenue, steps from Chapultepec Park, Zona Rosa, the Historic Centre, and the iconic Angel of Independence monument Easily accessible via major roads, subway stations, and bus stops, providing the perfect springboard for urban adventures",
+      "source_url": "https://press.fourseasons.com/mexico/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 1,122 sq m / 12,084 sq ft.",
+      "source_url": "https://press.fourseasons.com/mexico/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 393 sq m / 4,230 sq ft.",
+      "source_url": "https://press.fourseasons.com/mexico/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 180 sq m / 1,938 sq ft.",
+      "source_url": "https://www.fourseasons.com/mexico/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Zanaya",
+      "claim": "The property offers dining at Zanaya.",
+      "source_url": "https://www.fourseasons.com/mexico/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Il Becco",
+      "claim": "The property offers dining at Il Becco.",
+      "source_url": "https://www.fourseasons.com/mexico/dining/"
+    }
+  ]
+}

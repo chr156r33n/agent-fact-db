@@ -1,0 +1,109 @@
+{
+  "property": "Four Seasons Resort Maldives at Landaa Giraavaru",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/maldiveslg/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/maldiveslg/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/maldiveslg/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/maldiveslg/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/maldiveslg/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/maldiveslg/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/maldiveslg/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Maldives at Landaa Giraavaru.",
+      "source_url": "https://www.fourseasons.com/maldiveslg/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 3-5 Day Yoga Therapy.",
+      "source_url": "https://www.fourseasons.com/maldiveslg/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in November 2006.",
+      "source_url": "https://press.fourseasons.com/maldiveslg/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Armando Kraenzlin.",
+      "source_url": "https://press.fourseasons.com/maldiveslg/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect is MICD Associates (guest rooms and public areas); One Degree North Landscape Architects.",
+      "source_url": "https://press.fourseasons.com/maldiveslg/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 318 sq m / 3,423 sq ft.",
+      "source_url": "https://press.fourseasons.com/maldiveslg/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Blu",
+      "claim": "The property offers dining at Blu.",
+      "source_url": "https://www.fourseasons.com/maldiveslg/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Al Barakat",
+      "claim": "The property offers dining at Al Barakat.",
+      "source_url": "https://www.fourseasons.com/maldiveslg/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Café Landaa",
+      "claim": "The property offers dining at Café Landaa.",
+      "source_url": "https://www.fourseasons.com/maldiveslg/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Fuego Grill",
+      "claim": "The property offers dining at Fuego Grill.",
+      "source_url": "https://www.fourseasons.com/maldiveslg/dining/"
+    }
+  ]
+}

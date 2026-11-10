@@ -1,0 +1,103 @@
+{
+  "property": "Four Seasons Hotel Dalian",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/dalian/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/dalian/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/dalian/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/dalian/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/dalian/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/dalian/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/dalian/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/dalian/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Dalian.",
+      "source_url": "https://www.fourseasons.com/dalian/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 45 Zhuyu Street, Zhongshan District, Dalian, Liaoning, 116007, China.",
+      "source_url": "https://www.fourseasons.com/dalian/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in March 2024.",
+      "source_url": "https://press.fourseasons.com/dalian/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Wayne Tan.",
+      "source_url": "https://press.fourseasons.com/dalian/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 204 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/dalian/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 50 suites.",
+      "source_url": "https://press.fourseasons.com/dalian/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Located in the picturesque coastal city of Dalian, at the heart of the Donggang CBD in Northern China Adjacent to the vibrant Renmin Road business district and the International Conference Center Just 6 minutes from Dalian Times Square, 10 minutes from BINHAI Road, 20 minutes fro",
+      "source_url": "https://press.fourseasons.com/dalian/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 6, treatment rooms.",
+      "source_url": "https://press.fourseasons.com/dalian/hotel-facts/"
+    }
+  ]
+}

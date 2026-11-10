@@ -1,0 +1,133 @@
+{
+  "property": "Four Seasons — Beverly Wilshire, Beverly Hills,",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/beverlywilshire/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/beverlywilshire/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/beverlywilshire/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/beverlywilshire/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/beverlywilshire/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/beverlywilshire/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/beverlywilshire/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/beverlywilshire/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons — Beverly Wilshire, Beverly Hills,.",
+      "source_url": "https://www.fourseasons.com/beverlywilshire/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 9500 Wilshire Boulevard, Beverly Hills, California, 90212, USA.",
+      "source_url": "https://www.fourseasons.com/beverlywilshire/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in January 1928.",
+      "source_url": "https://press.fourseasons.com/beverlywilshire/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Reed Kandalaft.",
+      "source_url": "https://press.fourseasons.com/beverlywilshire/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 258 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/beverlywilshire/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 137 suites.",
+      "source_url": "https://press.fourseasons.com/beverlywilshire/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: 10 floors (Wilshire Wing).",
+      "source_url": "https://press.fourseasons.com/beverlywilshire/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect is Walker & Eisen (1928); Welton Becket & Associates (1971 enhancements); Gruen Associates (1989 enhancements); Gensler (1998 enhancements); Richard Meier (2006 enhancements).",
+      "source_url": "https://press.fourseasons.com/beverlywilshire/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 37,589 sq ft / 3,492 sq m.",
+      "source_url": "https://press.fourseasons.com/beverlywilshire/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 14,300 sq ft / 1,328 sq m.",
+      "source_url": "https://press.fourseasons.com/beverlywilshire/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - CUT",
+      "claim": "The property offers dining at CUT.",
+      "source_url": "https://www.fourseasons.com/beverlywilshire/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - THE Blvd",
+      "claim": "The property offers dining at THE Blvd.",
+      "source_url": "https://www.fourseasons.com/beverlywilshire/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - The Pool Bar & Café",
+      "claim": "The property offers dining at The Pool Bar & Café.",
+      "source_url": "https://www.fourseasons.com/beverlywilshire/dining/"
+    }
+  ]
+}

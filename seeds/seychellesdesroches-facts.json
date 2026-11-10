@@ -1,0 +1,115 @@
+{
+  "property": "Four Seasons Resort Seychelles at Desroches Island",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/seychellesdesroches/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/seychellesdesroches/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/seychellesdesroches/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/seychellesdesroches/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/seychellesdesroches/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/seychellesdesroches/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/seychellesdesroches/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/seychellesdesroches/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Seychelles at Desroches Island.",
+      "source_url": "https://www.fourseasons.com/seychellesdesroches/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 24 hour Fitness Centre with cardio machines, free weights and stretching area.",
+      "source_url": "https://www.fourseasons.com/seychellesdesroches/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in March 2018.",
+      "source_url": "https://press.fourseasons.com/seychellesdesroches/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Budi Widodo.",
+      "source_url": "https://press.fourseasons.com/seychellesdesroches/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 61 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/seychellesdesroches/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 10 suites.",
+      "source_url": "https://press.fourseasons.com/seychellesdesroches/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Claudine",
+      "claim": "The property offers dining at Claudine.",
+      "source_url": "https://www.fourseasons.com/seychellesdesroches/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - The Lighthouse",
+      "claim": "The property offers dining at The Lighthouse.",
+      "source_url": "https://www.fourseasons.com/seychellesdesroches/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Ahi",
+      "claim": "The property offers dining at Ahi.",
+      "source_url": "https://www.fourseasons.com/seychellesdesroches/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - La Pizzeria",
+      "claim": "The property offers dining at La Pizzeria.",
+      "source_url": "https://www.fourseasons.com/seychellesdesroches/dining/"
+    }
+  ]
+}

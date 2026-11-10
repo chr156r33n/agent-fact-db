@@ -1,0 +1,133 @@
+{
+  "property": "Four Seasons Resort Scottsdale at Troon North",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/scottsdale/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/scottsdale/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/scottsdale/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/scottsdale/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/scottsdale/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/scottsdale/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/scottsdale/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/scottsdale/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Scottsdale at Troon North.",
+      "source_url": "https://www.fourseasons.com/scottsdale/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 10600 East Crescent Moon Drive, Scottsdale, Arizona, 85262-8342, USA.",
+      "source_url": "https://www.fourseasons.com/scottsdale/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in December 1999.",
+      "source_url": "https://press.fourseasons.com/scottsdale/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Jerome Arribas.",
+      "source_url": "https://press.fourseasons.com/scottsdale/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 188 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/scottsdale/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 22 suites.",
+      "source_url": "https://press.fourseasons.com/scottsdale/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Adjacent to Pinnacle Peak Park and the northern portion of McDowell Sonoran Preserve Overlooks Valley of the Sun and city lights below",
+      "source_url": "https://press.fourseasons.com/scottsdale/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 14 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/scottsdale/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 35,920 sq ft / 3,337 sq m.",
+      "source_url": "https://press.fourseasons.com/scottsdale/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 5,940 sq ft / 552 sq m.",
+      "source_url": "https://press.fourseasons.com/scottsdale/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Talavera",
+      "claim": "The property offers dining at Talavera.",
+      "source_url": "https://www.fourseasons.com/scottsdale/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Proof, An American Canteen",
+      "claim": "The property offers dining at Proof, An American Canteen.",
+      "source_url": "https://www.fourseasons.com/scottsdale/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Saguaro Blossom",
+      "claim": "The property offers dining at Saguaro Blossom.",
+      "source_url": "https://www.fourseasons.com/scottsdale/dining/"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "property": "Four Seasons Hotel One Dalton Street, Boston",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/onedalton/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/onedalton/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/onedalton/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/onedalton/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/onedalton/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/onedalton/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/onedalton/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/onedalton/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel One Dalton Street, Boston.",
+      "source_url": "https://www.fourseasons.com/onedalton/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 1 Dalton Street, Boston, Massachusetts, 02115, USA.",
+      "source_url": "https://www.fourseasons.com/onedalton/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in May 2019.",
+      "source_url": "https://press.fourseasons.com/onedalton/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Ahmed Yacout.",
+      "source_url": "https://press.fourseasons.com/onedalton/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 173 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/onedalton/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 41 suites.",
+      "source_url": "https://press.fourseasons.com/onedalton/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: 61 stories, guest room floors 8-21, Residence floors 24-61.",
+      "source_url": "https://press.fourseasons.com/onedalton/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - One + One",
+      "claim": "The property offers dining at One + One.",
+      "source_url": "https://www.fourseasons.com/onedalton/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - ZUMA",
+      "claim": "The property offers dining at ZUMA.",
+      "source_url": "https://www.fourseasons.com/onedalton/dining/"
+    }
+  ]
+}

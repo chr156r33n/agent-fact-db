@@ -1,0 +1,121 @@
+{
+  "property": "Four Seasons Hotel Buenos Aires",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/buenosaires/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/buenosaires/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/buenosaires/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/buenosaires/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/buenosaires/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/buenosaires/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/buenosaires/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Buenos Aires.",
+      "source_url": "https://www.fourseasons.com/buenosaires/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 12 floors (tower).",
+      "source_url": "https://www.fourseasons.com/buenosaires/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in April 1992.",
+      "source_url": "https://press.fourseasons.com/buenosaires/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Renan Astolpho.",
+      "source_url": "https://press.fourseasons.com/buenosaires/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 116 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/buenosaires/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 49 suites.",
+      "source_url": "https://press.fourseasons.com/buenosaires/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: 12 floors (tower).",
+      "source_url": "https://press.fourseasons.com/buenosaires/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect is Robert Prentise (La Mansión); Sanchez Elia and Gregorio de Laferrere (tower).",
+      "source_url": "https://press.fourseasons.com/buenosaires/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 1,071 sq m / 11,528 sq ft.",
+      "source_url": "https://press.fourseasons.com/buenosaires/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 416 sq m / 4,778 sq ft.",
+      "source_url": "https://press.fourseasons.com/buenosaires/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 700 sq m / 7,535 sq ft.",
+      "source_url": "https://www.fourseasons.com/buenosaires/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Elena",
+      "claim": "The property offers dining at Elena.",
+      "source_url": "https://www.fourseasons.com/buenosaires/dining/"
+    }
+  ]
+}

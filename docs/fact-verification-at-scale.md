@@ -166,3 +166,4 @@ First incremental build: surface registry (`pages` + `place_id`) and topic routi
 - README: Source verification workflow and MCP tools.
 - Inventory UI: property / page assignment and bulk human review.
 - Seed examples: `maui-facts.json`, `sanfrancisco-facts.json`, `embarcadero-facts.json`.
+- Portfolio hydration: [fs-portfolio-hydration.md](fs-portfolio-hydration.md) (discover → seed → import → Yext/GBP audit).

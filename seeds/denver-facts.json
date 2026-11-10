@@ -1,0 +1,133 @@
+{
+  "property": "Four Seasons Hotel Denver",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/denver/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/denver/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/denver/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/denver/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/denver/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/denver/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/denver/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/denver/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Denver.",
+      "source_url": "https://www.fourseasons.com/denver/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 1111 14th Street, Denver, Colorado, 80202, USA.",
+      "source_url": "https://www.fourseasons.com/denver/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in October 2010.",
+      "source_url": "https://press.fourseasons.com/denver/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Thierry Kennel.",
+      "source_url": "https://press.fourseasons.com/denver/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 218 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/denver/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 21 suites.",
+      "source_url": "https://press.fourseasons.com/denver/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: 45.",
+      "source_url": "https://press.fourseasons.com/denver/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect is Carney Logan Burke Architects; HKS.",
+      "source_url": "https://press.fourseasons.com/denver/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 10 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/denver/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 17,000 square feet (1579 square metres).",
+      "source_url": "https://press.fourseasons.com/denver/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 5200 square foot Grand Ballroom.",
+      "source_url": "https://press.fourseasons.com/denver/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 2,354 square feet (219-square-metres).",
+      "source_url": "https://www.fourseasons.com/denver/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - EDGE",
+      "claim": "The property offers dining at EDGE.",
+      "source_url": "https://www.fourseasons.com/denver/dining/"
+    }
+  ]
+}

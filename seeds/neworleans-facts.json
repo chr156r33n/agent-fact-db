@@ -1,0 +1,97 @@
+{
+  "property": "Four Seasons Hotel New Orleans",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/neworleans/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/neworleans/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/neworleans/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/neworleans/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/neworleans/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/neworleans/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/neworleans/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/neworleans/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel New Orleans.",
+      "source_url": "https://www.fourseasons.com/neworleans/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 2 Canal Street, New Orleans, Louisiana, 70130, USA.",
+      "source_url": "https://www.fourseasons.com/neworleans/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in 2021.",
+      "source_url": "https://press.fourseasons.com/neworleans/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Esther Oh Kostecky.",
+      "source_url": "https://press.fourseasons.com/neworleans/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 65 suites.",
+      "source_url": "https://press.fourseasons.com/neworleans/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Set on the Mississippi Riverfront at the foot of Canal Street Steps from the historic French Quarter, Warehouse/Arts District and Central Business District 20 minutes to Louis Armstrong New Orleans International Airport and New Orleans Lakefront Airport Direct access to streetcar",
+      "source_url": "https://press.fourseasons.com/neworleans/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 29,000 sq. ft. / 2,694 sq. m. – all set on one level, many with floor-to-ceiling windows, natural light, and stunning views.",
+      "source_url": "https://press.fourseasons.com/neworleans/hotel-facts/"
+    }
+  ]
+}

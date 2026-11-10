@@ -1,0 +1,121 @@
+{
+  "property": "Four Seasons Hotel des Bergues Geneva",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/geneva/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/geneva/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/geneva/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/geneva/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/geneva/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/geneva/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/geneva/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/geneva/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel des Bergues Geneva.",
+      "source_url": "https://www.fourseasons.com/geneva/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 33, Quai des Bergues, 1201 Geneva, Switzerland.",
+      "source_url": "https://www.fourseasons.com/geneva/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in November 2005.",
+      "source_url": "https://press.fourseasons.com/geneva/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Martin Rhomberg.",
+      "source_url": "https://press.fourseasons.com/geneva/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 72 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/geneva/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 43 suites.",
+      "source_url": "https://press.fourseasons.com/geneva/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Steps from the lake, the Old Town of Geneva and the famous Quartier des Banques with a beautiful view on the Jet d’Eau Fountain Urban",
+      "source_url": "https://press.fourseasons.com/geneva/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 643 m / 6,702 sq ft.",
+      "source_url": "https://press.fourseasons.com/geneva/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 299 sq m / 3,218 sq ft.",
+      "source_url": "https://press.fourseasons.com/geneva/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Il Lago (1 Michelin Star)",
+      "claim": "The property offers dining at Il Lago (1 Michelin Star).",
+      "source_url": "https://www.fourseasons.com/geneva/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - IZUMI",
+      "claim": "The property offers dining at IZUMI.",
+      "source_url": "https://www.fourseasons.com/geneva/dining/"
+    }
+  ]
+}

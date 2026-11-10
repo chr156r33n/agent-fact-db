@@ -1,0 +1,115 @@
+{
+  "property": "Four Seasons Hotel Baku, Azerbaijan",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/baku/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/baku/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/baku/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/baku/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/baku/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/baku/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/baku/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/baku/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Baku, Azerbaijan.",
+      "source_url": "https://www.fourseasons.com/baku/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 1 Neftchilar Avenue, AZ1095 Baku, Azerbaijan, Azerbaijan.",
+      "source_url": "https://www.fourseasons.com/baku/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in September 2012.",
+      "source_url": "https://press.fourseasons.com/baku/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Saakshee Gahlawat.",
+      "source_url": "https://press.fourseasons.com/baku/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 142 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/baku/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 29 suites.",
+      "source_url": "https://press.fourseasons.com/baku/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: On the waterfront promenade, close to major business and diplomatic addresses and adjacent to the Old City Jaleh",
+      "source_url": "https://press.fourseasons.com/baku/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa size",
+      "claim": "The spa is 800 sq m / 8,611 sq ft.",
+      "source_url": "https://press.fourseasons.com/baku/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is Segah Ballroom, seating up to 330.",
+      "source_url": "https://press.fourseasons.com/baku/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Zafferano",
+      "claim": "The property offers dining at Zafferano.",
+      "source_url": "https://www.fourseasons.com/baku/dining/"
+    }
+  ]
+}

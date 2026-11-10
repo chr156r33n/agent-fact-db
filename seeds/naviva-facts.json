@@ -1,0 +1,85 @@
+{
+  "property": "Naviva®, A Four Seasons Resort, Punta Mita, Mexico",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/naviva/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/naviva/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/naviva/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/naviva/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/naviva/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/naviva/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/naviva/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/naviva/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Naviva®, A Four Seasons Resort, Punta Mita, Mexico.",
+      "source_url": "https://www.fourseasons.com/naviva/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in December 2022.",
+      "source_url": "https://press.fourseasons.com/naviva/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is John O'Sullivan.",
+      "source_url": "https://press.fourseasons.com/naviva/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Copal Cocina de Leña",
+      "claim": "The property offers dining at Copal Cocina de Leña.",
+      "source_url": "https://www.fourseasons.com/naviva/dining/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Swimming pools",
+      "claim": "The property has 1 swimming pool.",
+      "source_url": "https://www.fourseasons.com/naviva/services-and-amenities/"
+    }
+  ]
+}

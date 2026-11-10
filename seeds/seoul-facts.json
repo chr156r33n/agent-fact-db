@@ -1,0 +1,127 @@
+{
+  "property": "Four Seasons Hotel Seoul",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/seoul/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/seoul/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/seoul/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/seoul/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/seoul/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/seoul/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/seoul/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/seoul/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Seoul.",
+      "source_url": "https://www.fourseasons.com/seoul/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 97, Saemunan-ro, Seoul, Jongno-gu, 03183, Korea.",
+      "source_url": "https://www.fourseasons.com/seoul/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in 2015.",
+      "source_url": "https://press.fourseasons.com/seoul/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Michael Schmid.",
+      "source_url": "https://press.fourseasons.com/seoul/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 285 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/seoul/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 32 suites.",
+      "source_url": "https://press.fourseasons.com/seoul/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: In Gwanghwamun, steps from historic sites and neighbourhoods yet ideally located in the central business district",
+      "source_url": "https://press.fourseasons.com/seoul/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 788 sq. m. / 8,482 sq. ft. (divisible, plus pre function space).",
+      "source_url": "https://press.fourseasons.com/seoul/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - The Market Kitchen",
+      "claim": "The property offers dining at The Market Kitchen.",
+      "source_url": "https://www.fourseasons.com/seoul/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Boccalino",
+      "claim": "The property offers dining at Boccalino.",
+      "source_url": "https://www.fourseasons.com/seoul/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Yu Yuan*",
+      "claim": "The property offers dining at Yu Yuan*.",
+      "source_url": "https://www.fourseasons.com/seoul/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Akira Back",
+      "claim": "The property offers dining at Akira Back.",
+      "source_url": "https://www.fourseasons.com/seoul/dining/"
+    }
+  ]
+}

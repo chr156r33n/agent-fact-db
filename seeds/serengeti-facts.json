@@ -1,0 +1,103 @@
+{
+  "property": "Four Seasons Safari Lodge Serengeti",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/serengeti/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/serengeti/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/serengeti/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/serengeti/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/serengeti/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/serengeti/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/serengeti/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/serengeti/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Safari Lodge Serengeti.",
+      "source_url": "https://www.fourseasons.com/serengeti/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in December 2012.",
+      "source_url": "https://press.fourseasons.com/serengeti/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Mary Bowens.",
+      "source_url": "https://press.fourseasons.com/serengeti/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 60 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/serengeti/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Within the Serengeti National Park, a UNESCO World Heritage Site The Serengeti Kani",
+      "source_url": "https://press.fourseasons.com/serengeti/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 72 sq m / 775 sq ft.",
+      "source_url": "https://www.fourseasons.com/serengeti/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Kula's",
+      "claim": "The property offers dining at Kula's.",
+      "source_url": "https://www.fourseasons.com/serengeti/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Boma Grill",
+      "claim": "The property offers dining at Boma Grill.",
+      "source_url": "https://www.fourseasons.com/serengeti/dining/"
+    }
+  ]
+}

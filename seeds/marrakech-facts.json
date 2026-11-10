@@ -1,0 +1,115 @@
+{
+  "property": "Four Seasons Resort Marrakech",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/marrakech/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/marrakech/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/marrakech/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/marrakech/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/marrakech/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/marrakech/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/marrakech/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/marrakech/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Marrakech.",
+      "source_url": "https://www.fourseasons.com/marrakech/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 1 Boulevard de la Menara, Marrakech, 40000 , Morocco.",
+      "source_url": "https://www.fourseasons.com/marrakech/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in June 2011.",
+      "source_url": "https://press.fourseasons.com/marrakech/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Michael Mestraud.",
+      "source_url": "https://press.fourseasons.com/marrakech/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Across from the historic Menara Gardens; an easy walk to the Medina and Old City; 10 minutes by car from the airport Le",
+      "source_url": "https://press.fourseasons.com/marrakech/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Architect",
+      "claim": "The architect is Hill Glazier Architects (original concept); Didier Lefort Architectes.",
+      "source_url": "https://press.fourseasons.com/marrakech/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 2,600 sqm/ 28,000 sqft.",
+      "source_url": "https://press.fourseasons.com/marrakech/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 600 sq m / 6,458 sq ft.",
+      "source_url": "https://press.fourseasons.com/marrakech/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 350 sq m / 3,767 sq ft.",
+      "source_url": "https://www.fourseasons.com/marrakech/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Quattro",
+      "claim": "The property offers dining at Quattro.",
+      "source_url": "https://www.fourseasons.com/marrakech/dining/"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "property": "Four Seasons Resort Tamarindo, México",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/tamarindo/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/tamarindo/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/tamarindo/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/tamarindo/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/tamarindo/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/tamarindo/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/tamarindo/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/tamarindo/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Tamarindo, México.",
+      "source_url": "https://www.fourseasons.com/tamarindo/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 18- hole, par- 72 El Tamarindo Golf Course.",
+      "source_url": "https://www.fourseasons.com/tamarindo/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in November 2022.",
+      "source_url": "https://press.fourseasons.com/tamarindo/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Félix Murillo.",
+      "source_url": "https://press.fourseasons.com/tamarindo/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 63 suites.",
+      "source_url": "https://press.fourseasons.com/tamarindo/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Four Seasons Resort Tamarindo, Mexico is located on Mexico's Pacific Coast. The 3,000-acre (1,200 hectare) private natural reserve is hidden on a secluded peninsula between the towns of La Manzanilla and Barra de Navidad. Located in the state of Jalisco, the Resort's unique topog",
+      "source_url": "https://press.fourseasons.com/tamarindo/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 1,557 sq. m. / 13,596 sq. ft..",
+      "source_url": "https://press.fourseasons.com/tamarindo/hotel-facts/"
+    }
+  ]
+}

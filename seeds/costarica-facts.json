@@ -1,0 +1,133 @@
+{
+  "property": "Four Seasons Resort Peninsula Papagayo, Costa Rica",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/costarica/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/costarica/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/costarica/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/costarica/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/costarica/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/costarica/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/costarica/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/costarica/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Peninsula Papagayo, Costa Rica.",
+      "source_url": "https://www.fourseasons.com/costarica/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 3rd –Buena Vista has a 270-degree view of the Pacific..",
+      "source_url": "https://www.fourseasons.com/costarica/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in January 2004.",
+      "source_url": "https://press.fourseasons.com/costarica/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Brent Martin.",
+      "source_url": "https://press.fourseasons.com/costarica/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Guanacaste province in northwest Costa Rica Atop a narrow plateau on the tip of Peninsula Papagayo, 97 metres (320 feet) above the Pacific Ocean Flanked by beaches on both sides",
+      "source_url": "https://press.fourseasons.com/costarica/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 18 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/costarica/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 1,892 sq m / 20,362 sq ft.",
+      "source_url": "https://press.fourseasons.com/costarica/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 202 sq m / 2,178 sq ft.",
+      "source_url": "https://www.fourseasons.com/costarica/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Pesce",
+      "claim": "The property offers dining at Pesce.",
+      "source_url": "https://www.fourseasons.com/costarica/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Bahia Grill",
+      "claim": "The property offers dining at Bahia Grill.",
+      "source_url": "https://www.fourseasons.com/costarica/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Nemare",
+      "claim": "The property offers dining at Nemare.",
+      "source_url": "https://www.fourseasons.com/costarica/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Virador Beach Club",
+      "claim": "The property offers dining at Virador Beach Club.",
+      "source_url": "https://www.fourseasons.com/costarica/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Palapita",
+      "claim": "The property offers dining at Palapita.",
+      "source_url": "https://www.fourseasons.com/costarica/dining/"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "property": "Four Seasons Resort Sharm El Sheikh, Egypt",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/sharmelsheikh/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/sharmelsheikh/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/sharmelsheikh/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/sharmelsheikh/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/sharmelsheikh/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/sharmelsheikh/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/sharmelsheikh/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/sharmelsheikh/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Resort Sharm El Sheikh, Egypt.",
+      "source_url": "https://www.fourseasons.com/sharmelsheikh/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 1 Four Seasons Boulevard, P.O. Box 203, Sharm El Sheikh, South Sinai, Egypt.",
+      "source_url": "https://www.fourseasons.com/sharmelsheikh/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in May 2002.",
+      "source_url": "https://press.fourseasons.com/sharmelsheikh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Kai Winkler.",
+      "source_url": "https://press.fourseasons.com/sharmelsheikh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 169 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/sharmelsheikh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 52 suites.",
+      "source_url": "https://press.fourseasons.com/sharmelsheikh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Nestled between the Red Sea and desert mountain peaks 10 minutes from Sharm El Sheikh International Airport 60 minutes from Ras Mohamed Nature Reserve 160 minutes from St. Catherine’s Monastery, Abu Galum Nature Park, Pharaoh’s Island and Coloured Canyon",
+      "source_url": "https://press.fourseasons.com/sharmelsheikh/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 13 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/sharmelsheikh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 4,990 sq m / 53,733 sq ft.",
+      "source_url": "https://press.fourseasons.com/sharmelsheikh/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Largest ballroom",
+      "claim": "The largest ballroom is 725 sq m / 7,805 sq ft.",
+      "source_url": "https://press.fourseasons.com/sharmelsheikh/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 110 sq m / 1,185 sq ft.",
+      "source_url": "https://www.fourseasons.com/sharmelsheikh/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Bullona",
+      "claim": "The property offers dining at Bullona.",
+      "source_url": "https://www.fourseasons.com/sharmelsheikh/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Yatai",
+      "claim": "The property offers dining at Yatai.",
+      "source_url": "https://www.fourseasons.com/sharmelsheikh/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Zitouni",
+      "claim": "The property offers dining at Zitouni.",
+      "source_url": "https://www.fourseasons.com/sharmelsheikh/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Il Frantoio",
+      "claim": "The property offers dining at Il Frantoio.",
+      "source_url": "https://www.fourseasons.com/sharmelsheikh/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Arabesque",
+      "claim": "The property offers dining at Arabesque.",
+      "source_url": "https://www.fourseasons.com/sharmelsheikh/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Reef Grill",
+      "claim": "The property offers dining at Reef Grill.",
+      "source_url": "https://www.fourseasons.com/sharmelsheikh/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Luna",
+      "claim": "The property offers dining at Luna.",
+      "source_url": "https://www.fourseasons.com/sharmelsheikh/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Waha",
+      "claim": "The property offers dining at Waha.",
+      "source_url": "https://www.fourseasons.com/sharmelsheikh/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Breeze",
+      "claim": "The property offers dining at Breeze.",
+      "source_url": "https://www.fourseasons.com/sharmelsheikh/dining/"
+    }
+  ]
+}

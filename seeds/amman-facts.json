@@ -1,0 +1,121 @@
+{
+  "property": "Four Seasons Hotel Amman",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/amman/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/amman/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/amman/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/amman/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/amman/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/amman/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/amman/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/amman/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Amman.",
+      "source_url": "https://www.fourseasons.com/amman/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 5th Circle, Al-Kindi Street, Jabal Amman, Amman, Jordan.",
+      "source_url": "https://www.fourseasons.com/amman/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in May 2003.",
+      "source_url": "https://press.fourseasons.com/amman/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Till Klauss.",
+      "source_url": "https://press.fourseasons.com/amman/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 163 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/amman/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Building configuration",
+      "claim": "Building configuration: 15.",
+      "source_url": "https://press.fourseasons.com/amman/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Four Seasons Hotel Amman is the first Four Seasons hotel built in the Middle East and the first luxury hotel in Jordan Set upon the highest of Amman's seven hills, with views of the modern city A central",
+      "source_url": "https://press.fourseasons.com/amman/hotel-facts/"
+    },
+    {
+      "page_key": "amenities",
+      "topic": "Fitness facilities size",
+      "claim": "Fitness facilities are 350 sq m / 3,767 sq ft.",
+      "source_url": "https://www.fourseasons.com/amman/services-and-amenities/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - La Capitale",
+      "claim": "The property offers dining at La Capitale.",
+      "source_url": "https://www.fourseasons.com/amman/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Olea",
+      "claim": "The property offers dining at Olea.",
+      "source_url": "https://www.fourseasons.com/amman/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Poolside",
+      "claim": "The property offers dining at Poolside.",
+      "source_url": "https://www.fourseasons.com/amman/dining/"
+    }
+  ]
+}

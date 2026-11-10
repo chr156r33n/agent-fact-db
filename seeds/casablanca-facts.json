@@ -1,0 +1,121 @@
+{
+  "property": "Four Seasons Hotel Casablanca",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/casablanca/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/casablanca/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/casablanca/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/casablanca/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/casablanca/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/casablanca/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/casablanca/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/casablanca/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Casablanca.",
+      "source_url": "https://www.fourseasons.com/casablanca/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 2 balneo pools.",
+      "source_url": "https://www.fourseasons.com/casablanca/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in November 2015.",
+      "source_url": "https://press.fourseasons.com/casablanca/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Benjamin Moury.",
+      "source_url": "https://press.fourseasons.com/casablanca/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 155 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/casablanca/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 29 suites.",
+      "source_url": "https://press.fourseasons.com/casablanca/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Oceanfront, just minutes away from the city’s business district, the landmark Hassan II Mosque and designer shopping Within 30 minutes are some of the city’s top attractions, such as the Habous medina, major museums and more; and within 60 minutes of ten world-class golf courses ",
+      "source_url": "https://press.fourseasons.com/casablanca/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 10, treatment rooms.",
+      "source_url": "https://press.fourseasons.com/casablanca/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Meeting space",
+      "claim": "Total meeting space is 12,400 sq. ft. / 1,150 sq. m..",
+      "source_url": "https://press.fourseasons.com/casablanca/hotel-facts/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Bleu",
+      "claim": "The property offers dining at Bleu.",
+      "source_url": "https://www.fourseasons.com/casablanca/dining/"
+    },
+    {
+      "page_key": "dining",
+      "topic": "Dining - Kyúb",
+      "claim": "The property offers dining at Kyúb.",
+      "source_url": "https://www.fourseasons.com/casablanca/dining/"
+    }
+  ]
+}

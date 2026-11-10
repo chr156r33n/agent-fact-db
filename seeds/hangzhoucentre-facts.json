@@ -1,0 +1,103 @@
+{
+  "property": "Four Seasons Hotel Hangzhou at Hangzhou Centre",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/hangzhoucentre/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/hangzhoucentre/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/hangzhoucentre/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/hangzhoucentre/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/hangzhoucentre/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/hangzhoucentre/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/hangzhoucentre/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/hangzhoucentre/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Hangzhou at Hangzhou Centre.",
+      "source_url": "https://www.fourseasons.com/hangzhoucentre/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 493 Zhongshan North Road, Hangzhou, Zhejiang, 310005, China.",
+      "source_url": "https://www.fourseasons.com/hangzhoucentre/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in September 2024.",
+      "source_url": "https://press.fourseasons.com/hangzhoucentre/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Daphne Ng.",
+      "source_url": "https://press.fourseasons.com/hangzhoucentre/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Guest rooms count",
+      "claim": "There are 188 guest rooms (excluding suites counted separately when listed).",
+      "source_url": "https://press.fourseasons.com/hangzhoucentre/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 26 suites.",
+      "source_url": "https://press.fourseasons.com/hangzhoucentre/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: Located in Hangzhou, a historic cultural city known as \"Paradise on Earth\" in the eastern region of China, situated in the heart of the city centre - Wulin Square Positioned above Hangzhou Centre, with an additional three large shopping malls within a 5-minute walking distance Ad",
+      "source_url": "https://press.fourseasons.com/hangzhoucentre/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 6, treatment rooms.",
+      "source_url": "https://press.fourseasons.com/hangzhoucentre/hotel-facts/"
+    }
+  ]
+}

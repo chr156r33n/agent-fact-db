@@ -1,0 +1,97 @@
+{
+  "property": "Four Seasons Hotel Rabat at Kasr Al Bahr",
+  "pages": [
+    {
+      "key": "homepage",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/rabat/",
+      "page_type": "General"
+    },
+    {
+      "key": "accommodation",
+      "title": "Accommodation",
+      "url": "https://www.fourseasons.com/rabat/accommodations/",
+      "page_type": "Accommodation"
+    },
+    {
+      "key": "amenities",
+      "title": "Services & Amenities",
+      "url": "https://www.fourseasons.com/rabat/services-and-amenities/",
+      "page_type": "Facilities"
+    },
+    {
+      "key": "dining",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/rabat/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "key": "spa",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/rabat/spa/",
+      "page_type": "Spa"
+    },
+    {
+      "key": "contact",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/rabat/contact-us/",
+      "page_type": "General"
+    },
+    {
+      "key": "location",
+      "title": "Location / Getting Here",
+      "url": "https://www.fourseasons.com/rabat/getting-here/",
+      "page_type": "General"
+    },
+    {
+      "key": "hotel-facts",
+      "title": "Hotel Fact Sheet",
+      "url": "https://press.fourseasons.com/rabat/hotel-facts/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "page_key": "homepage",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel Rabat at Kasr Al Bahr.",
+      "source_url": "https://www.fourseasons.com/rabat/"
+    },
+    {
+      "page_key": "homepage",
+      "topic": "Address",
+      "claim": "The hotel is located at 5-minute drive to the Kasbah, the Medina and the city’s most popular landmarks.",
+      "source_url": "https://www.fourseasons.com/rabat/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Opening date",
+      "claim": "The property opened in October 2024.",
+      "source_url": "https://press.fourseasons.com/rabat/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "General Manager",
+      "claim": "The General Manager is Romain Chanet.",
+      "source_url": "https://press.fourseasons.com/rabat/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Suites count",
+      "claim": "There are 40 suites.",
+      "source_url": "https://press.fourseasons.com/rabat/hotel-facts/"
+    },
+    {
+      "page_key": "hotel-facts",
+      "topic": "Location",
+      "claim": "Location: On an expansive stretch of Atlantic coastline 5-minute drive to the Kasbah, the Medina and the city’s most popular landmarks 10-minute drive to Rabat’s city centre and 30 minutes to the Embassy District 30-minute drive to Rabat-Salé International Airport (RBA) and 90 minutes to C",
+      "source_url": "https://press.fourseasons.com/rabat/hotel-facts/"
+    },
+    {
+      "page_key": "spa",
+      "topic": "Spa treatment rooms",
+      "claim": "The spa has 10 treatment rooms.",
+      "source_url": "https://press.fourseasons.com/rabat/hotel-facts/"
+    }
+  ]
+}
