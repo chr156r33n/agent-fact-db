@@ -1,0 +1,94 @@
+{
+  "property": "Four Seasons Hotel San Francisco",
+  "list_id": "9c54bc61-dae2-4ba4-b814-c360f67dc103",
+  "purpose": "Smoke gate: compare atomic vs per-page vs property-brief on cost and contradicting_sources richness",
+  "model_target": "GPT-5.6 Instant-class + search (Cursor agent with web search as Instant ChatGPT proxy)",
+  "pages": [
+    {
+      "id": "8bc6ee87-c6c0-46ea-9039-c0127520886d",
+      "title": "Hotel Overview",
+      "url": "https://www.fourseasons.com/sanfrancisco/",
+      "page_type": "General"
+    },
+    {
+      "id": "7560ea8e-c336-422c-b7e1-3b0a72a71cfe",
+      "title": "Contact Us",
+      "url": "https://www.fourseasons.com/sanfrancisco/contact-us/",
+      "page_type": "General"
+    }
+  ],
+  "facts": [
+    {
+      "id": "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+      "page_id": "8bc6ee87-c6c0-46ea-9039-c0127520886d",
+      "topic": "Property name",
+      "claim": "The property's name is Four Seasons Hotel San Francisco."
+    },
+    {
+      "id": "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+      "page_id": "8bc6ee87-c6c0-46ea-9039-c0127520886d",
+      "topic": "Address",
+      "claim": "The hotel is located at 757 Market Street, San Francisco, CA 94103, U.S.A."
+    },
+    {
+      "id": "714488c9-5120-4481-8412-19210ee58007",
+      "page_id": "8bc6ee87-c6c0-46ea-9039-c0127520886d",
+      "topic": "Telephone",
+      "claim": "The hotel's main telephone number is +1 415 633 3000."
+    },
+    {
+      "id": "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+      "page_id": "8bc6ee87-c6c0-46ea-9039-c0127520886d",
+      "topic": "Building configuration",
+      "claim": "The hotel occupies 12 floors within a 42-storey tower."
+    },
+    {
+      "id": "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+      "page_id": "8bc6ee87-c6c0-46ea-9039-c0127520886d",
+      "topic": "Dining - MKT",
+      "claim": "MKT Restaurant serves elevated California cuisine at the hotel."
+    },
+    {
+      "id": "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+      "page_id": "8bc6ee87-c6c0-46ea-9039-c0127520886d",
+      "topic": "Fitness - Equinox",
+      "claim": "Hotel guests have access to the Equinox Sports Club, including a saline lap pool."
+    },
+    {
+      "id": "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+      "page_id": "8bc6ee87-c6c0-46ea-9039-c0127520886d",
+      "topic": "Google hotel class rating",
+      "claim": "Google Business Profile currently shows a hotel class rating of 5 for Four Seasons Hotel San Francisco."
+    },
+    {
+      "id": "2946153e-00ec-4e55-a0ef-a63f8a421633",
+      "page_id": "7560ea8e-c336-422c-b7e1-3b0a72a71cfe",
+      "topic": "Reservations telephone",
+      "claim": "The reservations telephone number is +1 415 633 3636."
+    },
+    {
+      "id": "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+      "page_id": "7560ea8e-c336-422c-b7e1-3b0a72a71cfe",
+      "topic": "Front desk telephone",
+      "claim": "The front desk telephone number is +1 415 633 3000."
+    },
+    {
+      "id": "6ac8317c-a781-46f2-824d-8342bce99ca1",
+      "page_id": "7560ea8e-c336-422c-b7e1-3b0a72a71cfe",
+      "topic": "Guest fax",
+      "claim": "The guest fax number is +1 415 633 3001."
+    },
+    {
+      "id": "94199505-d7af-428a-87b6-6b8faf52a593",
+      "page_id": "7560ea8e-c336-422c-b7e1-3b0a72a71cfe",
+      "topic": "MKT reservations telephone",
+      "claim": "MKT Restaurant-Bar reservations can be reached at +1 415 633 3838."
+    },
+    {
+      "id": "6bee95ea-42d3-453f-9b56-37239bc59fa4",
+      "page_id": "7560ea8e-c336-422c-b7e1-3b0a72a71cfe",
+      "topic": "Equinox Sports Club & Spa telephone",
+      "claim": "Equinox Sports Club & Spa can be reached at +1 415 633 3990."
+    }
+  ]
+}

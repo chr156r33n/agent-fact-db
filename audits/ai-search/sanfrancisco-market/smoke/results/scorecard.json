@@ -1,0 +1,153 @@
+{
+  "generated_at": "2026-11-09T16:41:26.022Z",
+  "results_dir": "audits/ai-search/sanfrancisco-market/smoke/results",
+  "expected_facts": 12,
+  "table": [
+    {
+      "method": "atomic",
+      "files": 1,
+      "json_ok_files": 1,
+      "turns": 12,
+      "output_chars": 8983,
+      "input_chars": 12900,
+      "tool_rounds": 17,
+      "wall_ms": 360000,
+      "facts_answered": 12,
+      "completeness": 1,
+      "empty_contradict_sources": 0,
+      "sources_per_contradict": 4,
+      "contradict_count": 1
+    },
+    {
+      "method": "per-page",
+      "files": 1,
+      "json_ok_files": 1,
+      "turns": 2,
+      "output_chars": 7441,
+      "input_chars": 3686,
+      "tool_rounds": 13,
+      "wall_ms": 150000,
+      "facts_answered": 12,
+      "completeness": 1,
+      "empty_contradict_sources": 0,
+      "sources_per_contradict": null,
+      "contradict_count": 0
+    },
+    {
+      "method": "property-brief",
+      "files": 1,
+      "json_ok_files": 1,
+      "turns": 1,
+      "output_chars": 7500,
+      "input_chars": 3188,
+      "tool_rounds": 14,
+      "wall_ms": 90000,
+      "facts_answered": 12,
+      "completeness": 1,
+      "empty_contradict_sources": 0,
+      "sources_per_contradict": 1,
+      "contradict_count": 1
+    }
+  ],
+  "files": [
+    {
+      "path": "audits/ai-search/sanfrancisco-market/smoke/results/atomic.json",
+      "method": "atomic",
+      "json_ok": true,
+      "turns": 12,
+      "output_chars": 8983,
+      "input_chars": 12900,
+      "tool_rounds": 17,
+      "wall_ms": 360000,
+      "facts_answered": 12,
+      "fact_ids": [
+        "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+        "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+        "714488c9-5120-4481-8412-19210ee58007",
+        "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+        "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+        "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+        "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+        "2946153e-00ec-4e55-a0ef-a63f8a421633",
+        "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+        "6ac8317c-a781-46f2-824d-8342bce99ca1",
+        "94199505-d7af-428a-87b6-6b8faf52a593",
+        "6bee95ea-42d3-453f-9b56-37239bc59fa4"
+      ],
+      "verdicts": {
+        "matches": 10,
+        "contradicts": 1,
+        "unclear": 1,
+        "not_found": 0
+      },
+      "empty_contradict_sources": 0,
+      "sources_per_contradict": 4
+    },
+    {
+      "path": "audits/ai-search/sanfrancisco-market/smoke/results/per-page.json",
+      "method": "per-page",
+      "json_ok": true,
+      "turns": 2,
+      "output_chars": 7441,
+      "input_chars": 3686,
+      "tool_rounds": 13,
+      "wall_ms": 150000,
+      "facts_answered": 12,
+      "fact_ids": [
+        "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+        "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+        "714488c9-5120-4481-8412-19210ee58007",
+        "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+        "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+        "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+        "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+        "2946153e-00ec-4e55-a0ef-a63f8a421633",
+        "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+        "6ac8317c-a781-46f2-824d-8342bce99ca1",
+        "94199505-d7af-428a-87b6-6b8faf52a593",
+        "6bee95ea-42d3-453f-9b56-37239bc59fa4"
+      ],
+      "verdicts": {
+        "matches": 12,
+        "contradicts": 0,
+        "unclear": 0,
+        "not_found": 0
+      },
+      "empty_contradict_sources": 0,
+      "sources_per_contradict": null
+    },
+    {
+      "path": "audits/ai-search/sanfrancisco-market/smoke/results/property-brief.json",
+      "method": "property-brief",
+      "json_ok": true,
+      "turns": 1,
+      "output_chars": 7500,
+      "input_chars": 3188,
+      "tool_rounds": 14,
+      "wall_ms": 90000,
+      "facts_answered": 12,
+      "fact_ids": [
+        "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+        "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+        "714488c9-5120-4481-8412-19210ee58007",
+        "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+        "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+        "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+        "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+        "2946153e-00ec-4e55-a0ef-a63f8a421633",
+        "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+        "6ac8317c-a781-46f2-824d-8342bce99ca1",
+        "94199505-d7af-428a-87b6-6b8faf52a593",
+        "6bee95ea-42d3-453f-9b56-37239bc59fa4"
+      ],
+      "verdicts": {
+        "matches": 10,
+        "contradicts": 1,
+        "unclear": 1,
+        "not_found": 0
+      },
+      "empty_contradict_sources": 0,
+      "sources_per_contradict": 1
+    }
+  ]
+}

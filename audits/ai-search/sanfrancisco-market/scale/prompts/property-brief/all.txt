@@ -1,0 +1,59 @@
+Method: property-brief
+Property: Four Seasons Hotel San Francisco
+Pages: Dining (https://www.fourseasons.com/sanfrancisco/dining/); Spa (https://www.fourseasons.com/sanfrancisco/spa/)
+
+Check each approved SoT claim independently against web search.
+
+1. fact_id=040d4165-ab8e-4a8f-8a97-2fbb43b2b952
+   topic: Dining - MKT Restaurant & Bar
+   SoT claim: MKT Restaurant & Bar is a modern American restaurant at the hotel featuring California cuisine.
+
+2. fact_id=f2851b9c-3ae9-48bc-ac0f-630c02866a91
+   topic: Private dining rooms
+   SoT claim: MKT Restaurant & Bar has four private dining rooms.
+
+3. fact_id=a8a9d920-83be-4c3d-9036-c9484f29f108
+   topic: Brunch at MKT
+   SoT claim: MKT Restaurant & Bar offers a brunch experience with seasonal Californian flavours.
+
+4. fact_id=50981356-fa04-4587-9224-2984bf51e291
+   topic: Spa location
+   SoT claim: Spa services are offered through The Spa at Equinox Sports Club on the fourth floor of the hotel.
+
+5. fact_id=44531be5-aefb-49f4-9879-9fd2800fd710
+   topic: Spa telephone
+   SoT claim: The spa contact telephone number is +1 415 633 3990.
+
+6. fact_id=ff9924ce-f9c9-4d59-b270-d4a496d42118
+   topic: Spa treatment hours weekdays
+   SoT claim: Spa treatments are available Monday to Friday from 11:00 am to 8:00 pm.
+
+7. fact_id=7db0f109-60c9-4261-aa62-cbeb3242122f
+   topic: Spa treatment hours weekend
+   SoT claim: Spa treatments are available Saturday to Sunday from 9:00 am to 5:00 pm.
+
+8. fact_id=36a30754-d725-494b-83b7-0ab440c46673
+   topic: In-room massage
+   SoT claim: Guests can book a personalized in-room massage.
+
+Return JSON only. Schema:
+{
+  "method": "property-brief",
+  "property": "Four Seasons Hotel San Francisco",
+  "results": [{
+    "fact_id": "...",
+    "model_answer": "short",
+    "verdict": "matches|contradicts|unclear|not_found",
+    "cited_urls": ["https://domain/path"],
+    "contradicting_sources": ["https://domain/path"],
+    "notes": ""
+  }],
+  "metrics": { "search_tool_rounds": <int>, "notes": "" }
+}
+
+Rules:
+- Use web search for every claim.
+- On contradicts, list EVERY URL that supports the conflicting value (domain+path). No primary-only. No party filter.
+- Strip tracking query params. Keep path.
+- Empty contradicting_sources on a contradicts row is incomplete — keep searching.
+

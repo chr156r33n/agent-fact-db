@@ -4,6 +4,7 @@ Notes for later. Day-to-day property audits are systematised in project skills:
 
 - `.cursor/skills/property-fact-audit/SKILL.md` — hotel / dining / spa checks across Fact DB, first-party pages, Yext and GBP
 - `.cursor/skills/fact-db-mcp/SKILL.md` — Fact Ledger MCP tool semantics (propose, findings, dismiss, duplicate)
+- [ai-search-conflict-provenance.md](ai-search-conflict-provenance.md) — web-grounded model checks vs SoT (Luna atomic ×5, costs, local inference notes)
 
 The current workflow can still be **ad hoc**: a curated list of URLs plus an agent that reads accepted facts, inspects pages, and records source findings. This document captures the design to use if and when verification needs to run on a schedule across many properties, subdomains and Google Business Profiles.
 

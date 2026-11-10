@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-09T17:02:52.223Z",
+  "table": [
+    {
+      "method": "atomic",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "turns": 12,
+      "input_tokens": 178028,
+      "output_tokens": 6369,
+      "total_tokens": 184397,
+      "reasoning_tokens": 3311,
+      "search_tool_rounds": 15,
+      "wall_ms": 137397,
+      "completeness": 1,
+      "contradict_count": 0,
+      "sources_per_contradict": null,
+      "empty_contradict_sources": 0
+    },
+    {
+      "method": "per-page",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "turns": 2,
+      "input_tokens": 52080,
+      "output_tokens": 3758,
+      "total_tokens": 55838,
+      "reasoning_tokens": 1591,
+      "search_tool_rounds": 6,
+      "wall_ms": 61830,
+      "completeness": 1,
+      "contradict_count": 0,
+      "sources_per_contradict": null,
+      "empty_contradict_sources": 0
+    },
+    {
+      "method": "property-brief",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "turns": 1,
+      "input_tokens": 39157,
+      "output_tokens": 3703,
+      "total_tokens": 42860,
+      "reasoning_tokens": 1826,
+      "search_tool_rounds": 4,
+      "wall_ms": 52927,
+      "completeness": 1,
+      "contradict_count": 0,
+      "sources_per_contradict": null,
+      "empty_contradict_sources": 0
+    }
+  ]
+}

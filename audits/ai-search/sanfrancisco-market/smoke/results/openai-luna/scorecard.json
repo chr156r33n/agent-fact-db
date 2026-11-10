@@ -1,0 +1,143 @@
+{
+  "generated_at": "2026-11-09T17:12:26.403045Z",
+  "pricing": {
+    "sol": {
+      "in": 4,
+      "out": 20
+    },
+    "luna": {
+      "in": 0.2,
+      "out": 1.2
+    },
+    "web_search_per_call": 0.01
+  },
+  "table": [
+    {
+      "model": "sol",
+      "method": "atomic",
+      "total_tokens": 184397,
+      "input_tokens": 178028,
+      "output_tokens": 6369,
+      "reasoning_tokens": 3311,
+      "search": 15,
+      "wall_s": 137,
+      "token_$": 0.8395,
+      "search_$": 0.15,
+      "total_$": 0.9895,
+      "verdicts": {
+        "matches": 12
+      },
+      "contradicts": 0,
+      "sources_per_contradict": null,
+      "building_verdict": "matches",
+      "building_sources": 0,
+      "building_answer": "The hotel occupies 12 floors within a 42-storey tower."
+    },
+    {
+      "model": "sol",
+      "method": "per-page",
+      "total_tokens": 55838,
+      "input_tokens": 52080,
+      "output_tokens": 3758,
+      "reasoning_tokens": 1591,
+      "search": 6,
+      "wall_s": 62,
+      "token_$": 0.2835,
+      "search_$": 0.06,
+      "total_$": 0.3435,
+      "verdicts": {
+        "matches": 12
+      },
+      "contradicts": 0,
+      "sources_per_contradict": null,
+      "building_verdict": "matches",
+      "building_sources": 0,
+      "building_answer": "The hotel comprises 12 floors of a 42-floor tower."
+    },
+    {
+      "model": "sol",
+      "method": "property-brief",
+      "total_tokens": 42860,
+      "input_tokens": 39157,
+      "output_tokens": 3703,
+      "reasoning_tokens": 1826,
+      "search": 4,
+      "wall_s": 53,
+      "token_$": 0.2307,
+      "search_$": 0.04,
+      "total_$": 0.2707,
+      "verdicts": {
+        "matches": 12
+      },
+      "contradicts": 0,
+      "sources_per_contradict": null,
+      "building_verdict": "matches",
+      "building_sources": 0,
+      "building_answer": "The hotel comprises 12 floors of a 42-floor building."
+    },
+    {
+      "model": "luna",
+      "method": "atomic",
+      "total_tokens": 137590,
+      "input_tokens": 132282,
+      "output_tokens": 5308,
+      "reasoning_tokens": 2125,
+      "search": 13,
+      "wall_s": 169,
+      "token_$": 0.0328,
+      "search_$": 0.13,
+      "total_$": 0.1628,
+      "verdicts": {
+        "matches": 11,
+        "contradicts": 1
+      },
+      "contradicts": 1,
+      "sources_per_contradict": 14.0,
+      "building_verdict": "matches",
+      "building_sources": 0,
+      "building_answer": "The hotel occupies 12 floors within a 42-storey tower."
+    },
+    {
+      "model": "luna",
+      "method": "per-page",
+      "total_tokens": 53047,
+      "input_tokens": 49857,
+      "output_tokens": 3190,
+      "reasoning_tokens": 1364,
+      "search": 5,
+      "wall_s": 47,
+      "token_$": 0.0138,
+      "search_$": 0.05,
+      "total_$": 0.0638,
+      "verdicts": {
+        "matches": 12
+      },
+      "contradicts": 0,
+      "sources_per_contradict": null,
+      "building_verdict": "matches",
+      "building_sources": 0,
+      "building_answer": "12 floors within a 42-storey tower"
+    },
+    {
+      "model": "luna",
+      "method": "property-brief",
+      "total_tokens": 30260,
+      "input_tokens": 27988,
+      "output_tokens": 2272,
+      "reasoning_tokens": 823,
+      "search": 3,
+      "wall_s": 31,
+      "token_$": 0.0083,
+      "search_$": 0.03,
+      "total_$": 0.0383,
+      "verdicts": {
+        "matches": 12
+      },
+      "contradicts": 0,
+      "sources_per_contradict": null,
+      "building_verdict": "matches",
+      "building_sources": 0,
+      "building_answer": "12 floors within a 42-storey tower"
+    }
+  ]
+}

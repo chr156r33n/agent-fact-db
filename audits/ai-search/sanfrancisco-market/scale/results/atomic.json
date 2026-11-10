@@ -1,0 +1,118 @@
+{
+  "method": "atomic",
+  "property": "Four Seasons Hotel San Francisco",
+  "results": [
+    {
+      "fact_id": "040d4165-ab8e-4a8f-8a97-2fbb43b2b952",
+      "model_answer": "MKT Restaurant & Bar is a modern American restaurant at Four Seasons Hotel San Francisco serving California cuisine.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/",
+        "https://www.opentable.com/mkt-restaurant-and-bar",
+        "https://press.fourseasons.com/sanfrancisco/hotel-news/2025/mkt-restaurant-and-bar-wine-spectator-award/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The current Four Seasons venue page explicitly calls MKT a modern American restaurant and says its menu features California cuisine. OpenTable and the Four Seasons press site independently describe modern Californian or California coastal cuisine."
+    },
+    {
+      "fact_id": "f2851b9c-3ae9-48bc-ac0f-630c02866a91",
+      "model_answer": "Current search evidence identifies three distinct physical private dining spaces at MKT: Windows, View and Vista. Trio is a combined configuration of Windows, View and the foyer, not a fourth room.",
+      "verdict": "contradicts",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/dining/private_dining/",
+        "https://www.fourseasons.com/sanfrancisco/dining/",
+        "https://www.opentable.com/mkt-restaurant-and-bar",
+        "https://www.businessclass.com/en-us/hotel/review/Four-Seasons-Hotel-San-Francisco"
+      ],
+      "contradicting_sources": [
+        "https://www.fourseasons.com/sanfrancisco/dining/private_dining/",
+        "https://www.opentable.com/mkt-restaurant-and-bar",
+        "https://www.businessclass.com/en-us/hotel/review/Four-Seasons-Hotel-San-Francisco"
+      ],
+      "notes": "Conflicting search results span first-party and third-party sources. The current Four Seasons private-dining page is titled '3 Private Dining Rooms' and describes Windows, View and Vista; it defines Trio as those spaces combined with the foyer. OpenTable says MKT maintains three rooms, and BusinessClass also reports three. The Four Seasons dining index still says four private dining rooms, creating a first-party inconsistency."
+    },
+    {
+      "fact_id": "a8a9d920-83be-4c3d-9036-c9484f29f108",
+      "model_answer": "MKT Restaurant & Bar offers weekend brunch featuring seasonal Californian flavours and ingredients.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/brunch/",
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/brunch/",
+        "https://www.opentable.com/mkt-restaurant-and-bar"
+      ],
+      "contradicting_sources": [],
+      "notes": "The current Four Seasons brunch page explicitly describes a refined brunch experience with seasonal Californian flavours and lists Saturday and Sunday brunch hours."
+    },
+    {
+      "fact_id": "50981356-fa04-4587-9224-2984bf51e291",
+      "model_answer": "Four Seasons Hotel San Francisco offers spa services through The Spa at Equinox Sports Club on the hotel's fourth floor.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/spa/",
+        "https://www.fourseasons.com/sanfrancisco/spa/massages/",
+        "https://www.fourseasons.com/sanfrancisco/spa/spa-packages/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The current Four Seasons spa, massage and spa-package pages all identify The Spa at Equinox Sports Club and place it on the fourth floor."
+    },
+    {
+      "fact_id": "44531be5-aefb-49f4-9879-9fd2800fd710",
+      "model_answer": "The listed contact number for Equinox Sports Club & Spa is +1 415 633 3990.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/spa/",
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/spa/massages/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The current Four Seasons spa page, contact page and massage page all publish the same telephone number."
+    },
+    {
+      "fact_id": "ff9924ce-f9c9-4d59-b270-d4a496d42118",
+      "model_answer": "Spa treatments are listed as available Monday to Friday from 11:00 am to 8:00 pm.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/spa/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/fitness/",
+        "https://hotelswithsaunas.com/hotels/four-seasons-hotel-san-francisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Both current Four Seasons pages show these treatment hours. A third-party sauna directory repeats them and says it checked Four Seasons on 30 October 2026. ResortPass lists different weekday operating hours for the broader Equinox spa, but that does not directly contradict the claim about Four Seasons treatment availability."
+    },
+    {
+      "fact_id": "7db0f109-60c9-4261-aa62-cbeb3242122f",
+      "model_answer": "Spa treatments are listed as available Saturday and Sunday from 9:00 am to 5:00 pm.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/spa/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/fitness/",
+        "https://www.resortpass.com/hotels/spa-at-equinox-sports-club-san-francisco",
+        "https://hotelswithsaunas.com/hotels/four-seasons-hotel-san-francisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current first-party and third-party search results agree on the weekend spa-treatment hours."
+    },
+    {
+      "fact_id": "36a30754-d725-494b-83b7-0ab440c46673",
+      "model_answer": "Hotel guests can arrange a personalised massage in their guest room or suite.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/experiences/wellness-activities/in-room-massage/",
+        "https://www.fourseasons.com/sanfrancisco/spa/",
+        "https://spa-trip.com/spa/fourseasons-sanfrancisco/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-news/2026/fall-programming/",
+        "https://www.travelandtourworld.com/news/article/u5tq6plerjz0/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The current Four Seasons experience and spa pages explicitly offer tailored in-room massage. First-party press and third-party sources corroborate availability."
+    }
+  ],
+  "metrics": {
+    "turns": 8,
+    "search_tool_rounds": 9,
+    "input_chars": 9200,
+    "output_chars": 6768,
+    "wall_ms": 180000,
+    "notes": "scale Dining+Spa; GPT-5.6 + web search"
+  }
+}

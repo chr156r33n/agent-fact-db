@@ -1,0 +1,186 @@
+{
+  "method": "per-page",
+  "property": "Four Seasons Hotel San Francisco",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "results": [
+    {
+      "fact_id": "2946153e-00ec-4e55-a0ef-a63f8a421633",
+      "model_answer": "Confirmed: +1 415 633 3636.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/offers/park_and_play/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Four Seasons identifies this number for hotel reservations and booking an accommodation offer."
+    },
+    {
+      "fact_id": "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+      "model_answer": "Confirmed: +1 415 633 3000.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/",
+        "https://www.northstarmeetingsgroup.com/Meeting-Event-Venues/San-Francisco/Convention-Hotel/Four-Seasons-Hotel-San-Francisco-p52631297",
+        "https://www.businesstravelnews.com/Hotels/San-Francisco/Four-Seasons-Hotel-San-Francisco-p3240577"
+      ],
+      "contradicting_sources": [],
+      "notes": "The Four Seasons contact page labels this as the front desk number; independent hotel listings corroborate it as the property's main telephone."
+    },
+    {
+      "fact_id": "6ac8317c-a781-46f2-824d-8342bce99ca1",
+      "model_answer": "Confirmed: +1 415 633 3001.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.northstarmeetingsgroup.com/Meeting-Event-Venues/San-Francisco/Convention-Hotel/Four-Seasons-Hotel-San-Francisco-p52631297",
+        "https://www.businesstravelnews.com/Hotels/San-Francisco/Four-Seasons-Hotel-San-Francisco-p3240577",
+        "https://dc.jspargo.com/download/acc13/HotelContact.pdf"
+      ],
+      "contradicting_sources": [],
+      "notes": "Multiple hotel directories list +1 415 633 3001 as the Four Seasons Hotel San Francisco fax number."
+    },
+    {
+      "fact_id": "94199505-d7af-428a-87b6-6b8faf52a593",
+      "model_answer": "Confirmed: +1 415 633 3838.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.opentable.com/mkt-restaurant-and-bar-reservations-san-francisco",
+        "https://unionsquareshop.com/stores/mkt-restaurant-bar.html",
+        "https://press.fourseasons.com/content/fourseasons_pressroom/printView.html"
+      ],
+      "contradicting_sources": [],
+      "notes": "OpenTable, a local business directory, and Four Seasons material corroborate this as MKT Restaurant-Bar's reservations/contact number."
+    },
+    {
+      "fact_id": "6bee95ea-42d3-453f-9b56-37239bc59fa4",
+      "model_answer": "Confirmed: +1 415 633 3990.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/spa/",
+        "https://spavoyager.com/spa/the-spa-at-equinox-sports-club-san-francisco-san-francisco",
+        "https://crawlsf.com/guides/union-square-wellness-guide/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The number is consistently listed for the spa at Equinox Sports Club. The Equinox fitness club itself may use a separate main number, but that does not conflict with the spa contact claim."
+    },
+    {
+      "fact_id": "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+      "model_answer": "The property is named Four Seasons Hotel San Francisco.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+        "https://www.fourseasons.com/sanfrancisco/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official hotel website and Four Seasons press site use the claimed property name."
+    },
+    {
+      "fact_id": "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+      "model_answer": "The address is 757 Market Street, San Francisco, California 94103, United States.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official contact and hotel-facts pages confirm the complete address."
+    },
+    {
+      "fact_id": "714488c9-5120-4481-8412-19210ee58007",
+      "model_answer": "The main/front-desk telephone number is +1 415 633 3000.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.sanfranciscodowntown.com/Business/Four-Seasons/757-Market-Street-San-Francisco-CA-94103"
+      ],
+      "contradicting_sources": [],
+      "notes": "Four Seasons identifies this as the front-desk number; an independent downtown business directory confirms it."
+    },
+    {
+      "fact_id": "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+      "model_answer": "The hotel comprises 12 floors of a 42-floor tower.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+        "https://www.cntraveler.com/hotels/san-francisco/four-seasons-san-francisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current Four Seasons facts and a recent independent hotel review both report 12 hotel floors within a 42-story building."
+    },
+    {
+      "fact_id": "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+      "model_answer": "MKT Restaurant serves elevated California cuisine at the hotel.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The hotel overview uses the claimed wording, while MKT's restaurant page describes California cuisine and elevated American dining."
+    },
+    {
+      "fact_id": "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+      "model_answer": "Hotel guests receive access to Equinox Sports Club, which has an indoor saline lap pool.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/fitness/",
+        "https://www.equinox.com/clubs/northern-california/sportsclubsanfrancisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Four Seasons confirms guest access and the saline lap pool; Equinox independently confirms a saline pool at the Market Street club."
+    },
+    {
+      "fact_id": "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+      "model_answer": "Google currently classifies Four Seasons Hotel San Francisco as a 5-star hotel.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.google.com/travel/hotels/entity/ChYIxfec4Jmm0vsxGgovbS8wMjgzYzNmEAE"
+      ],
+      "contradicting_sources": [],
+      "notes": "The Google Hotels entity for the 757 Market Street property displays a 5-star hotel class."
+    }
+  ],
+  "metrics": {
+    "turns": 2,
+    "search_tool_rounds": 6,
+    "input_chars": 3686,
+    "output_chars": 5977,
+    "wall_ms": 61830,
+    "input_tokens": 52080,
+    "output_tokens": 3758,
+    "total_tokens": 55838,
+    "reasoning_tokens": 1591,
+    "notes": "OpenAI Responses API model=gpt-5.6-sol effort=medium web_search=on"
+  },
+  "calls": [
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/per-page/contact-us.txt",
+      "id": "resp_06cace9de53971c4006af1fbc1c8fc87d2b905f5ff2f851ffb",
+      "model": "gpt-5.6-sol",
+      "ms": 27366,
+      "input_tokens": 21785,
+      "output_tokens": 1791,
+      "total_tokens": 23576,
+      "reasoning_tokens": 755,
+      "search_tool_rounds": 3,
+      "facts": 5
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/per-page/hotel-overview.txt",
+      "id": "resp_0befeef18e0f112f006af1fbdb608087d2add4189d01694ba7",
+      "model": "gpt-5.6-sol",
+      "ms": 34458,
+      "input_tokens": 30295,
+      "output_tokens": 1967,
+      "total_tokens": 32262,
+      "reasoning_tokens": 836,
+      "search_tool_rounds": 3,
+      "facts": 7
+    }
+  ]
+}

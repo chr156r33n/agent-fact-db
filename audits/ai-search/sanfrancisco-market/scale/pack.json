@@ -1,0 +1,70 @@
+{
+  "property": "Four Seasons Hotel San Francisco",
+  "list_id": "9c54bc61-dae2-4ba4-b814-c360f67dc103",
+  "method": "atomic",
+  "purpose": "Scale atomic method across remaining high-severity pages (Dining + Spa)",
+  "pages": [
+    {
+      "id": "06c0dc34-1fc1-4638-b961-f69b14268eb6",
+      "title": "Dining",
+      "url": "https://www.fourseasons.com/sanfrancisco/dining/",
+      "page_type": "Dining"
+    },
+    {
+      "id": "5e89adfc-cbc9-4941-a82b-ceaece0acd26",
+      "title": "Spa",
+      "url": "https://www.fourseasons.com/sanfrancisco/spa/",
+      "page_type": "Spa"
+    }
+  ],
+  "facts": [
+    {
+      "id": "040d4165-ab8e-4a8f-8a97-2fbb43b2b952",
+      "page_id": "06c0dc34-1fc1-4638-b961-f69b14268eb6",
+      "topic": "Dining - MKT Restaurant & Bar",
+      "claim": "MKT Restaurant & Bar is a modern American restaurant at the hotel featuring California cuisine."
+    },
+    {
+      "id": "f2851b9c-3ae9-48bc-ac0f-630c02866a91",
+      "page_id": "06c0dc34-1fc1-4638-b961-f69b14268eb6",
+      "topic": "Private dining rooms",
+      "claim": "MKT Restaurant & Bar has four private dining rooms."
+    },
+    {
+      "id": "a8a9d920-83be-4c3d-9036-c9484f29f108",
+      "page_id": "06c0dc34-1fc1-4638-b961-f69b14268eb6",
+      "topic": "Brunch at MKT",
+      "claim": "MKT Restaurant & Bar offers a brunch experience with seasonal Californian flavours."
+    },
+    {
+      "id": "50981356-fa04-4587-9224-2984bf51e291",
+      "page_id": "5e89adfc-cbc9-4941-a82b-ceaece0acd26",
+      "topic": "Spa location",
+      "claim": "Spa services are offered through The Spa at Equinox Sports Club on the fourth floor of the hotel."
+    },
+    {
+      "id": "44531be5-aefb-49f4-9879-9fd2800fd710",
+      "page_id": "5e89adfc-cbc9-4941-a82b-ceaece0acd26",
+      "topic": "Spa telephone",
+      "claim": "The spa contact telephone number is +1 415 633 3990."
+    },
+    {
+      "id": "ff9924ce-f9c9-4d59-b270-d4a496d42118",
+      "page_id": "5e89adfc-cbc9-4941-a82b-ceaece0acd26",
+      "topic": "Spa treatment hours weekdays",
+      "claim": "Spa treatments are available Monday to Friday from 11:00 am to 8:00 pm."
+    },
+    {
+      "id": "7db0f109-60c9-4261-aa62-cbeb3242122f",
+      "page_id": "5e89adfc-cbc9-4941-a82b-ceaece0acd26",
+      "topic": "Spa treatment hours weekend",
+      "claim": "Spa treatments are available Saturday to Sunday from 9:00 am to 5:00 pm."
+    },
+    {
+      "id": "36a30754-d725-494b-83b7-0ab440c46673",
+      "page_id": "5e89adfc-cbc9-4941-a82b-ceaece0acd26",
+      "topic": "In-room massage",
+      "claim": "Guests can book a personalized in-room massage."
+    }
+  ]
+}

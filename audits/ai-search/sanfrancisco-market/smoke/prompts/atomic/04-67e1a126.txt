@@ -1,0 +1,31 @@
+Method: atomic
+Property: Four Seasons Hotel San Francisco
+Inventory page: Hotel Overview (https://www.fourseasons.com/sanfrancisco/)
+
+Check this single approved SoT claim against what web search currently says.
+
+1. fact_id=67e1a126-c2dd-46b1-a612-764a4ef4ce42
+   topic: Building configuration
+   SoT claim: The hotel occupies 12 floors within a 42-storey tower.
+
+Return JSON only. Schema:
+{
+  "method": "atomic",
+  "property": "Four Seasons Hotel San Francisco",
+  "results": [{
+    "fact_id": "...",
+    "model_answer": "short",
+    "verdict": "matches|contradicts|unclear|not_found",
+    "cited_urls": ["https://domain/path"],
+    "contradicting_sources": ["https://domain/path"],
+    "notes": ""
+  }],
+  "metrics": { "search_tool_rounds": <int>, "notes": "" }
+}
+
+Rules:
+- Use web search for every claim.
+- On contradicts, list EVERY URL that supports the conflicting value (domain+path). No primary-only. No party filter.
+- Strip tracking query params. Keep path.
+- Empty contradicting_sources on a contradicts row is incomplete — keep searching.
+

@@ -1,0 +1,47 @@
+Method: per-page
+Property: Four Seasons Hotel San Francisco
+Inventory page: Contact Us (https://www.fourseasons.com/sanfrancisco/contact-us/)
+
+Check each approved SoT claim on this page independently against web search.
+
+1. fact_id=2946153e-00ec-4e55-a0ef-a63f8a421633
+   topic: Reservations telephone
+   SoT claim: The reservations telephone number is +1 415 633 3636.
+
+2. fact_id=fc3acca6-b352-40d5-a625-eb7ca52df2a9
+   topic: Front desk telephone
+   SoT claim: The front desk telephone number is +1 415 633 3000.
+
+3. fact_id=6ac8317c-a781-46f2-824d-8342bce99ca1
+   topic: Guest fax
+   SoT claim: The guest fax number is +1 415 633 3001.
+
+4. fact_id=94199505-d7af-428a-87b6-6b8faf52a593
+   topic: MKT reservations telephone
+   SoT claim: MKT Restaurant-Bar reservations can be reached at +1 415 633 3838.
+
+5. fact_id=6bee95ea-42d3-453f-9b56-37239bc59fa4
+   topic: Equinox Sports Club & Spa telephone
+   SoT claim: Equinox Sports Club & Spa can be reached at +1 415 633 3990.
+
+Return JSON only. Schema:
+{
+  "method": "per-page",
+  "property": "Four Seasons Hotel San Francisco",
+  "results": [{
+    "fact_id": "...",
+    "model_answer": "short",
+    "verdict": "matches|contradicts|unclear|not_found",
+    "cited_urls": ["https://domain/path"],
+    "contradicting_sources": ["https://domain/path"],
+    "notes": ""
+  }],
+  "metrics": { "search_tool_rounds": <int>, "notes": "" }
+}
+
+Rules:
+- Use web search for every claim.
+- On contradicts, list EVERY URL that supports the conflicting value (domain+path). No primary-only. No party filter.
+- Strip tracking query params. Keep path.
+- Empty contradicting_sources on a contradicts row is incomplete — keep searching.
+

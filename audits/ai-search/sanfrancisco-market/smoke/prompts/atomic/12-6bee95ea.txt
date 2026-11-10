@@ -1,0 +1,31 @@
+Method: atomic
+Property: Four Seasons Hotel San Francisco
+Inventory page: Contact Us (https://www.fourseasons.com/sanfrancisco/contact-us/)
+
+Check this single approved SoT claim against what web search currently says.
+
+1. fact_id=6bee95ea-42d3-453f-9b56-37239bc59fa4
+   topic: Equinox Sports Club & Spa telephone
+   SoT claim: Equinox Sports Club & Spa can be reached at +1 415 633 3990.
+
+Return JSON only. Schema:
+{
+  "method": "atomic",
+  "property": "Four Seasons Hotel San Francisco",
+  "results": [{
+    "fact_id": "...",
+    "model_answer": "short",
+    "verdict": "matches|contradicts|unclear|not_found",
+    "cited_urls": ["https://domain/path"],
+    "contradicting_sources": ["https://domain/path"],
+    "notes": ""
+  }],
+  "metrics": { "search_tool_rounds": <int>, "notes": "" }
+}
+
+Rules:
+- Use web search for every claim.
+- On contradicts, list EVERY URL that supports the conflicting value (domain+path). No primary-only. No party filter.
+- Strip tracking query params. Keep path.
+- Empty contradicting_sources on a contradicts row is incomplete — keep searching.
+

@@ -1,0 +1,39 @@
+Method: per-page
+Property: Four Seasons Hotel San Francisco
+Inventory page: Dining (https://www.fourseasons.com/sanfrancisco/dining/)
+
+Check each approved SoT claim on this page independently against web search.
+
+1. fact_id=040d4165-ab8e-4a8f-8a97-2fbb43b2b952
+   topic: Dining - MKT Restaurant & Bar
+   SoT claim: MKT Restaurant & Bar is a modern American restaurant at the hotel featuring California cuisine.
+
+2. fact_id=f2851b9c-3ae9-48bc-ac0f-630c02866a91
+   topic: Private dining rooms
+   SoT claim: MKT Restaurant & Bar has four private dining rooms.
+
+3. fact_id=a8a9d920-83be-4c3d-9036-c9484f29f108
+   topic: Brunch at MKT
+   SoT claim: MKT Restaurant & Bar offers a brunch experience with seasonal Californian flavours.
+
+Return JSON only. Schema:
+{
+  "method": "per-page",
+  "property": "Four Seasons Hotel San Francisco",
+  "results": [{
+    "fact_id": "...",
+    "model_answer": "short",
+    "verdict": "matches|contradicts|unclear|not_found",
+    "cited_urls": ["https://domain/path"],
+    "contradicting_sources": ["https://domain/path"],
+    "notes": ""
+  }],
+  "metrics": { "search_tool_rounds": <int>, "notes": "" }
+}
+
+Rules:
+- Use web search for every claim.
+- On contradicts, list EVERY URL that supports the conflicting value (domain+path). No primary-only. No party filter.
+- Strip tracking query params. Keep path.
+- Empty contradicting_sources on a contradicts row is incomplete — keep searching.
+

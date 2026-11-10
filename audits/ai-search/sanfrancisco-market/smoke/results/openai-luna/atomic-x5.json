@@ -1,0 +1,1851 @@
+{
+  "method": "atomic",
+  "property": "Four Seasons Hotel San Francisco",
+  "model": "gpt-5.6-luna",
+  "effort": "medium",
+  "repeats": 5,
+  "partial": false,
+  "results": [
+    {
+      "fact_id": "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+      "model_answer": "Four Seasons Hotel San Francisco",
+      "verdict": "matches",
+      "verdict_counts": {
+        "matches": 5
+      },
+      "trials": 5,
+      "stability": 1,
+      "stable": true,
+      "ever_contradicts": false,
+      "contradict_rate": 0,
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts",
+        "https://www.fourseasons.com/sanfrancisco/getting-here",
+        "https://press.fourseasons.com/sanfrancisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Stable matches across 5 trials"
+    },
+    {
+      "fact_id": "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+      "model_answer": "Yes — the hotel is located at 757 Market Street, San Francisco, CA 94103, U.S.A.",
+      "verdict": "matches",
+      "verdict_counts": {
+        "matches": 5
+      },
+      "trials": 5,
+      "stability": 1,
+      "stable": true,
+      "ever_contradicts": false,
+      "contradict_rate": 0,
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco",
+        "https://www.fourseasons.com/sanfrancisco/getting-here",
+        "https://www.fourseasons.com/sanfrancisco/contact-us",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts"
+      ],
+      "contradicting_sources": [],
+      "notes": "Stable matches across 5 trials"
+    },
+    {
+      "fact_id": "714488c9-5120-4481-8412-19210ee58007",
+      "model_answer": "The hotel's main telephone number is +1 415 633 3000.",
+      "verdict": "matches",
+      "verdict_counts": {
+        "matches": 5
+      },
+      "trials": 5,
+      "stability": 1,
+      "stable": true,
+      "ever_contradicts": false,
+      "contradict_rate": 0,
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us",
+        "https://www.fourseasons.com/sanfrancisco/getting-here",
+        "https://www.fourseasons.com/sanfrancisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Stable matches across 5 trials"
+    },
+    {
+      "fact_id": "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+      "model_answer": "The hotel occupies 12 floors within a 42-storey tower.",
+      "verdict": "matches",
+      "verdict_counts": {
+        "matches": 5
+      },
+      "trials": 5,
+      "stability": 1,
+      "stable": true,
+      "ever_contradicts": false,
+      "contradict_rate": 0,
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts",
+        "https://www.cntraveler.com/hotels/san-francisco/four-seasons-san-francisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Stable matches across 5 trials"
+    },
+    {
+      "fact_id": "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+      "model_answer": "MKT Restaurant serves elevated California cuisine at the hotel.",
+      "verdict": "matches",
+      "verdict_counts": {
+        "matches": 5
+      },
+      "trials": 5,
+      "stability": 1,
+      "stable": true,
+      "ever_contradicts": false,
+      "contradict_rate": 0,
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco",
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar",
+        "https://www.fourseasons.com/sanfrancisco/meetings-and-events/food-and-beverage"
+      ],
+      "contradicting_sources": [],
+      "notes": "Stable matches across 5 trials"
+    },
+    {
+      "fact_id": "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+      "model_answer": "Hotel guests have access to Equinox Sports Club, which includes an indoor saline lap pool.",
+      "verdict": "matches",
+      "verdict_counts": {
+        "matches": 5
+      },
+      "trials": 5,
+      "stability": 1,
+      "stable": true,
+      "ever_contradicts": false,
+      "contradict_rate": 0,
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/fitness",
+        "https://www.equinox.com/clubs/northern-california/sportsclubsanfrancisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Stable matches across 5 trials"
+    },
+    {
+      "fact_id": "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+      "model_answer": "Google Hotels currently shows Four Seasons Hotel San Francisco as a 5-star hotel.",
+      "verdict": "matches",
+      "verdict_counts": {
+        "matches": 5
+      },
+      "trials": 5,
+      "stability": 1,
+      "stable": true,
+      "ever_contradicts": false,
+      "contradict_rate": 0,
+      "cited_urls": [
+        "https://www.google.com.sv/travel/hotels/entity/ChYIxfec4Jmm0vsxGgovbS8wMjgzYzNmEAE",
+        "https://www.google.com/travel/hotels/entity/ChYIxfec4Jmm0vsxGgovbS8wMjgzYzNmEAE",
+        "https://www.google.com.ng/travel/hotels/entity/ChYIxfec4Jmm0vsxGgovbS8wMjgzYzNmEAE"
+      ],
+      "contradicting_sources": [],
+      "notes": "Stable matches across 5 trials"
+    },
+    {
+      "fact_id": "2946153e-00ec-4e55-a0ef-a63f8a421633",
+      "model_answer": "+1 415 633 3636",
+      "verdict": "matches",
+      "verdict_counts": {
+        "matches": 5
+      },
+      "trials": 5,
+      "stability": 1,
+      "stable": true,
+      "ever_contradicts": false,
+      "contradict_rate": 0,
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us",
+        "https://www.fourseasons.com/sanfrancisco/offers/experience-more"
+      ],
+      "contradicting_sources": [],
+      "notes": "Stable matches across 5 trials"
+    },
+    {
+      "fact_id": "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+      "model_answer": "The front desk telephone number is +1 415 633 3000.",
+      "verdict": "matches",
+      "verdict_counts": {
+        "matches": 5
+      },
+      "trials": 5,
+      "stability": 1,
+      "stable": true,
+      "ever_contradicts": false,
+      "contradict_rate": 0,
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us",
+        "https://www.fourseasons.com/sanfrancisco/getting-here",
+        "https://www.sanfranciscodowntown.com/Business/Four-Seasons/757-Market-Street-San-Francisco-CA-94103",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities"
+      ],
+      "contradicting_sources": [],
+      "notes": "Stable matches across 5 trials"
+    },
+    {
+      "fact_id": "6ac8317c-a781-46f2-824d-8342bce99ca1",
+      "model_answer": "The guest fax number is +1 415 633 3001.",
+      "verdict": "matches",
+      "verdict_counts": {
+        "matches": 5
+      },
+      "trials": 5,
+      "stability": 1,
+      "stable": true,
+      "ever_contradicts": false,
+      "contradict_rate": 0,
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us",
+        "https://www.businesstravelnews.com/Hotels/San-Francisco/Four-Seasons-Hotel-San-Francisco-p3240577",
+        "https://www.travelagewest.com/Hotels/San-Francisco/Four-Seasons-Hotel-San-Francisco-p6318136",
+        "https://www.northstarmeetingsgroup.com/Meeting-Event-Venues/San-Francisco/Convention-Hotel/Four-Seasons-Hotel-San-Francisco-p52631297",
+        "https://www.travelweekly.com/Hotels/San-Francisco/Four-Seasons-Hotel-San-Francisco-p3787710",
+        "https://www.fourseasons.com/content/dam/fourseasons/images/web/SFR/PDFs/FS_SanFrancisco_eBrochure_2014.pdf"
+      ],
+      "contradicting_sources": [],
+      "notes": "Stable matches across 5 trials"
+    },
+    {
+      "fact_id": "94199505-d7af-428a-87b6-6b8faf52a593",
+      "model_answer": "The contact page lists +1 415 633 3838 for MKT Restaurant-Bar reservations, but the restaurant page currently lists +1 415 633 3000 for reservations.",
+      "verdict": "matches",
+      "verdict_counts": {
+        "unclear": 1,
+        "matches": 2,
+        "contradicts": 2
+      },
+      "trials": 5,
+      "stability": 0.4,
+      "stable": false,
+      "ever_contradicts": true,
+      "contradict_rate": 0.4,
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us",
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar"
+      ],
+      "contradicting_sources": [
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar"
+      ],
+      "notes": "Unstable across 5 trials: {\"unclear\":1,\"matches\":2,\"contradicts\":2}; ever_contradicts=true"
+    },
+    {
+      "fact_id": "6bee95ea-42d3-453f-9b56-37239bc59fa4",
+      "model_answer": "Equinox Sports Club & Spa can be reached at +1 415 633 3990.",
+      "verdict": "matches",
+      "verdict_counts": {
+        "matches": 5
+      },
+      "trials": 5,
+      "stability": 1,
+      "stable": true,
+      "ever_contradicts": false,
+      "contradict_rate": 0,
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us",
+        "https://www.fourseasons.com/sanfrancisco/spa"
+      ],
+      "contradicting_sources": [],
+      "notes": "Stable matches across 5 trials"
+    }
+  ],
+  "trials": [
+    {
+      "fact_id": "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+      "model_answer": "Four Seasons Hotel San Francisco",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official hotel overview and official hotel facts page both use the name Four Seasons Hotel San Francisco.",
+      "trial": 1,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/01-c66e8abb.txt"
+    },
+    {
+      "fact_id": "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+      "model_answer": "Four Seasons Hotel San Francisco",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current official Four Seasons pages use the name Four Seasons Hotel San Francisco. The separately named Four Seasons Hotel San Francisco at Embarcadero is a different property.",
+      "trial": 2,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/01-c66e8abb.txt"
+    },
+    {
+      "fact_id": "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+      "model_answer": "Four Seasons Hotel San Francisco",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current web results identify the property as Four Seasons Hotel San Francisco.",
+      "trial": 3,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/01-c66e8abb.txt"
+    },
+    {
+      "fact_id": "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+      "model_answer": "Four Seasons Hotel San Francisco",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+        "https://www.fourseasons.com/sanfrancisco/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current web results, including Four Seasons' official hotel facts page, use the name Four Seasons Hotel San Francisco.",
+      "trial": 4,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/01-c66e8abb.txt"
+    },
+    {
+      "fact_id": "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+      "model_answer": "Four Seasons Hotel San Francisco",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+        "https://press.fourseasons.com/sanfrancisco/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current web search results identify the property as Four Seasons Hotel San Francisco.",
+      "trial": 5,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/01-c66e8abb.txt"
+    },
+    {
+      "fact_id": "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+      "model_answer": "Yes — the hotel is located at 757 Market Street, San Francisco, CA 94103, U.S.A.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/",
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current web results, including Four Seasons official pages, confirm the stated address.",
+      "trial": 1,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/02-fe70c0a4.txt"
+    },
+    {
+      "fact_id": "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+      "model_answer": "757 Market Street, San Francisco, CA 94103, U.S.A.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current web sources confirm the stated address.",
+      "trial": 2,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/02-fe70c0a4.txt"
+    },
+    {
+      "fact_id": "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+      "model_answer": "757 Market Street, San Francisco, CA 94103, U.S.A.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/getting-here/",
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Official Four Seasons sources confirm the stated address.",
+      "trial": 3,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/02-fe70c0a4.txt"
+    },
+    {
+      "fact_id": "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+      "model_answer": "757 Market Street, San Francisco, CA 94103, U.S.A.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current web sources confirm the stated address.",
+      "trial": 4,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/02-fe70c0a4.txt"
+    },
+    {
+      "fact_id": "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+      "model_answer": "757 Market Street, San Francisco, CA 94103, U.S.A.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current web sources confirm the stated address.",
+      "trial": 5,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/02-fe70c0a4.txt"
+    },
+    {
+      "fact_id": "714488c9-5120-4481-8412-19210ee58007",
+      "model_answer": "The hotel's main telephone number is +1 415 633 3000.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official Four Seasons website lists the front desk/main contact number as 1 (415) 633-3000.",
+      "trial": 1,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/03-714488c9.txt"
+    },
+    {
+      "fact_id": "714488c9-5120-4481-8412-19210ee58007",
+      "model_answer": "+1 415 633 3000",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/",
+        "https://www.fourseasons.com/sanfrancisco/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official Four Seasons website lists 1 (415) 633-3000 as the hotel's front desk/contact number.",
+      "trial": 2,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/03-714488c9.txt"
+    },
+    {
+      "fact_id": "714488c9-5120-4481-8412-19210ee58007",
+      "model_answer": "+1 415 633 3000",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official Four Seasons contact page lists +1 415 633 3000 as the Front Desk number.",
+      "trial": 3,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/03-714488c9.txt"
+    },
+    {
+      "fact_id": "714488c9-5120-4481-8412-19210ee58007",
+      "model_answer": "+1 415 633 3000",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official hotel website lists +1 415 633 3000 as the front desk and hotel contact number.",
+      "trial": 4,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/03-714488c9.txt"
+    },
+    {
+      "fact_id": "714488c9-5120-4481-8412-19210ee58007",
+      "model_answer": "+1 415 633 3000",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The hotel's official website lists 1 (415) 633-3000 as the Front Desk/main contact number.",
+      "trial": 5,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/03-714488c9.txt"
+    },
+    {
+      "fact_id": "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+      "model_answer": "The hotel occupies 12 floors within a 42-storey tower.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+        "https://www.cntraveler.com/hotels/san-francisco/four-seasons-san-francisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current web sources directly confirm the claim.",
+      "trial": 1,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/04-67e1a126.txt"
+    },
+    {
+      "fact_id": "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+      "model_answer": "The hotel occupies 12 floors within a 42-storey tower.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+        "https://www.cntraveler.com/hotels/san-francisco/four-seasons-san-francisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current web results corroborate both figures: 12 hotel floors and a 42-storey building.",
+      "trial": 2,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/04-67e1a126.txt"
+    },
+    {
+      "fact_id": "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+      "model_answer": "The hotel occupies 12 floors within a 42-storey tower.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+        "https://www.cntraveler.com/hotels/san-francisco/four-seasons-san-francisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current Four Seasons and independent coverage both confirm the claim.",
+      "trial": 3,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/04-67e1a126.txt"
+    },
+    {
+      "fact_id": "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+      "model_answer": "The hotel occupies 12 floors within a 42-storey tower.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The approved Hotel Overview page and Four Seasons Hotel Facts page both confirm the claim.",
+      "trial": 4,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/04-67e1a126.txt"
+    },
+    {
+      "fact_id": "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+      "model_answer": "The hotel occupies 12 floors within a 42-storey tower.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The approved inventory page states the claim directly. Four Seasons' hotel facts page independently states that the hotel comprises 12 floors of a 42-floor building.",
+      "trial": 5,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/04-67e1a126.txt"
+    },
+    {
+      "fact_id": "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+      "model_answer": "MKT Restaurant serves elevated California cuisine at the hotel.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The hotel overview states that guests can savor elevated California cuisine at MKT Restaurant. The MKT page also describes its menus as pairing California cuisine with elevated American dining.",
+      "trial": 1,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/05-e930cd67.txt"
+    },
+    {
+      "fact_id": "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+      "model_answer": "Yes. MKT Restaurant & Bar serves California cuisine and elevated American dining at Four Seasons Hotel San Francisco.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The current official restaurant page describes MKT as serving California cuisine and offering elevated American dining at the hotel.",
+      "trial": 2,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/05-e930cd67.txt"
+    },
+    {
+      "fact_id": "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+      "model_answer": "Yes—MKT serves elevated American dining featuring California cuisine at the hotel.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/",
+        "https://www.fourseasons.com/sanfrancisco/meetings-and-events/food-and-beverage/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official MKT page describes elevated American dining and says its menus pair California cuisine; the hotel's events page describes a sustainable, California-centric menu.",
+      "trial": 3,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/05-e930cd67.txt"
+    },
+    {
+      "fact_id": "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+      "model_answer": "MKT Restaurant serves California cuisine and elevated American dining.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official MKT page describes its menus as pairing California cuisine with elevated American dining.",
+      "trial": 4,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/05-e930cd67.txt"
+    },
+    {
+      "fact_id": "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+      "model_answer": "MKT Restaurant serves elevated California cuisine at Four Seasons Hotel San Francisco.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The hotel overview currently describes MKT Restaurant as serving elevated California cuisine; the restaurant page also identifies its menu as California cuisine.",
+      "trial": 5,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/05-e930cd67.txt"
+    },
+    {
+      "fact_id": "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+      "model_answer": "Hotel guests have access to Equinox Sports Club, which includes an indoor saline lap pool.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/fitness/",
+        "https://www.equinox.com/clubs/northern-california/sportsclubsanfrancisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current web results directly support both hotel guest access and the saline lap pool.",
+      "trial": 1,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/06-1bd2cc72.txt"
+    },
+    {
+      "fact_id": "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+      "model_answer": "Yes. Hotel guests have access to Equinox Sports Club, including its indoor saline lap pool.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/fitness/",
+        "https://www.equinox.com/clubs/northern-california/sportsclubsanfrancisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current search results support both hotel guest access to Equinox Sports Club and the club's saline lap pool.",
+      "trial": 2,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/06-1bd2cc72.txt"
+    },
+    {
+      "fact_id": "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+      "model_answer": "Hotel guests have access to Equinox Sports Club San Francisco, which includes an indoor saline lap pool.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/fitness/",
+        "https://www.equinox.com/clubs/northern-california/sportsclubsanfrancisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current Four Seasons and Equinox pages confirm guest access and an indoor saline lap pool.",
+      "trial": 3,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/06-1bd2cc72.txt"
+    },
+    {
+      "fact_id": "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+      "model_answer": "Hotel guests have access to Equinox Sports Club, including its indoor saline lap pool.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/fitness/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+        "https://www.fourseasons.com/sanfrancisco/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current Four Seasons pages explicitly state that hotel guests have access to Equinox Sports Club and identify an indoor saline lap pool.",
+      "trial": 4,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/06-1bd2cc72.txt"
+    },
+    {
+      "fact_id": "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+      "model_answer": "Hotel guests have access to Equinox Sports Club, which includes an indoor saline lap pool.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/fitness/",
+        "https://www.fourseasons.com/sanfrancisco/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current Four Seasons pages explicitly state that guests have access to Equinox Sports Club and that it includes a saline lap pool.",
+      "trial": 5,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/06-1bd2cc72.txt"
+    },
+    {
+      "fact_id": "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+      "model_answer": "Google Hotels currently shows Four Seasons Hotel San Francisco as a 5-star hotel.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.google.com.sv/travel/hotels/entity/ChYIxfec4Jmm0vsxGgovbS8wMjgzYzNmEAE"
+      ],
+      "contradicting_sources": [],
+      "notes": "",
+      "trial": 1,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/07-63e1ef81.txt"
+    },
+    {
+      "fact_id": "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+      "model_answer": "Google Hotels currently shows Four Seasons Hotel San Francisco as a 5-star hotel.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.google.com/travel/hotels/entity/ChYIxfec4Jmm0vsxGgovbS8wMjgzYzNmEAE"
+      ],
+      "contradicting_sources": [],
+      "notes": "",
+      "trial": 2,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/07-63e1ef81.txt"
+    },
+    {
+      "fact_id": "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+      "model_answer": "Google currently lists Four Seasons Hotel San Francisco as a 5-star hotel.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.google.com.ng/travel/hotels/entity/ChYIxfec4Jmm0vsxGgovbS8wMjgzYzNmEAE"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current Google Hotels search results show a 5-star hotel class rating.",
+      "trial": 3,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/07-63e1ef81.txt"
+    },
+    {
+      "fact_id": "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+      "model_answer": "Google Hotels currently lists Four Seasons Hotel San Francisco as a 5-star hotel.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.google.com/travel/hotels/entity/ChYIxfec4Jmm0vsxGgovbS8wMjgzYzNmEAE"
+      ],
+      "contradicting_sources": [],
+      "notes": "",
+      "trial": 4,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/07-63e1ef81.txt"
+    },
+    {
+      "fact_id": "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+      "model_answer": "Google Hotels currently lists Four Seasons Hotel San Francisco as a 5-star hotel.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.google.com/travel/hotels/entity/ChYIxfec4Jmm0vsxGgovbS8wMjgzYzNmEAE"
+      ],
+      "contradicting_sources": [],
+      "notes": "",
+      "trial": 5,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/07-63e1ef81.txt"
+    },
+    {
+      "fact_id": "2946153e-00ec-4e55-a0ef-a63f8a421633",
+      "model_answer": "+1 415 633 3636",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The Reservations telephone number is listed as 1 (415) 633-3636.",
+      "trial": 1,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/08-2946153e.txt"
+    },
+    {
+      "fact_id": "2946153e-00ec-4e55-a0ef-a63f8a421633",
+      "model_answer": "+1 415 633 3636",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The current Contact Us page lists Reservations as 1 (415) 633-3636.",
+      "trial": 2,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/08-2946153e.txt"
+    },
+    {
+      "fact_id": "2946153e-00ec-4e55-a0ef-a63f8a421633",
+      "model_answer": "The reservations telephone number is +1 415 633 3636.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official Contact Us page lists Reservations as 1 (415) 633-3636.",
+      "trial": 3,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/08-2946153e.txt"
+    },
+    {
+      "fact_id": "2946153e-00ec-4e55-a0ef-a63f8a421633",
+      "model_answer": "+1 415 633 3636",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The current Contact Us page lists Reservations as 1 (415) 633-3636.",
+      "trial": 4,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/08-2946153e.txt"
+    },
+    {
+      "fact_id": "2946153e-00ec-4e55-a0ef-a63f8a421633",
+      "model_answer": "The reservations telephone number is +1 415 633 3636.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/offers/experience-more/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official Four Seasons contact page lists Reservations as 1 (415) 633-3636.",
+      "trial": 5,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/08-2946153e.txt"
+    },
+    {
+      "fact_id": "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+      "model_answer": "The front desk telephone number is +1 415 633 3000.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/",
+        "https://www.sanfranciscodowntown.com/Business/Four-Seasons/757-Market-Street-San-Francisco-CA-94103"
+      ],
+      "contradicting_sources": [],
+      "notes": "The approved Contact Us page currently lists the Front Desk number as 1 (415) 633-3000.",
+      "trial": 1,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/09-fc3acca6.txt"
+    },
+    {
+      "fact_id": "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+      "model_answer": "Matches: +1 415 633 3000.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official Contact Us page lists the Front Desk number as 1 (415) 633-3000.",
+      "trial": 2,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/09-fc3acca6.txt"
+    },
+    {
+      "fact_id": "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+      "model_answer": "+1 415 633 3000",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official contact page lists 1 (415) 633-3000 as the Front Desk number.",
+      "trial": 3,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/09-fc3acca6.txt"
+    },
+    {
+      "fact_id": "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+      "model_answer": "1 (415) 633-3000",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The Contact Us page lists the Front Desk number as 1 (415) 633-3000.",
+      "trial": 4,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/09-fc3acca6.txt"
+    },
+    {
+      "fact_id": "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+      "model_answer": "The front desk telephone is +1 415 633 3000.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The approved Contact Us page currently lists the Front Desk number as 1 (415) 633-3000.",
+      "trial": 5,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/09-fc3acca6.txt"
+    },
+    {
+      "fact_id": "6ac8317c-a781-46f2-824d-8342bce99ca1",
+      "model_answer": "The guest fax number is +1 415 633 3001.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.businesstravelnews.com/Hotels/San-Francisco/Four-Seasons-Hotel-San-Francisco-p3240577",
+        "https://www.travelagewest.com/Hotels/San-Francisco/Four-Seasons-Hotel-San-Francisco-p6318136"
+      ],
+      "contradicting_sources": [],
+      "notes": "The approved Four Seasons contact page currently lists Guest Fax as 1 (415) 633-3001, matching the claim.",
+      "trial": 1,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/10-6ac8317c.txt"
+    },
+    {
+      "fact_id": "6ac8317c-a781-46f2-824d-8342bce99ca1",
+      "model_answer": "The guest fax number is +1 415 633 3001.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "",
+      "trial": 2,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/10-6ac8317c.txt"
+    },
+    {
+      "fact_id": "6ac8317c-a781-46f2-824d-8342bce99ca1",
+      "model_answer": "+1 415 633 3001",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.businesstravelnews.com/Hotels/San-Francisco/Four-Seasons-Hotel-San-Francisco-p3240577",
+        "https://www.northstarmeetingsgroup.com/Meeting-Event-Venues/San-Francisco/Convention-Hotel/Four-Seasons-Hotel-San-Francisco-p52631297"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official Contact Us page currently lists the Guest Fax as 1 (415) 633-3001.",
+      "trial": 3,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/10-6ac8317c.txt"
+    },
+    {
+      "fact_id": "6ac8317c-a781-46f2-824d-8342bce99ca1",
+      "model_answer": "+1 415 633 3001",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.travelweekly.com/Hotels/San-Francisco/Four-Seasons-Hotel-San-Francisco-p3787710",
+        "https://www.businesstravelnews.com/Hotels/San-Francisco/Four-Seasons-Hotel-San-Francisco-p3240577"
+      ],
+      "contradicting_sources": [],
+      "notes": "The approved Four Seasons contact page and multiple current search results identify +1 415 633 3001 as the guest fax number.",
+      "trial": 4,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/10-6ac8317c.txt"
+    },
+    {
+      "fact_id": "6ac8317c-a781-46f2-824d-8342bce99ca1",
+      "model_answer": "The guest fax number is +1 415 633 3001.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.businesstravelnews.com/Hotels/San-Francisco/Four-Seasons-Hotel-San-Francisco-p3240577",
+        "https://www.fourseasons.com/content/dam/fourseasons/images/web/SFR/PDFs/FS_SanFrancisco_eBrochure_2014.pdf"
+      ],
+      "contradicting_sources": [],
+      "notes": "The approved Four Seasons contact page currently lists Guest Fax as 1 (415) 633-3001. Independent sources report the same number.",
+      "trial": 5,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/10-6ac8317c.txt"
+    },
+    {
+      "fact_id": "94199505-d7af-428a-87b6-6b8faf52a593",
+      "model_answer": "The contact page lists +1 415 633 3838 for MKT Restaurant-Bar reservations, but the restaurant page currently lists +1 415 633 3000 for reservations.",
+      "verdict": "unclear",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The approved Contact Us page matches the SoT claim, but another current official Four Seasons page gives a different reservation number.",
+      "trial": 1,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/11-94199505.txt"
+    },
+    {
+      "fact_id": "94199505-d7af-428a-87b6-6b8faf52a593",
+      "model_answer": "MKT Restaurant-Bar reservations: +1 415 633 3838.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The current Four Seasons contact page lists MKT Restaurant-Bar Reservations as 1 (415) 633-3838.",
+      "trial": 2,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/11-94199505.txt"
+    },
+    {
+      "fact_id": "94199505-d7af-428a-87b6-6b8faf52a593",
+      "model_answer": "MKT Restaurant-Bar reservations: +1 415 633 3838.",
+      "verdict": "contradicts",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/"
+      ],
+      "contradicting_sources": [
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/"
+      ],
+      "notes": "The approved Contact Us page supports +1 415 633 3838, but the current official MKT Restaurant & Bar page instructs guests to make reservations at +1 415 633 3000.",
+      "trial": 3,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/11-94199505.txt"
+    },
+    {
+      "fact_id": "94199505-d7af-428a-87b6-6b8faf52a593",
+      "model_answer": "MKT Restaurant-Bar reservations: +1 415 633 3838",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The current Contact Us page lists MKT Restaurant-Bar Reservations at 1 (415) 633-3838.",
+      "trial": 4,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/11-94199505.txt"
+    },
+    {
+      "fact_id": "94199505-d7af-428a-87b6-6b8faf52a593",
+      "model_answer": "Current Four Seasons pages are inconsistent: the Contact Us page lists +1 415 633 3838, while the current MKT restaurant page directs reservations to +1 415 633 3000.",
+      "verdict": "contradicts",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/"
+      ],
+      "contradicting_sources": [
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/"
+      ],
+      "notes": "The approved claim matches the Contact Us page, but the current MKT Restaurant & Bar page lists +1 415 633 3000 for making reservations.",
+      "trial": 5,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/11-94199505.txt"
+    },
+    {
+      "fact_id": "6bee95ea-42d3-453f-9b56-37239bc59fa4",
+      "model_answer": "Equinox Sports Club & Spa can be reached at +1 415 633 3990.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/spa/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The Four Seasons contact page and spa page both list +1 415 633 3990 for the spa/Equinox Sports Club & Spa contact.",
+      "trial": 1,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/12-6bee95ea.txt"
+    },
+    {
+      "fact_id": "6bee95ea-42d3-453f-9b56-37239bc59fa4",
+      "model_answer": "Equinox Sports Club & Spa can be reached at +1 415 633 3990.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/spa/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The Four Seasons contact page and spa page both list +1 415 633 3990 for the Equinox Sports Club & Spa/spa contact. Equinox separately lists +1 415 633 3900 for the general Sports Club, which appears to be a different contact.",
+      "trial": 2,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/12-6bee95ea.txt"
+    },
+    {
+      "fact_id": "6bee95ea-42d3-453f-9b56-37239bc59fa4",
+      "model_answer": "Equinox Sports Club & Spa: +1 415 633 3990.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/spa/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The Four Seasons contact page and spa page currently list +1 415 633 3990. Equinox separately lists +1 415 633 3900 for the Sports Club itself, indicating a distinction between the club's main line and the spa/combined contact.",
+      "trial": 3,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/12-6bee95ea.txt"
+    },
+    {
+      "fact_id": "6bee95ea-42d3-453f-9b56-37239bc59fa4",
+      "model_answer": "Equinox Sports Club & Spa can be reached at +1 415 633 3990.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/spa/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The Four Seasons contact page currently lists Equinox Sports Club & Spa at 1 (415) 633-3990.",
+      "trial": 4,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/12-6bee95ea.txt"
+    },
+    {
+      "fact_id": "6bee95ea-42d3-453f-9b56-37239bc59fa4",
+      "model_answer": "The Equinox Sports Club & Spa telephone is +1 415 633 3990.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The approved Four Seasons contact page currently lists Equinox Sports Club & Spa at 1 (415) 633-3990.",
+      "trial": 5,
+      "prompt_file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/12-6bee95ea.txt"
+    }
+  ],
+  "metrics": {
+    "turns": 60,
+    "prompts": 12,
+    "repeats": 5,
+    "search_tool_rounds": 68,
+    "input_chars": 63530,
+    "output_chars": 7069,
+    "wall_ms": 513527,
+    "input_tokens": 684480,
+    "output_tokens": 24587,
+    "total_tokens": 709067,
+    "reasoning_tokens": 12271,
+    "facts": 12,
+    "unstable_facts": 1,
+    "facts_ever_contradict": 1,
+    "notes": "OpenAI Responses API model=gpt-5.6-luna effort=medium web_search=on repeats=5"
+  },
+  "calls": [
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/01-c66e8abb.txt",
+      "trial": 1,
+      "id": "resp_0df9b62b247472c9006af2dc7fe92087d29c9acceb53534306",
+      "model": "gpt-5.6-luna",
+      "ms": 11877,
+      "input_tokens": 15388,
+      "output_tokens": 424,
+      "total_tokens": 15812,
+      "reasoning_tokens": 234,
+      "search_tool_rounds": 2,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/01-c66e8abb.txt",
+      "trial": 2,
+      "id": "resp_0a4640d9f766b411006af2dc89fe0487d2b9bdb2238e1e38ee",
+      "model": "gpt-5.6-luna",
+      "ms": 9970,
+      "input_tokens": 15357,
+      "output_tokens": 490,
+      "total_tokens": 15847,
+      "reasoning_tokens": 268,
+      "search_tool_rounds": 2,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/01-c66e8abb.txt",
+      "trial": 3,
+      "id": "resp_078c10cc5343af7c006af2dc93f20c87d2b1e3c7d5b08f8f8e",
+      "model": "gpt-5.6-luna",
+      "ms": 7540,
+      "input_tokens": 8963,
+      "output_tokens": 326,
+      "total_tokens": 9289,
+      "reasoning_tokens": 142,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/01-c66e8abb.txt",
+      "trial": 4,
+      "id": "resp_056ae137fe358691006af2dc9b871487d28015ba638f7b53e1",
+      "model": "gpt-5.6-luna",
+      "ms": 7831,
+      "input_tokens": 9078,
+      "output_tokens": 337,
+      "total_tokens": 9415,
+      "reasoning_tokens": 144,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/01-c66e8abb.txt",
+      "trial": 5,
+      "id": "resp_08447a915e0d3c48006af2dca3767087d2998e997c41b9d26e",
+      "model": "gpt-5.6-luna",
+      "ms": 5814,
+      "input_tokens": 8809,
+      "output_tokens": 312,
+      "total_tokens": 9121,
+      "reasoning_tokens": 112,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/02-fe70c0a4.txt",
+      "trial": 1,
+      "id": "resp_0ca72bfa01b9f7ad006af2dcaa9eb087d29a8b0e9db4f0a6ea",
+      "model": "gpt-5.6-luna",
+      "ms": 11912,
+      "input_tokens": 9002,
+      "output_tokens": 397,
+      "total_tokens": 9399,
+      "reasoning_tokens": 162,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/02-fe70c0a4.txt",
+      "trial": 2,
+      "id": "resp_0b1fe3021340c3d8006af2dcb5335c87d295c89da00dd56ccb",
+      "model": "gpt-5.6-luna",
+      "ms": 8044,
+      "input_tokens": 9101,
+      "output_tokens": 371,
+      "total_tokens": 9472,
+      "reasoning_tokens": 166,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/02-fe70c0a4.txt",
+      "trial": 3,
+      "id": "resp_0663f0782721de44006af2dcbd3e2487d2a5f7079b289069af",
+      "model": "gpt-5.6-luna",
+      "ms": 7117,
+      "input_tokens": 9108,
+      "output_tokens": 363,
+      "total_tokens": 9471,
+      "reasoning_tokens": 157,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/02-fe70c0a4.txt",
+      "trial": 4,
+      "id": "resp_09c7a790fb026228006af2dcc46d8487d28db8202fe3494fbd",
+      "model": "gpt-5.6-luna",
+      "ms": 5990,
+      "input_tokens": 9065,
+      "output_tokens": 323,
+      "total_tokens": 9388,
+      "reasoning_tokens": 118,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/02-fe70c0a4.txt",
+      "trial": 5,
+      "id": "resp_0c1ebe2e8988eab0006af2dcca57e887d2bcb01f142844bfb0",
+      "model": "gpt-5.6-luna",
+      "ms": 7125,
+      "input_tokens": 9082,
+      "output_tokens": 367,
+      "total_tokens": 9449,
+      "reasoning_tokens": 162,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/03-714488c9.txt",
+      "trial": 1,
+      "id": "resp_0ef085891a21c7f5006af2dcd1720487d29b52ba3876143f3b",
+      "model": "gpt-5.6-luna",
+      "ms": 6572,
+      "input_tokens": 8747,
+      "output_tokens": 326,
+      "total_tokens": 9073,
+      "reasoning_tokens": 128,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/03-714488c9.txt",
+      "trial": 2,
+      "id": "resp_021af2e404d8f16c006af2dcd8017887d297b014a808164eb6",
+      "model": "gpt-5.6-luna",
+      "ms": 9134,
+      "input_tokens": 9021,
+      "output_tokens": 388,
+      "total_tokens": 9409,
+      "reasoning_tokens": 182,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/03-714488c9.txt",
+      "trial": 3,
+      "id": "resp_0121dae8aea8fa12006af2dce1253c87d2a78aa3e4bf080522",
+      "model": "gpt-5.6-luna",
+      "ms": 5848,
+      "input_tokens": 8899,
+      "output_tokens": 307,
+      "total_tokens": 9206,
+      "reasoning_tokens": 118,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/03-714488c9.txt",
+      "trial": 4,
+      "id": "resp_0848880a48ea5a96006af2dce703a087d28eeb6650bb061239",
+      "model": "gpt-5.6-luna",
+      "ms": 7883,
+      "input_tokens": 9096,
+      "output_tokens": 317,
+      "total_tokens": 9413,
+      "reasoning_tokens": 127,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/03-714488c9.txt",
+      "trial": 5,
+      "id": "resp_00846b163a2fbd90006af2dceeeabc87d2a1b4601c5c4eb10f",
+      "model": "gpt-5.6-luna",
+      "ms": 8188,
+      "input_tokens": 8797,
+      "output_tokens": 319,
+      "total_tokens": 9116,
+      "reasoning_tokens": 129,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/04-67e1a126.txt",
+      "trial": 1,
+      "id": "resp_00e60389466b1f51006af2dcf711bc87d283ffa164b7ee624c",
+      "model": "gpt-5.6-luna",
+      "ms": 15682,
+      "input_tokens": 13239,
+      "output_tokens": 390,
+      "total_tokens": 13629,
+      "reasoning_tokens": 183,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/04-67e1a126.txt",
+      "trial": 2,
+      "id": "resp_02c94504ff70e6d6006af2dd06d2dc87d2a2415d2952852597",
+      "model": "gpt-5.6-luna",
+      "ms": 8156,
+      "input_tokens": 13270,
+      "output_tokens": 408,
+      "total_tokens": 13678,
+      "reasoning_tokens": 189,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/04-67e1a126.txt",
+      "trial": 3,
+      "id": "resp_08ea77dc9da1d4e5006af2dd0f093c87d29b2a2ed42a7a2525",
+      "model": "gpt-5.6-luna",
+      "ms": 9113,
+      "input_tokens": 13239,
+      "output_tokens": 421,
+      "total_tokens": 13660,
+      "reasoning_tokens": 211,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/04-67e1a126.txt",
+      "trial": 4,
+      "id": "resp_0987bce7cfe162bd006af2dd18144c87d292039ff056379d56",
+      "model": "gpt-5.6-luna",
+      "ms": 8058,
+      "input_tokens": 13143,
+      "output_tokens": 354,
+      "total_tokens": 13497,
+      "reasoning_tokens": 165,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/04-67e1a126.txt",
+      "trial": 5,
+      "id": "resp_053fef4d7b2b43be006af2dd201e4887d2a422e94e7836e36f",
+      "model": "gpt-5.6-luna",
+      "ms": 7767,
+      "input_tokens": 13253,
+      "output_tokens": 356,
+      "total_tokens": 13609,
+      "reasoning_tokens": 152,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/05-e930cd67.txt",
+      "trial": 1,
+      "id": "resp_02dda8ac335c23ce006af2dd280d4087d2885d4fe37ffc8b4c",
+      "model": "gpt-5.6-luna",
+      "ms": 7270,
+      "input_tokens": 9062,
+      "output_tokens": 346,
+      "total_tokens": 9408,
+      "reasoning_tokens": 135,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/05-e930cd67.txt",
+      "trial": 2,
+      "id": "resp_0c568d3991a12712006af2dd2f2af487d2a696835745fbd515",
+      "model": "gpt-5.6-luna",
+      "ms": 8544,
+      "input_tokens": 9086,
+      "output_tokens": 431,
+      "total_tokens": 9517,
+      "reasoning_tokens": 237,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/05-e930cd67.txt",
+      "trial": 3,
+      "id": "resp_0c20ee305199c53e006af2dd37caa087d2b92ff0d8454d756d",
+      "model": "gpt-5.6-luna",
+      "ms": 7472,
+      "input_tokens": 9043,
+      "output_tokens": 377,
+      "total_tokens": 9420,
+      "reasoning_tokens": 156,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/05-e930cd67.txt",
+      "trial": 4,
+      "id": "resp_0a888e71b652fda4006af2dd3f3a2887d2b823c49d8c5653ce",
+      "model": "gpt-5.6-luna",
+      "ms": 6746,
+      "input_tokens": 9104,
+      "output_tokens": 319,
+      "total_tokens": 9423,
+      "reasoning_tokens": 139,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/05-e930cd67.txt",
+      "trial": 5,
+      "id": "resp_04ef5f0ae591834e006af2dd45ee5887d28de396f1eb1eae88",
+      "model": "gpt-5.6-luna",
+      "ms": 8081,
+      "input_tokens": 9027,
+      "output_tokens": 360,
+      "total_tokens": 9387,
+      "reasoning_tokens": 154,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/06-1bd2cc72.txt",
+      "trial": 1,
+      "id": "resp_08695bb59ac370a6006af2dd4e0f9887d2a1fd624026f73b0e",
+      "model": "gpt-5.6-luna",
+      "ms": 6953,
+      "input_tokens": 13050,
+      "output_tokens": 364,
+      "total_tokens": 13414,
+      "reasoning_tokens": 126,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/06-1bd2cc72.txt",
+      "trial": 2,
+      "id": "resp_0ca8fafe171c2dc2006af2dd54fa4c87d2abf49e13cc1df437",
+      "model": "gpt-5.6-luna",
+      "ms": 7961,
+      "input_tokens": 13067,
+      "output_tokens": 474,
+      "total_tokens": 13541,
+      "reasoning_tokens": 229,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/06-1bd2cc72.txt",
+      "trial": 3,
+      "id": "resp_053a65f9331aa36e006af2dd5cee3c87d2bcfcb5f39e33c853",
+      "model": "gpt-5.6-luna",
+      "ms": 8228,
+      "input_tokens": 13085,
+      "output_tokens": 405,
+      "total_tokens": 13490,
+      "reasoning_tokens": 178,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/06-1bd2cc72.txt",
+      "trial": 4,
+      "id": "resp_087c8576ad447da9006af2dd6528dc87d2ac8310114a06a5f1",
+      "model": "gpt-5.6-luna",
+      "ms": 7601,
+      "input_tokens": 13097,
+      "output_tokens": 349,
+      "total_tokens": 13446,
+      "reasoning_tokens": 130,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/06-1bd2cc72.txt",
+      "trial": 5,
+      "id": "resp_08ac2eb52082b1b2006af2dd6cc41487d28d8c3e31346e7a5b",
+      "model": "gpt-5.6-luna",
+      "ms": 8459,
+      "input_tokens": 13192,
+      "output_tokens": 362,
+      "total_tokens": 13554,
+      "reasoning_tokens": 138,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/07-63e1ef81.txt",
+      "trial": 1,
+      "id": "resp_09b0b4cb9a86be0a006af2dd753d4c87d2b3d2f8b37b95235b",
+      "model": "gpt-5.6-luna",
+      "ms": 9020,
+      "input_tokens": 12707,
+      "output_tokens": 394,
+      "total_tokens": 13101,
+      "reasoning_tokens": 211,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/07-63e1ef81.txt",
+      "trial": 2,
+      "id": "resp_019f17c89fe3e9fa006af2dd7e3e8c87d2bd2259aef3039b58",
+      "model": "gpt-5.6-luna",
+      "ms": 9811,
+      "input_tokens": 9023,
+      "output_tokens": 494,
+      "total_tokens": 9517,
+      "reasoning_tokens": 313,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/07-63e1ef81.txt",
+      "trial": 3,
+      "id": "resp_0604a2e86736278b006af2dd8812cc87d2997e3179e0156143",
+      "model": "gpt-5.6-luna",
+      "ms": 12931,
+      "input_tokens": 17346,
+      "output_tokens": 525,
+      "total_tokens": 17871,
+      "reasoning_tokens": 330,
+      "search_tool_rounds": 2,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/07-63e1ef81.txt",
+      "trial": 4,
+      "id": "resp_0d5656a35fd3a075006af2dd95018c87d2b136f72cd6ed7416",
+      "model": "gpt-5.6-luna",
+      "ms": 7835,
+      "input_tokens": 8997,
+      "output_tokens": 327,
+      "total_tokens": 9324,
+      "reasoning_tokens": 146,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/07-63e1ef81.txt",
+      "trial": 5,
+      "id": "resp_01e076fcda035d28006af2dd9cd46c87d2b2eafcaa5bcb8920",
+      "model": "gpt-5.6-luna",
+      "ms": 7667,
+      "input_tokens": 8995,
+      "output_tokens": 347,
+      "total_tokens": 9342,
+      "reasoning_tokens": 166,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/08-2946153e.txt",
+      "trial": 1,
+      "id": "resp_0a8748d92d90a9c8006af2dda482a887d2bcfdd67ebf5418f2",
+      "model": "gpt-5.6-luna",
+      "ms": 6987,
+      "input_tokens": 8917,
+      "output_tokens": 298,
+      "total_tokens": 9215,
+      "reasoning_tokens": 130,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/08-2946153e.txt",
+      "trial": 2,
+      "id": "resp_0fe418cff2d2244c006af2ddab890487d2b76989c6e7698697",
+      "model": "gpt-5.6-luna",
+      "ms": 6241,
+      "input_tokens": 9043,
+      "output_tokens": 302,
+      "total_tokens": 9345,
+      "reasoning_tokens": 133,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/08-2946153e.txt",
+      "trial": 3,
+      "id": "resp_0104ad275433eb0f006af2ddb1bf8487d283dcae4cd1a38f91",
+      "model": "gpt-5.6-luna",
+      "ms": 5834,
+      "input_tokens": 6267,
+      "output_tokens": 353,
+      "total_tokens": 6620,
+      "reasoning_tokens": 178,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/08-2946153e.txt",
+      "trial": 4,
+      "id": "resp_0944cc40e4a3074d006af2ddb79ef887d29a7009213c4f611c",
+      "model": "gpt-5.6-luna",
+      "ms": 6232,
+      "input_tokens": 8972,
+      "output_tokens": 279,
+      "total_tokens": 9251,
+      "reasoning_tokens": 110,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/08-2946153e.txt",
+      "trial": 5,
+      "id": "resp_0229ec7aaee82b6f006af2ddbdc9a487d299348be8829932db",
+      "model": "gpt-5.6-luna",
+      "ms": 6550,
+      "input_tokens": 8917,
+      "output_tokens": 331,
+      "total_tokens": 9248,
+      "reasoning_tokens": 135,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/09-fc3acca6.txt",
+      "trial": 1,
+      "id": "resp_07187a1c17ec4ecd006af2ddc4632887d287cb09f1fda39f57",
+      "model": "gpt-5.6-luna",
+      "ms": 8865,
+      "input_tokens": 12035,
+      "output_tokens": 481,
+      "total_tokens": 12516,
+      "reasoning_tokens": 246,
+      "search_tool_rounds": 2,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/09-fc3acca6.txt",
+      "trial": 2,
+      "id": "resp_016a4b1eec99d4ec006af2ddcd5cb487d2986dbd5a7a469b6e",
+      "model": "gpt-5.6-luna",
+      "ms": 7986,
+      "input_tokens": 9087,
+      "output_tokens": 327,
+      "total_tokens": 9414,
+      "reasoning_tokens": 153,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/09-fc3acca6.txt",
+      "trial": 3,
+      "id": "resp_0763c5cc83d851f1006af2ddd53a0c87d29864cd5081f14bfb",
+      "model": "gpt-5.6-luna",
+      "ms": 8338,
+      "input_tokens": 9087,
+      "output_tokens": 353,
+      "total_tokens": 9440,
+      "reasoning_tokens": 144,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/09-fc3acca6.txt",
+      "trial": 4,
+      "id": "resp_01d4ff7b95a41759006af2dddd9bcc87d2b4e2aedbe79f5397",
+      "model": "gpt-5.6-luna",
+      "ms": 7388,
+      "input_tokens": 8627,
+      "output_tokens": 308,
+      "total_tokens": 8935,
+      "reasoning_tokens": 137,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/09-fc3acca6.txt",
+      "trial": 5,
+      "id": "resp_099b434e9173cc6d006af2dde4f36c87d2b91840f0f3437883",
+      "model": "gpt-5.6-luna",
+      "ms": 7460,
+      "input_tokens": 9117,
+      "output_tokens": 343,
+      "total_tokens": 9460,
+      "reasoning_tokens": 146,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/10-6ac8317c.txt",
+      "trial": 1,
+      "id": "resp_04db11aeb054ef77006af2ddec698087d2a3d3de2496d0e206",
+      "model": "gpt-5.6-luna",
+      "ms": 8370,
+      "input_tokens": 9086,
+      "output_tokens": 443,
+      "total_tokens": 9529,
+      "reasoning_tokens": 194,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/10-6ac8317c.txt",
+      "trial": 2,
+      "id": "resp_00670162033bfcfc006af2ddf4ce5c87d2b2ea948d3d72f9b2",
+      "model": "gpt-5.6-luna",
+      "ms": 6981,
+      "input_tokens": 13165,
+      "output_tokens": 320,
+      "total_tokens": 13485,
+      "reasoning_tokens": 163,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/10-6ac8317c.txt",
+      "trial": 3,
+      "id": "resp_04503f634939b052006af2ddfbc00887d2a6fc8aaa667b2a16",
+      "model": "gpt-5.6-luna",
+      "ms": 7651,
+      "input_tokens": 13107,
+      "output_tokens": 414,
+      "total_tokens": 13521,
+      "reasoning_tokens": 163,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/10-6ac8317c.txt",
+      "trial": 4,
+      "id": "resp_0436f76bd6307d5a006af2de0370b087d29c75cb7dd9593515",
+      "model": "gpt-5.6-luna",
+      "ms": 7673,
+      "input_tokens": 13073,
+      "output_tokens": 370,
+      "total_tokens": 13443,
+      "reasoning_tokens": 127,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/10-6ac8317c.txt",
+      "trial": 5,
+      "id": "resp_0ec15f55f3eca427006af2de0b63f887d2a0b785a480e764d0",
+      "model": "gpt-5.6-luna",
+      "ms": 12298,
+      "input_tokens": 12979,
+      "output_tokens": 377,
+      "total_tokens": 13356,
+      "reasoning_tokens": 121,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/11-94199505.txt",
+      "trial": 1,
+      "id": "resp_02fa4fe360f9d75d006af2de1761f087d2903f4a3cb0f9ce20",
+      "model": "gpt-5.6-luna",
+      "ms": 10852,
+      "input_tokens": 13184,
+      "output_tokens": 723,
+      "total_tokens": 13907,
+      "reasoning_tokens": 483,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/11-94199505.txt",
+      "trial": 2,
+      "id": "resp_0c50e7ff9c636b24006af2de223d2c87d2af361ff99f985b6d",
+      "model": "gpt-5.6-luna",
+      "ms": 7121,
+      "input_tokens": 9043,
+      "output_tokens": 346,
+      "total_tokens": 9389,
+      "reasoning_tokens": 165,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/11-94199505.txt",
+      "trial": 3,
+      "id": "resp_0cc864bce59f9c24006af2de29607887d28f8ec2cf3cafc1a4",
+      "model": "gpt-5.6-luna",
+      "ms": 13930,
+      "input_tokens": 17108,
+      "output_tokens": 916,
+      "total_tokens": 18024,
+      "reasoning_tokens": 654,
+      "search_tool_rounds": 2,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/11-94199505.txt",
+      "trial": 4,
+      "id": "resp_0a8748836177df4e006af2de37620487d2b6149da0ae0150e7",
+      "model": "gpt-5.6-luna",
+      "ms": 7633,
+      "input_tokens": 9044,
+      "output_tokens": 323,
+      "total_tokens": 9367,
+      "reasoning_tokens": 143,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/11-94199505.txt",
+      "trial": 5,
+      "id": "resp_015935ac2cdacbf0006af2de3ef24087d2a578c4f79493ee94",
+      "model": "gpt-5.6-luna",
+      "ms": 12519,
+      "input_tokens": 20896,
+      "output_tokens": 791,
+      "total_tokens": 21687,
+      "reasoning_tokens": 517,
+      "search_tool_rounds": 2,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/12-6bee95ea.txt",
+      "trial": 1,
+      "id": "resp_04d45a4456bbe2cc006af2de4bac5087d2b496bdbd16214976",
+      "model": "gpt-5.6-luna",
+      "ms": 12380,
+      "input_tokens": 12954,
+      "output_tokens": 576,
+      "total_tokens": 13530,
+      "reasoning_tokens": 408,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/12-6bee95ea.txt",
+      "trial": 2,
+      "id": "resp_0bcbced4f36ddd83006af2de57d8d487d28929fd4b8e7660e5",
+      "model": "gpt-5.6-luna",
+      "ms": 13096,
+      "input_tokens": 21495,
+      "output_tokens": 885,
+      "total_tokens": 22380,
+      "reasoning_tokens": 648,
+      "search_tool_rounds": 2,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/12-6bee95ea.txt",
+      "trial": 3,
+      "id": "resp_0d65bcb4632ac900006af2de64efc487d28fdb74e50c8d2979",
+      "model": "gpt-5.6-luna",
+      "ms": 13781,
+      "input_tokens": 21583,
+      "output_tokens": 854,
+      "total_tokens": 22437,
+      "reasoning_tokens": 623,
+      "search_tool_rounds": 2,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/12-6bee95ea.txt",
+      "trial": 4,
+      "id": "resp_05bcb1243cd5b6dc006af2de72b7d087d2b2ae4509a99b7e0e",
+      "model": "gpt-5.6-luna",
+      "ms": 5962,
+      "input_tokens": 13075,
+      "output_tokens": 333,
+      "total_tokens": 13408,
+      "reasoning_tokens": 129,
+      "search_tool_rounds": 1,
+      "facts": 1
+    },
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/atomic/12-6bee95ea.txt",
+      "trial": 5,
+      "id": "resp_09f3a737bba17c3a006af2de78ae7c87d2944674233fb6d57b",
+      "model": "gpt-5.6-luna",
+      "ms": 6912,
+      "input_tokens": 13081,
+      "output_tokens": 371,
+      "total_tokens": 13452,
+      "reasoning_tokens": 184,
+      "search_tool_rounds": 1,
+      "facts": 1
+    }
+  ]
+}

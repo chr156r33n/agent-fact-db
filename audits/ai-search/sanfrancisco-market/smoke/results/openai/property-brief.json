@@ -1,0 +1,167 @@
+{
+  "method": "property-brief",
+  "property": "Four Seasons Hotel San Francisco",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "results": [
+    {
+      "fact_id": "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+      "model_answer": "The property is named Four Seasons Hotel San Francisco.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official hotel and press-kit pages use this exact property name."
+    },
+    {
+      "fact_id": "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+      "model_answer": "The address is 757 Market Street, San Francisco, California 94103, United States.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.sanfranciscodowntown.com/Business/Four-Seasons/757-Market-Street-San-Francisco-CA-94103"
+      ],
+      "contradicting_sources": [],
+      "notes": "Official and independent local-directory results agree on the address."
+    },
+    {
+      "fact_id": "714488c9-5120-4481-8412-19210ee58007",
+      "model_answer": "The main hotel telephone number is +1 415 633 3000.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/",
+        "https://www.sanfranciscodowntown.com/Business/Four-Seasons/757-Market-Street-San-Francisco-CA-94103"
+      ],
+      "contradicting_sources": [],
+      "notes": "The number appears as the front-desk and general property contact."
+    },
+    {
+      "fact_id": "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+      "model_answer": "The hotel comprises 12 floors of a 42-floor building.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://press.fourseasons.com/sanfrancisco/hotel-facts/",
+        "https://www.cntraveler.com/hotels/san-francisco/four-seasons-san-francisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "Current Four Seasons hotel facts and a recent independent hotel review both report 12 floors within a 42-story tower."
+    },
+    {
+      "fact_id": "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+      "model_answer": "MKT Restaurant & Bar serves elevated dining centered on California cuisine.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/",
+        "https://www.tripadvisor.com/Restaurant_Review-g60713-d4713209-Reviews-MKT_Restaurant_and_Bar-San_Francisco_California.html"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official page describes California cuisine with locally sourced ingredients and elevated American dining."
+    },
+    {
+      "fact_id": "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+      "model_answer": "Hotel guests receive access to Equinox Sports Club and its saline lap pool.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/fitness/",
+        "https://www.travelagewest.com/Travel/Hotels/four-seasons-san-francisco"
+      ],
+      "contradicting_sources": [],
+      "notes": "The hotel describes unlimited club access and a Junior Olympic-sized saline lap pool."
+    },
+    {
+      "fact_id": "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+      "model_answer": "Google currently classifies the property as a 5-star hotel.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.google.com/travel/hotels/entity/ChYIxfec4Jmm0vsxGgovbS8wMjgzYzNmEAE"
+      ],
+      "contradicting_sources": [],
+      "notes": "Google's hotel entity page displays “5-star hotel” for the 757 Market Street property."
+    },
+    {
+      "fact_id": "2946153e-00ec-4e55-a0ef-a63f8a421633",
+      "model_answer": "The reservations telephone number is +1 415 633 3636.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official contact page labels this number Reservations."
+    },
+    {
+      "fact_id": "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+      "model_answer": "The front-desk telephone number is +1 415 633 3000.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/getting-here/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official contact page explicitly labels this number Front Desk."
+    },
+    {
+      "fact_id": "6ac8317c-a781-46f2-824d-8342bce99ca1",
+      "model_answer": "The guest fax number is +1 415 633 3001.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://dc.jspargo.com/download/ash15/HotelContactListing.pdf"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official contact page and an independent hotel contact directory agree."
+    },
+    {
+      "fact_id": "94199505-d7af-428a-87b6-6b8faf52a593",
+      "model_answer": "MKT Restaurant-Bar reservations can be reached at +1 415 633 3838.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://sf.eater.com/venue/7144/mkt",
+        "https://www.opentable.com/mkt-restaurant-and-bar"
+      ],
+      "contradicting_sources": [],
+      "notes": "The hotel contact page labels 415-633-3838 as the MKT reservations number, and restaurant directories list the same number. The dedicated dining page also displays the hotel's main line as an alternate reservation contact."
+    },
+    {
+      "fact_id": "6bee95ea-42d3-453f-9b56-37239bc59fa4",
+      "model_answer": "The hotel's Equinox Sports Club & Spa contact number is +1 415 633 3990.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/spa/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Four Seasons lists 415-633-3990 for its Equinox Sports Club & Spa and spa services. Equinox separately publishes 415-633-3900 as the general club line."
+    }
+  ],
+  "metrics": {
+    "turns": 1,
+    "search_tool_rounds": 4,
+    "input_chars": 2835,
+    "output_chars": 5255,
+    "wall_ms": 52927,
+    "input_tokens": 39157,
+    "output_tokens": 3703,
+    "total_tokens": 42860,
+    "reasoning_tokens": 1826,
+    "notes": "OpenAI Responses API model=gpt-5.6-sol effort=medium web_search=on"
+  },
+  "calls": [
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/property-brief/all.txt",
+      "id": "resp_0c69bb1b7292ddd4006af1fb8cdf1087d295dce8a0c2440009",
+      "model": "gpt-5.6-sol",
+      "ms": 52916,
+      "input_tokens": 39157,
+      "output_tokens": 3703,
+      "total_tokens": 42860,
+      "reasoning_tokens": 1826,
+      "search_tool_rounds": 4,
+      "facts": 12
+    }
+  ]
+}

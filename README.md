@@ -122,6 +122,12 @@ The agent reads approved facts, searches using its own DataForSEO connection, in
 
 The app does not run searches or independently fetch/verify submitted quotations. Treat classifications and comparisons as agent-submitted evidence for human review. Reference URLs are not fetched server-side.
 
+## AI search conflict provenance
+
+Separate from Yext/GBP listing audits: web-grounded models are asked what the live web says vs accepted SoT, with **all** contradicting URLs collected (domain + path). Smoke evidence favours `gpt-5.6-luna` atomic checks with **five repeats** per fact (`ever_contradicts` + unioned sources). Rough cost ~**$0.07/fact** under OpenAI Luna + `web_search` (search fees dominate).
+
+Docs and runners: [docs/ai-search-conflict-provenance.md](docs/ai-search-conflict-provenance.md), [audits/ai-search/](audits/ai-search/). Local inference can replace the LLM bill but still needs a grounding/search path for live URLs.
+
 ## Checks and limits
 
 ```sh

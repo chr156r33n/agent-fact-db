@@ -1,0 +1,157 @@
+{
+  "method": "property-brief",
+  "property": "Four Seasons Hotel San Francisco",
+  "model": "gpt-5.6-luna",
+  "effort": "medium",
+  "results": [
+    {
+      "fact_id": "c66e8abb-8e8d-4c5f-a47e-01e5d3e8ac26",
+      "model_answer": "Four Seasons Hotel San Francisco",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official hotel overview identifies the property as Four Seasons Hotel San Francisco."
+    },
+    {
+      "fact_id": "fe70c0a4-395b-4c45-ba61-80919ed3e93b",
+      "model_answer": "757 Market Street, San Francisco, CA 94103, U.S.A.",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/",
+        "https://www.fourseasons.com/sanfrancisco/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official contact page and hotel overview list this address."
+    },
+    {
+      "fact_id": "714488c9-5120-4481-8412-19210ee58007",
+      "model_answer": "+1 415 633 3000",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Listed as the hotel's main/front desk telephone number."
+    },
+    {
+      "fact_id": "67e1a126-c2dd-46b1-a612-764a4ef4ce42",
+      "model_answer": "12 floors within a 42-storey tower",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official hotel overview states that the hotel occupies 12 floors within a 42-storey tower."
+    },
+    {
+      "fact_id": "e930cd67-c699-4a7d-a7c4-4e47bda4bb1a",
+      "model_answer": "MKT Restaurant serves elevated California cuisine",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://www.fourseasons.com/sanfrancisco/dining/restaurants/mkt_restaurant_bar/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official overview describes elevated California cuisine at MKT Restaurant; the dining page confirms California cuisine."
+    },
+    {
+      "fact_id": "1bd2cc72-0c89-405f-9bae-daa34721bc9a",
+      "model_answer": "Guests have access to Equinox Sports Club, including a saline lap pool",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/",
+        "https://www.fourseasons.com/sanfrancisco/services-and-amenities/"
+      ],
+      "contradicting_sources": [],
+      "notes": "The official pages confirm guest access to Equinox Sports Club and its saline lap pool."
+    },
+    {
+      "fact_id": "63e1ef81-5112-43ac-a0e4-ae122d41dfb1",
+      "model_answer": "5",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.google.com/travel/hotels/entity/ChYIxfec4Jmm0vsxGgovbS8wMjgzYzNmEAE"
+      ],
+      "contradicting_sources": [],
+      "notes": "Google Hotels search results for the property show it as a 5-star hotel."
+    },
+    {
+      "fact_id": "2946153e-00ec-4e55-a0ef-a63f8a421633",
+      "model_answer": "+1 415 633 3636",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Listed as the reservations telephone number."
+    },
+    {
+      "fact_id": "fc3acca6-b352-40d5-a625-eb7ca52df2a9",
+      "model_answer": "+1 415 633 3000",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Listed as the front desk telephone number."
+    },
+    {
+      "fact_id": "6ac8317c-a781-46f2-824d-8342bce99ca1",
+      "model_answer": "+1 415 633 3001",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Listed as the guest fax number."
+    },
+    {
+      "fact_id": "94199505-d7af-428a-87b6-6b8faf52a593",
+      "model_answer": "+1 415 633 3838",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Listed for MKT Restaurant-Bar reservations."
+    },
+    {
+      "fact_id": "6bee95ea-42d3-453f-9b56-37239bc59fa4",
+      "model_answer": "+1 415 633 3990",
+      "verdict": "matches",
+      "cited_urls": [
+        "https://www.fourseasons.com/sanfrancisco/contact-us/"
+      ],
+      "contradicting_sources": [],
+      "notes": "Listed for Equinox Sports Club & Spa."
+    }
+  ],
+  "metrics": {
+    "turns": 1,
+    "search_tool_rounds": 3,
+    "input_chars": 2835,
+    "output_chars": 3646,
+    "wall_ms": 30822,
+    "input_tokens": 27988,
+    "output_tokens": 2272,
+    "total_tokens": 30260,
+    "reasoning_tokens": 823,
+    "notes": "OpenAI Responses API model=gpt-5.6-luna effort=medium web_search=on"
+  },
+  "calls": [
+    {
+      "file": "audits/ai-search/sanfrancisco-market/smoke/prompts/property-brief/all.txt",
+      "id": "resp_002cf558ad1c29e9006af1fde60a2887d28b2e25723feb9ab8",
+      "model": "gpt-5.6-luna",
+      "ms": 30805,
+      "input_tokens": 27988,
+      "output_tokens": 2272,
+      "total_tokens": 30260,
+      "reasoning_tokens": 823,
+      "search_tool_rounds": 3,
+      "facts": 12
+    }
+  ]
+}

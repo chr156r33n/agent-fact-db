@@ -1,0 +1,31 @@
+Method: atomic
+Property: Four Seasons Hotel San Francisco
+Inventory page: Spa (https://www.fourseasons.com/sanfrancisco/spa/)
+
+Check this single approved SoT claim against what web search currently says.
+
+1. fact_id=7db0f109-60c9-4261-aa62-cbeb3242122f
+   topic: Spa treatment hours weekend
+   SoT claim: Spa treatments are available Saturday to Sunday from 9:00 am to 5:00 pm.
+
+Return JSON only. Schema:
+{
+  "method": "atomic",
+  "property": "Four Seasons Hotel San Francisco",
+  "results": [{
+    "fact_id": "...",
+    "model_answer": "short",
+    "verdict": "matches|contradicts|unclear|not_found",
+    "cited_urls": ["https://domain/path"],
+    "contradicting_sources": ["https://domain/path"],
+    "notes": ""
+  }],
+  "metrics": { "search_tool_rounds": <int>, "notes": "" }
+}
+
+Rules:
+- Use web search for every claim.
+- On contradicts, list EVERY URL that supports the conflicting value (domain+path). No primary-only. No party filter.
+- Strip tracking query params. Keep path.
+- Empty contradicting_sources on a contradicts row is incomplete — keep searching.
+
