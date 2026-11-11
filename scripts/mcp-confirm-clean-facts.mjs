@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Scan Fact Ledger via MCP: mark clear topic duplicates, confirm remaining
+ * Scan Provenance via MCP: mark clear topic duplicates, confirm remaining
  * pending facts that are not contested/duplicate. assess_fact is advisory —
  * it does not flip human review status to accepted.
  */

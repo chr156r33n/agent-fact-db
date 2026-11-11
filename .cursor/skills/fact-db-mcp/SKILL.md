@@ -1,9 +1,9 @@
 ---
 name: fact-db-mcp
 description: >-
-  Operate the Agent Fact DB MCP: list facts, propose pending claims, record
-  source findings, assess, dismiss findings, mark duplicates, and promote
-  findings. Use when writing to or reading from the Fact Ledger, cleaning
+  Operate the Provenance (Agent Fact DB) MCP: list facts, propose pending claims,
+  record source findings, assess, dismiss findings, mark duplicates, and promote
+  findings. Use when writing to or reading from Provenance, cleaning
   duplicate claims, or documenting listing evidence.
 ---
 

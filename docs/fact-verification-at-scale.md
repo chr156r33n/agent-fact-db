@@ -3,16 +3,16 @@
 Notes for later. Day-to-day property audits are systematised in project skills:
 
 - `.cursor/skills/property-fact-audit/SKILL.md` — hotel / dining / spa checks across Fact DB, first-party pages, Yext and GBP
-- `.cursor/skills/fact-db-mcp/SKILL.md` — Fact Ledger MCP tool semantics (propose, findings, dismiss, duplicate)
+- `.cursor/skills/fact-db-mcp/SKILL.md` — Provenance / Fact DB MCP tool semantics (propose, findings, dismiss, duplicate)
 - [ai-search-conflict-provenance.md](ai-search-conflict-provenance.md) — web-grounded model checks vs SoT (Luna atomic ×5, costs, local inference notes)
 
 The current workflow can still be **ad hoc**: a curated list of URLs plus an agent that reads accepted facts, inspects pages, and records source findings. This document captures the design to use if and when verification needs to run on a schedule across many properties, subdomains and Google Business Profiles.
 
 ## Goal
 
-Maintain an approved source of truth (SoT) in the Fact Ledger, then identify inconsistencies on owned websites and Google Business Profile (GMB) listings.
+Maintain an approved source of truth (SoT) in Provenance, then identify inconsistencies on owned websites and Google Business Profile (GMB) listings.
 
-The Fact Ledger already supports this loop:
+Provenance already supports this loop:
 
 1. Human accepts or corrects facts.
 2. Agents inspect live sources and call `record_source_finding` with a real quote, party and verdict (`matches` / `contradicts` / `unclear`).

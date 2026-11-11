@@ -10,18 +10,18 @@ const html = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Fact Ledger · Portfolio map</title>
+<title>Provenance · Portfolio map</title>
 <style>
 :root{
-  --ink:#e8efe6;--muted:#8a9a90;--line:#2a3832;--accent:#9fd08a;
-  --paper:#0f1613;--panel:#15201b;--node:#1c2a24;--glow:#9fd08a55;
-  --audited:#9fd08a;--seeded:#6b8f7a;--page:#7eb6c9;
+  --ink:#f3eee6;--muted:#9a9186;--line:#2e2a24;--accent:#c6a75e;
+  --paper:#0c0b0a;--panel:#161412;--node:#1c1915;--glow:#c6a75e55;
+  --audited:#c6a75e;--seeded:#8a7a5c;--page:#8fa67a;--sage:#8fa67a;
 }
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.45 "Avenir Next","Segoe UI",system-ui,sans-serif}
-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 3%;border-bottom:1px solid var(--line);background:#121a16}
+body{margin:0;background:radial-gradient(1100px 560px at 12% -10%,#1a1612 0%,var(--paper) 55%);color:var(--ink);font:14px/1.45 "Avenir Next","Segoe UI",system-ui,sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 3%;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#151310 0%,#100e0c 100%)}
 header a{color:var(--accent);text-decoration:none}
-header strong{letter-spacing:-.02em;font-size:15px}
+header strong{letter-spacing:-.02em;font:650 15px/1.2 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
 .crumbs{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted)}
 .crumbs button{background:transparent;border:0;color:var(--accent);cursor:pointer;padding:0;font:inherit}
 .crumbs span{opacity:.55}
@@ -30,7 +30,7 @@ main{display:grid;grid-template-columns:1fr 320px;min-height:calc(100vh - 58px)}
 svg{width:100%;height:calc(100vh - 58px);display:block;cursor:grab}
 svg:active{cursor:grabbing}
 .hud{position:absolute;left:18px;top:18px;z-index:2;max-width:min(460px,72vw);pointer-events:none}
-.hud h1{margin:0 0 6px;font-size:28px;letter-spacing:-.04em;font-weight:650}
+.hud h1{margin:0 0 6px;font:650 28px/1.15 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;letter-spacing:-.04em}
 .hud p{margin:0;color:var(--muted);font-size:13px}
 .side{border-left:1px solid var(--line);background:var(--panel);padding:18px;overflow:auto}
 .side h2{margin:0 0 8px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:650}
@@ -39,10 +39,10 @@ svg:active{cursor:grabbing}
 .stat b{display:block;font-size:22px;letter-spacing:-.03em}
 .stat span{color:var(--muted);font-size:11px}
 .filters{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
-input,select,button.action{width:100%;background:#0f1613;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:10px;font:inherit}
+input,select,button.action{width:100%;background:#100e0c;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:10px;font:inherit}
 button.action{cursor:pointer;text-align:left}
 button.action:hover{border-color:var(--accent)}
-button.primary{background:#1e3329;border-color:var(--accent);color:var(--accent)}
+button.primary{background:#1c1915;border-color:var(--accent);color:var(--accent)}
 .detail{border:1px solid var(--line);border-radius:12px;padding:14px;min-height:160px}
 .detail .label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
 .detail h3{margin:0 0 8px;font-size:18px;letter-spacing:-.02em}
@@ -51,8 +51,8 @@ button.primary{background:#1e3329;border-color:var(--accent);color:var(--accent)
 .pill.on{border-color:var(--accent);color:var(--accent)}
 .pill.page{border-color:#3d5f6c;color:var(--page)}
 .pagelist{margin-top:12px;display:flex;flex-direction:column;gap:6px}
-.pagelist button{text-align:left;background:#101914;border:1px solid var(--line);border-radius:8px;padding:8px 10px;color:var(--ink);cursor:pointer;font:inherit}
-.pagelist button:hover,.pagelist button.on{border-color:var(--page)}
+.pagelist button{text-align:left;background:#100e0c;border:1px solid var(--line);border-radius:8px;padding:8px 10px;color:var(--ink);cursor:pointer;font:inherit}
+.pagelist button:hover,.pagelist button.on{border-color:var(--accent)}
 .pagelist small{display:block;color:var(--muted);font-size:11px;margin-top:2px}
 .topiclist{margin:8px 0 0;padding:0;list-style:none}
 .topiclist li{font-size:12px;color:var(--muted);padding:3px 0;border-bottom:1px solid #1c2923}
@@ -64,7 +64,7 @@ button.primary{background:#1e3329;border-color:var(--accent);color:var(--accent)
 <body>
 <header>
   <div>
-    <strong>Fact Ledger · Portfolio map</strong>
+    <strong>Provenance · Portfolio map</strong>
     <div class="crumbs" id="crumbs"></div>
   </div>
   <nav><a href="/">Fact library</a> · <a href="/inventory">Inventory</a></nav>
@@ -98,7 +98,7 @@ button.primary{background:#1e3329;border-color:var(--accent);color:var(--accent)
       <div><i style="background:var(--audited)"></i>Audited property</div>
       <div><i style="background:var(--seeded)"></i>Seeded property</div>
       <div><i style="background:var(--page)"></i>Inventory page</div>
-      <div><i style="background:#3d5a4c"></i>Region hub</div>
+      <div><i style="background:#3a342c"></i>Region hub</div>
     </div>
   </aside>
 </main>
@@ -205,7 +205,7 @@ function layoutPortfolio(props){
       });
     });
   });
-  nodes.push({id:'core',kind:'core',label:'Fact Ledger',x:cx,y:cy});
+  nodes.push({id:'core',kind:'core',label:'Provenance',x:cx,y:cy});
   return nodes;
 }
 
@@ -261,7 +261,7 @@ function showDetail(n){
     }
   }
   if(!n||n.kind==='core'){
-    el.innerHTML='<div class="label">Selection</div><h3>Fact Ledger</h3><p class="notes">'+DATA.totals.all+' English properties · '+(DATA.totals.pages||0)+' inventory pages in the map seed.</p>';
+    el.innerHTML='<div class="label">Selection</div><h3>Provenance</h3><p class="notes">'+DATA.totals.all+' English properties · '+(DATA.totals.pages||0)+' inventory pages in the map seed.</p>';
     return;
   }
   if(n.kind==='hub'){
@@ -332,30 +332,30 @@ function draw(){
   }
   let html='';
   for(const e of edges){
-    html+='<line x1="'+e.x1+'" y1="'+e.y1+'" x2="'+e.x2+'" y2="'+e.y2+'" stroke="'+(e.soft?'#24352d':'#1e2c26')+'" stroke-width="'+(e.soft?1.2:1)+'" />';
+    html+='<line x1="'+e.x1+'" y1="'+e.y1+'" x2="'+e.x2+'" y2="'+e.y2+'" stroke="'+(e.soft?'#2e2a24':'#241f1a')+'" stroke-width="'+(e.soft?1.2:1)+'" />';
   }
   for(const n of nodes){
     const on=selected===n.id;
     if(n.kind==='core'){
-      html+='<g data-id="'+n.id+'" style="cursor:pointer"><circle cx="'+n.x+'" cy="'+n.y+'" r="34" fill="#203129" stroke="#9fd08a" stroke-width="1.5"/><text x="'+n.x+'" y="'+(n.y+4)+'" text-anchor="middle" fill="#e8efe6" font-size="11" font-weight="650">Ledger</text></g>';
+      html+='<g data-id="'+n.id+'" style="cursor:pointer"><circle cx="'+n.x+'" cy="'+n.y+'" r="34" fill="#1c1915" stroke="#c6a75e" stroke-width="1.5"/><text x="'+n.x+'" y="'+(n.y+4)+'" text-anchor="middle" fill="#f3eee6" font-size="10" font-weight="650">Provenance</text></g>';
       continue;
     }
     if(n.kind==='hub'){
-      html+='<g data-id="'+n.id+'" style="cursor:pointer"><circle cx="'+n.x+'" cy="'+n.y+'" r="'+(on?28:24)+'" fill="#243830" stroke="'+(on?'#9fd08a':'#3d5a4c')+'" stroke-width="'+(on?2:1.25)+'"/><text x="'+n.x+'" y="'+(n.y-2)+'" text-anchor="middle" fill="#e8efe6" font-size="11" font-weight="650">'+esc(n.label)+'</text><text x="'+n.x+'" y="'+(n.y+12)+'" text-anchor="middle" fill="#8a9a90" font-size="10">'+n.count+'</text></g>';
+      html+='<g data-id="'+n.id+'" style="cursor:pointer"><circle cx="'+n.x+'" cy="'+n.y+'" r="'+(on?28:24)+'" fill="#1c1915" stroke="'+(on?'#c6a75e':'#3a342c')+'" stroke-width="'+(on?2:1.25)+'"/><text x="'+n.x+'" y="'+(n.y-2)+'" text-anchor="middle" fill="#f3eee6" font-size="11" font-weight="650">'+esc(n.label)+'</text><text x="'+n.x+'" y="'+(n.y+12)+'" text-anchor="middle" fill="#9a9186" font-size="10">'+n.count+'</text></g>';
       continue;
     }
     if(n.kind==='prop-focus'){
-      html+='<g data-id="'+n.id+'" style="cursor:pointer"><circle cx="'+n.x+'" cy="'+n.y+'" r="40" fill="#203129" stroke="#9fd08a" stroke-width="2"/><text x="'+n.x+'" y="'+(n.y-2)+'" text-anchor="middle" fill="#e8efe6" font-size="12" font-weight="650">'+esc(n.label.length>18?n.label.slice(0,16)+'…':n.label)+'</text><text x="'+n.x+'" y="'+(n.y+14)+'" text-anchor="middle" fill="#8a9a90" font-size="10">'+(n.facts||0)+' facts</text></g>';
+      html+='<g data-id="'+n.id+'" style="cursor:pointer"><circle cx="'+n.x+'" cy="'+n.y+'" r="40" fill="#1c1915" stroke="#c6a75e" stroke-width="2"/><text x="'+n.x+'" y="'+(n.y-2)+'" text-anchor="middle" fill="#f3eee6" font-size="12" font-weight="650">'+esc(n.label.length>18?n.label.slice(0,16)+'…':n.label)+'</text><text x="'+n.x+'" y="'+(n.y+14)+'" text-anchor="middle" fill="#9a9186" font-size="10">'+(n.facts||0)+' facts</text></g>';
       continue;
     }
     if(n.kind==='page'){
       const r=on?16:12;
-      html+='<g data-id="'+n.id+'" style="cursor:pointer"><circle cx="'+n.x+'" cy="'+n.y+'" r="'+r+'" fill="'+(on?'#2a4a55':'#1c3340')+'" stroke="'+(on?'#7eb6c9':'#3d5f6c')+'" stroke-width="'+(on?2:1.25)+'"/><text x="'+n.x+'" y="'+(n.y+r+14)+'" text-anchor="middle" fill="#c5d8de" font-size="10">'+esc(n.label.length>22?n.label.slice(0,20)+'…':n.label)+'</text><title>'+esc(n.label)+' · '+(n.facts||0)+' facts</title></g>';
+      html+='<g data-id="'+n.id+'" style="cursor:pointer"><circle cx="'+n.x+'" cy="'+n.y+'" r="'+r+'" fill="'+(on?'#243028':'#1a2218')+'" stroke="'+(on?'#8fa67a':'#2f3d2a')+'" stroke-width="'+(on?2:1.25)+'"/><text x="'+n.x+'" y="'+(n.y+r+14)+'" text-anchor="middle" fill="#c8d2bf" font-size="10">'+esc(n.label.length>22?n.label.slice(0,20)+'…':n.label)+'</text><title>'+esc(n.label)+' · '+(n.facts||0)+' facts</title></g>';
       continue;
     }
     const audited=n.status==='audited';
     const r=on?8:audited?5.5:4.2;
-    html+='<g data-id="'+n.id+'" style="cursor:pointer"><circle cx="'+n.x+'" cy="'+n.y+'" r="'+r+'" fill="'+(audited?'#9fd08a':on?'#8fb89a':'#4d6a5b')+'" stroke="'+(on?'#e8efe6':'transparent')+'" stroke-width="1.5"/><title>'+esc(n.label)+(n.pages?' · '+n.pages+' pages':'')+'</title></g>';
+    html+='<g data-id="'+n.id+'" style="cursor:pointer"><circle cx="'+n.x+'" cy="'+n.y+'" r="'+r+'" fill="'+(audited?'#c6a75e':on?'#b89a5a':'#8a7a5c')+'" stroke="'+(on?'#f3eee6':'transparent')+'" stroke-width="1.5"/><title>'+esc(n.label)+(n.pages?' · '+n.pages+' pages':'')+'</title></g>';
   }
   gRoot.innerHTML=html;
   gRoot.querySelectorAll('[data-id]').forEach(el=>{

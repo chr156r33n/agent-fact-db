@@ -151,9 +151,12 @@ const mapPage=await req('/map');
 assert.equal(mapPage.status,200);
 assert.ok(mapPage.data.includes('Property graph'));
 assert.ok(mapPage.data.includes('Portfolio map'));
+assert.ok(mapPage.data.includes('Provenance'));
 const mapScript=mapPage.data.match(/<script>([\s\S]*)<\/script>/)[1];new Function(mapScript);
 
-const page=await req('/');assert.equal(page.status,200);assert.ok(page.data.includes('PAGES'));const script=page.data.match(/<script>([\s\S]*)<\/script>/)[1];new Function(script);
+const page=await req('/');assert.equal(page.status,200);assert.ok(page.data.includes('PAGES'));assert.ok(page.data.includes('Provenance'));const script=page.data.match(/<script>([\s\S]*)<\/script>/)[1];new Function(script);
+const inventoryBrand=await req('/inventory');
+assert.ok(inventoryBrand.data.includes('Provenance'));
 const statePages=await req('/api/state');
 assert.ok(statePages.data.pages.some(p=>p.id===pageId&&p.title==='Ocean room'));
 console.log('Passed: review states, correction history, stale updates, CSRF, read/write permissions, list isolation, regeneration, revocation, expiry, no secret leakage, dismiss findings, mark duplicates, page navigation and browser script syntax.');

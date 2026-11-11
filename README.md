@@ -1,6 +1,6 @@
-# Agent Fact DB
+# Provenance (Agent Fact DB)
 
-A Cloudflare Worker + D1 fact library with human review and scoped MCP access. No ChatGPT hosting dependency. The browser interface uses administrator Basic authentication over HTTPS; agents use their own scoped bearer keys.
+**Provenance** is the administrator UI for a Cloudflare Worker + D1 fact library with human review and scoped MCP access. No ChatGPT hosting dependency. The browser interface uses administrator Basic authentication over HTTPS; agents use their own scoped bearer keys.
 
 ## Deploy using Cloudflare Workers Builds
 
@@ -57,7 +57,7 @@ Do not rename or recreate the Worker, delete secrets, or put administrator crede
 
 The administrator UI now includes **Inventory & bulk review** at `/inventory`. This is an operational view across all property collections, rather than a requirement to open each page. Existing `lists` are treated as property collections to preserve current MCP keys and data. Pages can be added with a title, controlled page type and canonical URL. Facts without `page_id` remain property-level; existing facts are **not** automatically assigned.
 
-The Fact library at `/` and Inventory both support page-aware navigation: select a property, then browse **All pages**, **Unassigned**, or an individual inventory page (with counts). Inventory groups pages by type and includes page search.
+The Provenance Fact library at `/` and Inventory both support page-aware navigation: select a property, then browse **All pages**, **Unassigned**, or an individual inventory page (with counts). Inventory groups pages by type and includes page search. Portfolio map lives at `/map`.
 
 - Filter by property, page type, page, review status or matching text. Results are retrieved from D1 in batches of 50, with server-side counts and pagination.
 - Select facts across multiple result pages and **confirm**, **deny** or **amend** them. Amendments require individual replacement text; denying requires a reason. Each decision creates an individual review-history entry.
