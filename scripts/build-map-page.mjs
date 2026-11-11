@@ -42,7 +42,8 @@ svg:active{cursor:grabbing}
 input,select,button.action{width:100%;background:#100e0c;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:10px;font:inherit}
 button.action{cursor:pointer;text-align:left}
 button.action:hover{border-color:var(--accent)}
-button.primary{background:#1c1915;border-color:var(--accent);color:var(--accent)}
+button.primary{background:#1c1915;border-color:#4a4134;color:var(--ink)}
+button.primary:hover{border-color:var(--accent);color:var(--accent);background:#221e19}
 .detail{border:1px solid var(--line);border-radius:12px;padding:14px;min-height:160px}
 .detail .label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
 .detail h3{margin:0 0 8px;font-size:18px;letter-spacing:-.02em}
